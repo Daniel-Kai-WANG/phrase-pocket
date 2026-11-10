@@ -4,7 +4,9 @@ The personal source is conversation `6acb92fd-f508-83ec-9666-b034b69d466a`. The 
 
 ## First activation
 
-The initial repository, Pages feed and revision 2 baseline were verified on 10 November 2026. The private checkpoint was saved and the hourly desktop bridge activated. A check of the available source window found no new turns; the first scheduled import and publication remains unverified.
+The initial repository, Pages feed and revision 2 baseline were verified on 10 November 2026. The hourly desktop bridge subsequently completed two scheduled imports, with publication and the actual served feed verified. The latest verified source boundary is recorded privately; do not treat an old revision mentioned in a prompt or this document as the current baseline.
+
+A later check lost overlap with that boundary and returned no older-page cursor. Further source publication must wait for continuity recovery. A separate user-requested vocabulary review can increase the feed revision without reviewing additional conversation turns; reconcile such changes with the private publication evidence rather than advancing the source boundary or check time.
 
 For a fresh installation or recovery without a trustworthy checkpoint, keep the schedule paused until the repository, served feed and source boundary have been reconciled. Do not invent a published checkpoint from unpublished local content.
 
