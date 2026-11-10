@@ -28,6 +28,45 @@ self.addEventListener("message", (event) => {
   if (event.data?.type === "APPLY_UPDATE") self.skipWaiting();
 });
 
+self.addEventListener("push", (event) => {
+  let payload = {};
+  try {
+    payload = event.data?.json() ?? {};
+  } catch {
+    /* Always show a visible notification. */
+  }
+  event.waitUntil(
+    self.registration.showNotification(
+      typeof payload.title === "string" ? payload.title : "Your Phrase Pocket",
+      {
+        body:
+          typeof payload.body === "string"
+            ? payload.body
+            : "Your little English adventure is waiting.",
+        tag: typeof payload.tag === "string" ? payload.tag : "pocket-reminder",
+        icon: new URL("icons/pocket-192.png", scope).href,
+        data: { url: new URL("?reminder=1#phrases", scope).href },
+      },
+    ),
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const destination = new URL("?reminder=1#phrases", scope).href;
+  event.waitUntil(
+    self.clients
+      .matchAll({ type: "window", includeUncontrolled: true })
+      .then(async (clients) => {
+        const existing = clients.find((client) => client.url.startsWith(scope));
+        if (existing) {
+          await existing.focus();
+          existing.postMessage({ type: "OPEN_REMAINING_TASKS" });
+        } else await self.clients.openWindow(destination);
+      }),
+  );
+});
+
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET" || request.headers.has("Authorization")) return;

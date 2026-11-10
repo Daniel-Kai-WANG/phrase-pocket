@@ -30,6 +30,9 @@ import { ContentSync } from "./components/ContentSync";
 import { SoundPractice } from "./components/SoundPractice";
 import { DailyTaskCard } from "./components/DailyTaskCard";
 import type { DailySoundTask } from "./types/dailyTasks";
+import { usePhoneReminders } from "./hooks/usePhoneReminders";
+import { createReminderSnapshot } from "./utils/reminderSnapshot";
+import { DEFAULT_REMINDER_PREFERENCES } from "./utils/reminders";
 
 type Destination = "phrases" | "daily" | "quest";
 interface ActiveSession {
@@ -70,6 +73,16 @@ export default function App() {
   ];
   const personal = phrases.filter((phrase) => phrase.source === "personal");
   const today = learningDay(useMinuteClock());
+  const phoneReminders = usePhoneReminders({
+    revision: 1,
+    preferences:
+      learning.data.reminderPreferences ?? DEFAULT_REMINDER_PREFERENCES,
+    snapshot: createReminderSnapshot(
+      phrases,
+      content.feed.lessons,
+      learning.data,
+    ),
+  });
   const availableLessons = getAvailableLessons(content.feed.lessons, today);
   const selectedLesson =
     availableLessons.find((lesson) => lesson.date === selectedDate) ??
@@ -89,14 +102,22 @@ export default function App() {
 
   useEffect(() => {
     const navigate = () => setTab(currentDestination());
+    const reminder = (event: MessageEvent) => {
+      if (event.data?.type !== "OPEN_REMAINING_TASKS") return;
+      location.hash = "phrases";
+      setTab("phrases");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     const connection = () => setOnline(navigator.onLine);
     window.addEventListener("hashchange", navigate);
     window.addEventListener("online", connection);
     window.addEventListener("offline", connection);
+    navigator.serviceWorker?.addEventListener("message", reminder);
     return () => {
       window.removeEventListener("hashchange", navigate);
       window.removeEventListener("online", connection);
       window.removeEventListener("offline", connection);
+      navigator.serviceWorker?.removeEventListener("message", reminder);
       window.speechSynthesis?.cancel();
     };
   }, []);
@@ -349,6 +370,7 @@ export default function App() {
           contentSync={<ContentSync {...content} onSync={content.sync} />}
           onRestore={learning.restore}
           onReminderChange={learning.saveReminderPreferences}
+          phoneReminders={phoneReminders}
           onClose={() => setSettings(false)}
         />
       )}

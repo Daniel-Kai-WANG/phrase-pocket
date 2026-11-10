@@ -1,12 +1,16 @@
 import type { ReminderPreferences } from "../types/dailyTasks";
 import { DEFAULT_REMINDER_PREFERENCES } from "../utils/reminders";
+import type { PhoneReminderControls } from "../types/push";
+import { PhoneReminderSettings } from "./PhoneReminderSettings";
 
 export function ReminderSettings({
   preferences = DEFAULT_REMINDER_PREFERENCES,
   onChange,
+  phone,
 }: {
   preferences?: ReminderPreferences;
   onChange: (preferences: ReminderPreferences) => void;
+  phone: PhoneReminderControls;
 }) {
   return (
     <section>
@@ -35,10 +39,7 @@ export function ReminderSettings({
             onChange({ ...preferences, time: event.target.value });
         }}
       />
-      <p className="quiet">
-        Currently shown while your pocket is open. Phone push notifications are
-        not connected yet.
-      </p>
+      <PhoneReminderSettings phone={phone} />
     </section>
   );
 }

@@ -28,6 +28,11 @@ function worker(scope = "https://example.com/phrase-pocket/") {
   };
   const skipWaiting = vi.fn();
   const claim = vi.fn();
+  const showNotification = vi.fn(async () => {});
+  const openWindow = vi.fn(async () => {});
+  const focus = vi.fn(async () => {});
+  const postMessage = vi.fn();
+  const matchAll = vi.fn(async () => [{ url: scope, focus, postMessage }]);
   const fetch = vi.fn(async () => {
     throw new Error("offline");
   });
@@ -39,8 +44,8 @@ function worker(scope = "https://example.com/phrase-pocket/") {
     );
   runInNewContext(script, {
     self: {
-      registration: { scope },
-      clients: { claim },
+      registration: { scope, showNotification },
+      clients: { claim, openWindow, matchAll },
       skipWaiting,
       addEventListener: (name: string, handler: (event: unknown) => void) =>
         listeners.set(name, handler),
@@ -50,9 +55,10 @@ function worker(scope = "https://example.com/phrase-pocket/") {
     Set,
     fetch,
   });
-  async function lifecycle(name: string) {
+  async function lifecycle(name: string, event = {}) {
     let work: Promise<unknown> | undefined;
     listeners.get(name)?.({
+      ...event,
       waitUntil: (promise: Promise<unknown>) => {
         work = promise;
       },
@@ -93,6 +99,11 @@ function worker(scope = "https://example.com/phrase-pocket/") {
     listeners,
     lifecycle,
     request,
+    showNotification,
+    openWindow,
+    focus,
+    postMessage,
+    matchAll,
   };
 }
 
@@ -104,6 +115,52 @@ it("opens the app shell and assets offline under a GitHub Pages subpath", async 
   expect(await home?.text()).toBe(`cached:${app.scope}index.html`);
   expect(await script?.text()).toBe(`cached:${app.scope}assets/app.js`);
   expect(app.fetch).not.toHaveBeenCalled();
+});
+
+it("always displays incoming pushes and opens only the pocket's remaining work", async () => {
+  const app = worker();
+  await app.lifecycle("push", {
+    data: {
+      json: () => ({
+        title: "Practice time",
+        body: "3 reviews left.",
+        url: "https://unrelated.example",
+      }),
+    },
+  });
+  expect(app.showNotification).toHaveBeenCalledWith(
+    "Practice time",
+    expect.objectContaining({
+      body: "3 reviews left.",
+      data: { url: `${app.scope}?reminder=1#phrases` },
+    }),
+  );
+  await app.lifecycle("push", {
+    data: {
+      json: () => {
+        throw new Error("bad payload");
+      },
+    },
+  });
+  expect(app.showNotification).toHaveBeenLastCalledWith(
+    "Your Phrase Pocket",
+    expect.any(Object),
+  );
+  await app.lifecycle("notificationclick", {
+    notification: { close: vi.fn() },
+  });
+  expect(app.focus).toHaveBeenCalledOnce();
+  expect(app.postMessage).toHaveBeenCalledWith({
+    type: "OPEN_REMAINING_TASKS",
+  });
+  expect(app.openWindow).not.toHaveBeenCalled();
+  app.matchAll.mockResolvedValueOnce([]);
+  await app.lifecycle("notificationclick", {
+    notification: { close: vi.fn() },
+  });
+  expect(app.openWindow).toHaveBeenCalledWith(
+    `${app.scope}?reminder=1#phrases`,
+  );
 });
 
 it("never intercepts coaching, authorization, recordings, content feeds or other apps", async () => {

@@ -1,0 +1,29 @@
+name: Send phone reminders
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: phone-reminders
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    if: vars.PHONE_REMINDERS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Deliver due reminders
+        env:
+          REMINDER_CRON_SECRET: ${{ secrets.REMINDER_CRON_SECRET }}
+        run: |
+          set -euo pipefail
+          test -n "$REMINDER_CRON_SECRET"
+          curl --fail-with-body --silent --show-error --max-time 120 \
+            --request POST \
+            --header "Authorization: Bearer $REMINDER_CRON_SECRET" \
+            https://phrase-pocket-coach.vercel.app/api/reminders/dispatch

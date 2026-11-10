@@ -11,6 +11,7 @@ import { setCoachToken } from "../api/client";
 import type { LearningStore } from "../types/storage";
 import type { ReminderPreferences } from "../types/dailyTasks";
 import { ReminderSettings } from "./ReminderSettings";
+import type { PhoneReminderControls } from "../types/push";
 
 export function PocketSettings({
   data,
@@ -21,6 +22,7 @@ export function PocketSettings({
   onRestore,
   onClose,
   onReminderChange,
+  phoneReminders,
 }: {
   data: LearningStore;
   offlineReady: boolean;
@@ -30,6 +32,7 @@ export function PocketSettings({
   onRestore: (data: LearningStore) => string | null | undefined;
   onClose: () => void;
   onReminderChange: (preferences: ReminderPreferences) => void;
+  phoneReminders: PhoneReminderControls;
 }) {
   const [code, setCode] = useState("");
   const [message, setMessage] = useState("");
@@ -38,10 +41,10 @@ export function PocketSettings({
   return (
     <Modal title="Pocket settings" onClose={onClose}>
       <div className="settings-body">
-        {contentSync}
         <ReminderSettings
           preferences={data.reminderPreferences}
           onChange={onReminderChange}
+          phone={phoneReminders}
         />
         <section>
           <h3>Your online coach</h3>
@@ -74,6 +77,7 @@ export function PocketSettings({
             </div>
           </form>
         </section>
+        {contentSync}
         <section>
           <h3>Keep your memories</h3>
           <p className="quiet">

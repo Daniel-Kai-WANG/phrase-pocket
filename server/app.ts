@@ -1,4 +1,3 @@
-import { timingSafeEqual } from "node:crypto";
 import { Hono } from "hono";
 import { bodyLimit } from "hono/body-limit";
 import { z } from "zod";
@@ -7,19 +6,11 @@ import { reviewSpeaking, speakingRequestSchema } from "./audio.js";
 import { preparePlan, planRequestSchema } from "./plans.js";
 import { ProviderError } from "./provider.js";
 import { readConfig, type ServerConfig } from "./config.js";
+import { isAuthorized } from "./auth.js";
+import { createReminderRoutes } from "./reminders/routes.js";
 
 const MAX_REQUEST_BYTES = 2_100_000;
 const REQUESTS_PER_MINUTE = 12;
-
-function isAuthorized(header: string | undefined, token: string) {
-  const supplied = Buffer.from(header ?? "");
-  const expected = Buffer.from(`Bearer ${token}`);
-  return (
-    token.length >= 24 &&
-    supplied.length === expected.length &&
-    timingSafeEqual(supplied, expected)
-  );
-}
 
 export function createApp(
   config: ServerConfig = readConfig(),
@@ -56,6 +47,7 @@ export function createApp(
       ),
     }),
   );
+  app.route("/api/reminders", createReminderRoutes(config.accessToken));
   app.use("/api/*", async (c, next) => {
     if (!config.accessToken || config.accessToken.length < 24)
       return c.json({ error: "The private coach is not configured yet." }, 503);
