@@ -10,6 +10,7 @@ import { learningDay } from "../utils/dates";
 import { Modal } from "./Modal";
 import { SoundChallenge } from "./SoundChallenge";
 import type { DailySoundTask } from "../types/dailyTasks";
+import { getRecentSoundMistakes } from "../utils/soundHints";
 
 const LABELS = {
   decode: "IPA → word",
@@ -88,6 +89,11 @@ export function SoundPractice({
               word={word}
               mode={mode}
               transfer={round > 0}
+              previousMistakes={getRecentSoundMistakes(
+                attempts,
+                phrase.id,
+                word.word,
+              )}
               independent={
                 !attempts.some(
                   (attempt) =>

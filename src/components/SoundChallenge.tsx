@@ -11,6 +11,8 @@ import {
 import { speak } from "../utils/speech";
 import { Companion } from "./Companion";
 import { SoundAnswerInput } from "./SoundAnswerInput";
+import { SoundHints } from "./SoundHints";
+import { getSoundHelp } from "../utils/soundHints";
 
 export function SoundChallenge({
   phrase,
@@ -18,6 +20,7 @@ export function SoundChallenge({
   mode,
   transfer,
   independent,
+  previousMistakes = 0,
   onAttempt,
   onNext,
 }: {
@@ -26,6 +29,7 @@ export function SoundChallenge({
   mode: SoundMode;
   transfer: boolean;
   independent: boolean;
+  previousMistakes?: number;
   onAttempt: (attempt: SoundAttempt) => void;
   onNext: () => void;
 }) {
@@ -38,7 +42,15 @@ export function SoundChallenge({
   const [result, setResult] = useState<boolean | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [audioError, setAudioError] = useState("");
-  const finished = result !== null || revealed;
+  const help = getSoundHelp(word, phrase);
+  const [hintLevel, setHintLevel] = useState(() =>
+    Math.min(previousMistakes, help.clues.length - 1),
+  );
+  const finished =
+    (mode === "decode" ? result === true : result !== null) || revealed;
+  function nextHint() {
+    setHintLevel((level) => Math.min(level + 1, help.clues.length - 1));
+  }
 
   function submit(reveal = false) {
     if (finished) return;
@@ -56,14 +68,20 @@ export function SoundChallenge({
       mode,
       at: new Date().toISOString(),
       correct,
-      independent: independent && !reveal,
+      independent:
+        independent &&
+        !reveal &&
+        (mode !== "decode" || (hintLevel === 0 && result === null)),
     });
     if (reveal) setRevealed(true);
-    else setResult(correct);
+    else {
+      setResult(correct);
+      if (!correct && mode === "decode") nextHint();
+    }
   }
 
   return (
-    <div className="sound-challenge">
+    <div className="sound-challenge" data-mode={mode}>
       <div className="sound-guide">
         <Companion celebrate={result === true} />
         <p>
@@ -77,7 +95,16 @@ export function SoundChallenge({
       {mode === "decode" ? (
         <>
           <blockquote>{getSoundContext(phrase, word, transfer)}</blockquote>
-          <p className="quiet">{word.hint}</p>
+          {!finished && (
+            <SoundHints
+              clues={help.clues}
+              meaning={help.meaning}
+              level={hintLevel}
+              incorrect={result === false && !finished}
+              finished={finished}
+              onHint={nextHint}
+            />
+          )}
         </>
       ) : (
         <h3 className="study-expression">{word.word}</h3>
@@ -85,7 +112,7 @@ export function SoundChallenge({
       <p className="quiet">
         UK dictionary reference ·{" "}
         {mode === "decode"
-          ? "Use the meaning to choose the spelling."
+          ? "IPA → spelling"
           : "Include stress marks. Syllable dots are optional."}
       </p>
       {!finished && (
@@ -139,6 +166,26 @@ export function SoundChallenge({
             <p className="quiet">
               Your answer: {mode === "decode" ? answer : `/${tokens.join("")}/`}
             </p>
+          )}
+          {mode === "decode" && (
+            <>
+              <SoundHints
+                clues={help.clues}
+                meaning={help.meaning}
+                level={hintLevel}
+                incorrect={false}
+                finished
+                onHint={nextHint}
+              />
+              <section aria-label="More examples">
+                <strong>More examples</strong>
+                <ul>
+                  {help.examples.map((example) => (
+                    <li key={example}>{example}</li>
+                  ))}
+                </ul>
+              </section>
+            </>
           )}
           <p>{word.note}</p>
           <p className="quiet">

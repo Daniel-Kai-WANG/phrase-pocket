@@ -17,12 +17,10 @@ test("plays all three sound games on a personal expression without changing mean
   );
   await page.getByLabel("Which word fits?").fill("vein");
   await page.getByRole("button", { name: "Check answer", exact: true }).click();
-  await expect(page.getByRole("dialog").getByRole("status")).toContainText(
-    "Keep this sound",
-  );
-  await page
-    .getByRole("button", { name: "Next challenge", exact: true })
-    .click();
+  await expect(
+    page.getByRole("region", { name: "Meaning hints" }),
+  ).toContainText("You tried, but did not get the result you wanted.");
+  await page.getByRole("button", { name: "Word → IPA", exact: true }).click();
   for (const token of ["v", "eɪ", "n"])
     await page
       .locator(".sound-tiles")
