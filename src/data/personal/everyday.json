@@ -1,0 +1,162 @@
+[
+  {
+    "id": "inside-out",
+    "expression": "Inside out",
+    "meaning": "With the inner surface facing outward.",
+    "example": "Your jumper is inside out.",
+    "note": "Inside out is different from back to front, which means the front and back are reversed. Know something inside out is a separate idiom meaning know it thoroughly.",
+    "prompt": "Tell someone that the inner surface of their jumper is facing outward.",
+    "transfer": "Describe turning a bag so you can clean its inner lining.",
+    "transferSample": "I turned the bag inside out."
+  },
+  {
+    "id": "few-times-week",
+    "expression": "A few times a week",
+    "meaning": "Several times during each week.",
+    "example": "I go for a walk a few times a week.",
+    "note": "Every few weeks means once after several weeks have passed. These two phrases describe very different frequencies.",
+    "prompt": "Say you take walks several times during each week.",
+    "transfer": "Explain that you practise speaking several times within a week.",
+    "transferSample": "I practise speaking a few times a week."
+  },
+  {
+    "id": "every-few-weeks",
+    "expression": "Every few weeks",
+    "meaning": "Once after an interval of several weeks.",
+    "example": "We catch up every few weeks.",
+    "note": "Not the same as a few times a week. Every few weeks describes less frequent events.",
+    "prompt": "Say you meet a friend at intervals of several weeks.",
+    "transfer": "Describe receiving a newsletter once after several weeks have passed.",
+    "transferSample": "The newsletter arrives every few weeks."
+  },
+  {
+    "id": "is-he-here",
+    "expression": "Is he here?",
+    "meaning": "Ask whether a male person is present at this place.",
+    "example": "Is he here yet?",
+    "note": "Use the subject pronoun he, not the object pronoun him, before this form of be in a question.",
+    "prompt": "Ask whether a male friend has arrived at the place where you are waiting.",
+    "transfer": "Ask whether a male colleague is currently in the room.",
+    "transferSample": "Is he here in the room?"
+  },
+  {
+    "id": "i-dont-have-one",
+    "expression": "I don't have one",
+    "meaning": "I do not possess an item of the kind just mentioned.",
+    "example": "Do you have a pen? — I don't have one.",
+    "note": "One replaces a singular countable noun. A shorter answer to Do you have a pen? is No, I don't.",
+    "prompt": "Someone asks whether you have a pen. Say you do not have such an item.",
+    "transfer": "Someone asks if you have an umbrella. Answer without repeating the noun.",
+    "transferSample": "I don't have one."
+  },
+  {
+    "id": "no-i-dont",
+    "expression": "No, I don't",
+    "meaning": "A short negative answer to a present-tense question using do.",
+    "example": "Do you own a car? — No, I don't.",
+    "note": "Match the question's auxiliary: Are you ready? — No, I'm not. Have you finished? — No, I haven't.",
+    "prompt": "Give a short negative answer to Do you own a car?",
+    "transfer": "Give a short negative answer to Do you like crowded places?",
+    "transferSample": "No, I don't."
+  },
+  {
+    "id": "snore",
+    "expression": "Snore",
+    "meaning": "Make a noisy breathing sound while asleep.",
+    "example": "Apparently, I snore sometimes.",
+    "note": "Snoring is the activity or sound. Snore is not the same as talk in your sleep.",
+    "prompt": "Say that other people report you sometimes make noisy breathing sounds during sleep.",
+    "transfer": "Describe hearing a sleeping character make a loud breathing noise in a story.",
+    "transferSample": "He was snoring loudly."
+  },
+  {
+    "id": "astrology",
+    "expression": "Astrology",
+    "meaning": "A belief system that connects the positions of celestial bodies with human personality or events.",
+    "example": "She's interested in astrology and star signs.",
+    "note": "Astronomy is the scientific study of objects and phenomena in space. Astrology and astronomy are different words and subjects.",
+    "prompt": "Name the belief system involving star signs and personality.",
+    "transfer": "Ask whether a friend is interested in star-sign interpretations.",
+    "transferSample": "Are you interested in astrology?"
+  },
+  {
+    "id": "collar",
+    "expression": "A collar",
+    "meaning": "The part of a shirt around the neck, or a band worn around an animal's neck.",
+    "example": "This shirt has a detachable collar.",
+    "note": "A detachable collar can be removed. Connor is a person's name, not the word for the part of a shirt.",
+    "prompt": "Name the part of a shirt around the neck that can be removed on this design.",
+    "transfer": "Describe a band around a dog's neck that holds an identification tag.",
+    "transferSample": "The dog has a tag on its collar."
+  },
+  {
+    "id": "detachable",
+    "expression": "Detachable",
+    "meaning": "Designed so that it can be removed from something else.",
+    "example": "The jacket has a detachable hood.",
+    "note": "Detach means separate or remove. Detachable describes a design feature, not something accidentally broken off.",
+    "prompt": "Describe a jacket hood designed to be taken off.",
+    "transfer": "Describe a bag strap that can be removed when it is not needed.",
+    "transferSample": "The bag has a detachable strap."
+  },
+  {
+    "id": "groom-oneself",
+    "expression": "Groom oneself",
+    "meaning": "Clean or tidy one's body, hair or appearance.",
+    "example": "The cat spent ten minutes grooming itself.",
+    "note": "For an adult person's appearance, grooming can refer to keeping hair, skin or clothing neat. Groom has other meanings, so context matters.",
+    "prompt": "Describe a cat cleaning and tidying its fur.",
+    "transfer": "Describe an animal tidying its coat before resting.",
+    "transferSample": "The animal groomed itself before settling down."
+  },
+  {
+    "id": "mature",
+    "expression": "Mature",
+    "meaning": "Fully developed, or showing the judgement and responsibility expected of an adult.",
+    "example": "That was a mature way to handle the disagreement.",
+    "note": "Use ripe for fruit ready to eat and cooked for food prepared with heat. Mature can describe certain foods such as cheese, but does not replace all of these words.",
+    "prompt": "Praise the sensible, responsible way someone handled a disagreement.",
+    "transfer": "Describe a person who can accept criticism calmly.",
+    "transferSample": "She's mature enough to listen to feedback calmly."
+  },
+  {
+    "id": "different-side",
+    "expression": "A different side to someone",
+    "meaning": "An aspect of someone's personality that is different from what you usually see.",
+    "example": "I'm seeing a different side to you today.",
+    "note": "More natural than a direct translation using contrast alone when talking about an unexpected part of a person's character.",
+    "prompt": "Someone usually quiet is unexpectedly playful. Say you are noticing an unfamiliar aspect of them.",
+    "transfer": "A normally serious colleague is very warm with animals. Describe what this reveals.",
+    "transferSample": "It shows a different side to her."
+  },
+  {
+    "id": "tag-someone",
+    "expression": "Tag someone",
+    "meaning": "Link a person's account to a post, photo or comment on a social platform.",
+    "example": "Could you tag me when you post the photo?",
+    "note": "Tagging and giving photo credit are related but different. A tag links an account; a credit acknowledges who made the work.",
+    "prompt": "Ask a friend to link your account when posting a photo of you.",
+    "transfer": "Say you linked a photographer's account in your post.",
+    "transferSample": "I tagged the photographer in the post."
+  },
+  {
+    "id": "monologue",
+    "expression": "A monologue",
+    "meaning": "A long speech by one person, especially in a performance.",
+    "example": "The actor delivered a powerful monologue.",
+    "note": "A one-person show is an entire performance with one performer. A monopoly is exclusive control, often of a market.",
+    "prompt": "Name a long speech delivered by a single actor in a performance.",
+    "transfer": "Describe a scene that consists of one character speaking at length.",
+    "transferSample": "The scene is a monologue."
+  },
+  {
+    "id": "sober",
+    "expression": "Sober",
+    "meaning": "Not drunk or affected by alcohol.",
+    "example": "The character was completely sober.",
+    "note": "Sober can also mean serious or restrained. It is unrelated to absorb, the verb used for taking in information.",
+    "prompt": "Describe a fictional character who is not drunk.",
+    "transfer": "Clarify that a surprising remark in a story was made by someone who had not been drinking.",
+    "transferSample": "He was sober when he said it."
+  }
+]

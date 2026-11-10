@@ -1,0 +1,344 @@
+.modal {
+  width: min(620px, calc(100% - 32px));
+  max-height: calc(100dvh - 40px);
+  border: 1.5px solid var(--ink);
+  border-radius: 18px;
+  padding: 0;
+  color: var(--ink);
+  background: var(--surface);
+  box-shadow: 5px 7px 0 var(--ink);
+}
+.modal::backdrop {
+  background: rgb(24 46 54 / 45%);
+}
+.modal-wide {
+  width: min(850px, calc(100% - 32px));
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 23px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.modal-header h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+.practice-body,
+.detail-body,
+.settings-body,
+.speaking-body {
+  padding: 26px;
+}
+.step-label {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.practice-body progress {
+  width: 100%;
+  height: 6px;
+  accent-color: var(--action);
+  margin-bottom: 28px;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.practice-body progress::-webkit-progress-bar {
+  background: #dce8eb;
+}
+.practice-body progress::-webkit-progress-value {
+  background: var(--action);
+}
+.study-expression {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.study-meaning {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+.detail-body h3 {
+  margin-top: 26px;
+  font-size: 1rem;
+}
+blockquote {
+  margin: 20px 0;
+  background: #f8f4e7;
+  padding: 23px;
+  border-left: 3px solid var(--sun);
+  border-radius: 0 8px 8px 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.session-tip {
+  padding: 17px;
+  background: var(--paper);
+  font-size: 0.8rem;
+  border-radius: 8px;
+  line-height: 1.7;
+  margin: 22px 0;
+}
+.scenario {
+  margin: 0 0 22px;
+}
+.scenario h3 {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.practice-body label {
+  margin-bottom: 9px;
+}
+.answer-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 5px 0 14px;
+}
+.answer-tools .quiet {
+  font-size: 0.67rem;
+}
+.hint-box {
+  padding: 16px;
+  background: #fff6d9;
+  border: 1px solid #c5b379;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+.feedback {
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  margin: 18px 0;
+  font-size: 0.9rem;
+}
+.feedback.positive {
+  background: var(--mint);
+}
+.feedback p {
+  margin: 10px 0 0;
+}
+.revisit-button {
+  display: flex;
+  margin: 12px auto 0;
+  font-size: 0.75rem;
+}
+.session-finish {
+  padding: 20px 30px 35px;
+  text-align: center;
+}
+.session-finish svg {
+  width: 190px;
+}
+.session-finish .eyebrow {
+  justify-content: center;
+}
+.session-finish .primary-button svg {
+  width: 18px;
+}
+.session-finish p:not(.eyebrow) {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.settings-body section + section {
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.settings-body h3 {
+  font-size: 1rem;
+}
+.settings-body p {
+  font-size: 0.84rem;
+}
+.input-button-row {
+  display: flex;
+  gap: 9px;
+  margin-top: 9px;
+}
+.input-button-row input {
+  min-width: 0;
+  flex: 1;
+}
+.file-button {
+  position: relative;
+  cursor: pointer;
+}
+.file-button input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  width: 100%;
+  cursor: pointer;
+}
+.file-button:focus-within {
+  outline: 3px solid var(--action);
+  outline-offset: 4px;
+}
+.mode-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin-bottom: 28px;
+  padding: 5px;
+  background: var(--paper);
+  border-radius: 9px;
+}
+.mode-tabs button {
+  font-size: 0.72rem;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 10px 7px;
+  min-height: 44px;
+}
+.mode-tabs button[aria-pressed="true"] {
+  background: var(--sun);
+  border-color: var(--ink);
+}
+.speaking-body > .quiet {
+  margin-top: 16px;
+}
+.record-panel {
+  text-align: center;
+  margin: 24px 0;
+  padding: 22px 15px;
+  background: var(--paper);
+  border: 1px dashed #80989f;
+  border-radius: 10px;
+}
+.record-button {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  background: var(--action);
+  color: white;
+  border: 1.5px solid var(--ink);
+  border-radius: 50px;
+  padding: 16px 24px;
+  min-height: 58px;
+  font-size: 0.84rem;
+}
+.record-button.recording {
+  background: var(--error);
+}
+.record-panel p {
+  margin: 14px 0 0;
+  font-size: 0.68rem;
+}
+.recorded-take audio {
+  width: 100%;
+  margin: 10px 0 18px;
+}
+.recorded-take .primary-button {
+  width: 100%;
+}
+.recorded-take > p {
+  font-size: 0.68rem;
+  margin: 13px 0 0;
+}
+.speaking-feedback {
+  margin-top: 25px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.speaking-feedback h3 {
+  font-size: 1.08rem;
+}
+.speaking-feedback h4 {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.speaking-feedback p {
+  font-size: 0.83rem;
+}
+.speaking-feedback > .quiet {
+  font-size: 0.67rem;
+}
+.conversation-log {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0;
+}
+.speech-bubble {
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  max-width: 90%;
+  background: var(--paper);
+}
+.speech-bubble.user {
+  margin-left: auto;
+  background: #f8f4e7;
+}
+.speech-bubble strong {
+  font-size: 0.72rem;
+}
+.speech-bubble p {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+}
+@media (max-width: 760px) {
+  .modal {
+    width: calc(100% - 20px);
+    max-height: calc(100dvh - 24px - env(safe-area-inset-bottom));
+  }
+  .modal-header {
+    padding: 12px 15px;
+  }
+  .practice-body,
+  .detail-body,
+  .settings-body,
+  .speaking-body {
+    padding: 22px 19px;
+  }
+  .study-expression {
+    font-size: 1.7rem;
+  }
+  .study-meaning {
+    font-size: 1rem;
+  }
+  .step-label {
+    font-size: 0.64rem;
+  }
+  .scenario h3 {
+    font-size: 1.1rem;
+  }
+  .mode-tabs button {
+    font-size: 0.64rem;
+  }
+  .settings-body .input-button-row {
+    flex-wrap: wrap;
+  }
+}
+.speaking-history {
+  margin-bottom: 22px;
+  font-size: 0.8rem;
+}
+.speaking-history summary {
+  cursor: pointer;
+  min-height: 44px;
+  padding: 10px 0;
+  color: var(--action);
+}
+.speaking-history article {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+}

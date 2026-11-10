@@ -1,0 +1,118 @@
+[
+  {
+    "id": "split-the-bill",
+    "expression": "Split the bill",
+    "theme": "social",
+    "meaning": "Share the cost of a meal or another purchase.",
+    "example": "Shall we split the bill?",
+    "note": "Split it equally means pay equal amounts. Pay for what we each ordered means cover your own items.",
+    "prompt": "Dinner is over. Suggest that you and your friend share the cost.",
+    "transfer": "You and two friends order takeaway. Suggest sharing its total cost equally.",
+    "transferSample": "Why don't we split the bill three ways?"
+  },
+  {
+    "id": "take-turns-paying",
+    "expression": "Take turns paying",
+    "theme": "social",
+    "meaning": "One person pays this time, and another person pays next time.",
+    "example": "Do you prefer splitting the bill or taking turns paying?",
+    "note": "This is different from each person paying part of the same bill.",
+    "prompt": "Ask a friend whether they prefer sharing each bill or paying on alternate visits.",
+    "transfer": "You paid for coffee yesterday. Suggest a system where you alternate who pays.",
+    "transferSample": "Let's take turns paying for coffee."
+  },
+  {
+    "id": "in-vain",
+    "expression": "In vain",
+    "theme": "feelings",
+    "meaning": "Without achieving the result you hoped for.",
+    "example": "I just don't want to do all that work in vain.",
+    "note": "It often describes effort that was unsuccessful. It does not simply mean doing something for free.",
+    "prompt": "You are prepared to work hard, but you do not want that effort to achieve nothing. Explain this.",
+    "transfer": "You searched everywhere for a missing ticket but could not find it. Describe your search.",
+    "transferSample": "I searched everywhere in vain."
+  },
+  {
+    "id": "versatile",
+    "expression": "Versatile",
+    "theme": "work",
+    "meaning": "Able to do many different things well or be used in different ways.",
+    "example": "She's a versatile developer who works on websites and mobile apps.",
+    "note": "Say VUR-suh-tile in common British and Australian pronunciation. American pronunciation often ends in tul.",
+    "prompt": "Describe a developer who is good at several different kinds of projects.",
+    "transfer": "A jacket works for work, travel and casual weekends. Describe it.",
+    "transferSample": "It's a versatile jacket that I can wear almost anywhere."
+  },
+  {
+    "id": "i-knew-it",
+    "expression": "I knew it!",
+    "theme": "small-talk",
+    "sourceMessageId": "7abead45-ce28-4841-9e87-e17e0306e598",
+    "meaning": "What just happened confirms something you already believed.",
+    "example": "Ha, I knew it! You were planning a surprise.",
+    "note": "I knew you would means you predicted a person's action. I knew it means a fact or suspicion was confirmed.",
+    "prompt": "A friend admits they were planning a surprise. You already suspected it. React playfully.",
+    "transfer": "Your guess about the ending of a film turns out to be right. React.",
+    "transferSample": "I knew it! That character was hiding something."
+  },
+  {
+    "id": "genuine",
+    "expression": "Genuine",
+    "theme": "relationships",
+    "sourceMessageId": "4be1d333-d2ce-4adf-8f5b-55a54debc190",
+    "meaning": "Real and honest, rather than pretending or being fake.",
+    "example": "He seems like a really genuine person.",
+    "note": "Sincere focuses on honestly meaning what you say or feel. Genuine also describes real objects or authentic things.",
+    "prompt": "Describe someone who is honest and does not pretend to be someone else.",
+    "transfer": "You want to say that someone's concern was real rather than polite pretending.",
+    "transferSample": "She showed genuine concern for her friend."
+  },
+  {
+    "id": "sincere",
+    "expression": "Sincere",
+    "theme": "relationships",
+    "sourceMessageId": "4be1d333-d2ce-4adf-8f5b-55a54debc190",
+    "meaning": "Honestly meaning what you say or expressing what you really feel.",
+    "example": "I think his apology was sincere.",
+    "note": "Often used with apology, thanks, concern and wish. Stress the second syllable: sin-SEER.",
+    "prompt": "A friend apologises and you believe they really mean it. Describe the apology.",
+    "transfer": "Thank a colleague warmly and make clear that you truly mean it.",
+    "transferSample": "Please accept my sincere thanks for your help."
+  },
+  {
+    "id": "one-person-show",
+    "expression": "A one-person show",
+    "theme": "social",
+    "sourceMessageId": "a2b80d00-fee2-4e75-a727-80dd194dbb43",
+    "meaning": "A performance with one performer, or a situation where one person does nearly everything.",
+    "example": "Organising this event has turned into a one-person show.",
+    "note": "A monologue is a long speech by one person. A monopoly is exclusive control of a market or activity.",
+    "prompt": "You are organising an event and everyone else has stopped helping. Describe the situation.",
+    "transfer": "Describe a theatre performance with just one actor.",
+    "transferSample": "We saw a brilliant one-person show at the theatre."
+  },
+  {
+    "id": "monopoly",
+    "expression": "Monopoly",
+    "theme": "work",
+    "sourceMessageId": "a2b80d00-fee2-4e75-a727-80dd194dbb43",
+    "meaning": "Exclusive control over a market, supply or activity.",
+    "example": "The company has a monopoly on the local service.",
+    "note": "This is not the word for a speech by one person; that word is monologue. Monopoly is also a board game.",
+    "prompt": "Only one company provides a local service. Describe its exclusive control.",
+    "transfer": "One business controls the entire supply of a product. Describe that position.",
+    "transferSample": "That business has a monopoly on the supply."
+  },
+  {
+    "id": "drama-queen",
+    "expression": "A drama queen",
+    "theme": "slang",
+    "sourceMessageId": "caac19ce-93e0-402c-bcb4-c729709c3429",
+    "meaning": "Someone who reacts to small problems in an exaggerated, dramatic way.",
+    "example": "You're being a bit of a drama queen about this.",
+    "note": "Can be affectionate teasing between close friends, but can also be insulting or dismissive. It is not an exact label for every demanding person.",
+    "prompt": "A close friend jokingly overreacts to a tiny problem. Tease them gently, in a context where they welcome it.",
+    "transfer": "You admit that your own reaction to a minor delay was exaggerated.",
+    "transferSample": "I was being a bit of a drama queen about the delay."
+  }
+]

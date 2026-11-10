@@ -1,0 +1,172 @@
+[
+  {
+    "id": "so-are-you",
+    "expression": "So are you",
+    "meaning": "You have the same quality that was just mentioned about me.",
+    "example": "You're very kind. — So are you.",
+    "note": "Match the auxiliary: You look tired — So do you. You're tired — So are you. You are too also works after You're kind.",
+    "prompt": "A friend says you are very kind. Return the same compliment.",
+    "transfer": "Someone says you are a good listener. Tell them the same is true of them.",
+    "transferSample": "So are you. You always listen carefully."
+  },
+  {
+    "id": "what-are-you-up-to",
+    "expression": "Are you up to much?",
+    "meaning": "Are you doing anything interesting or do you have many plans?",
+    "example": "Are you up to much this weekend?",
+    "note": "A casual way to ask about plans. Not up to much means you have no major plans.",
+    "prompt": "Ask a friend casually whether they have any plans this weekend.",
+    "transfer": "Start a relaxed chat by asking whether a friend has plans tonight.",
+    "transferSample": "Are you up to much tonight?"
+  },
+  {
+    "id": "how-was-work",
+    "expression": "How was work?",
+    "meaning": "Tell me what your day or shift at work was like.",
+    "example": "Hey, how was work today?",
+    "note": "Use was for a finished shift. How's work going? asks about the current situation more generally.",
+    "prompt": "Your friend has just finished a shift. Ask about their day.",
+    "transfer": "Your partner worked late yesterday. Ask how that shift went.",
+    "transferSample": "How was work yesterday?"
+  },
+  {
+    "id": "meet-up",
+    "expression": "Meet up",
+    "meaning": "Meet another person, usually by arrangement, to spend time together.",
+    "example": "Do you want to meet up after work?",
+    "note": "Meet up with someone names the other person. Meetup can be a noun for an organised gathering.",
+    "prompt": "Invite a friend to spend time with you after work.",
+    "transfer": "Arrange to see a former classmate when you visit their city.",
+    "transferSample": "Let's meet up when I'm in town."
+  },
+  {
+    "id": "truth-or-dare",
+    "expression": "Truth or dare?",
+    "meaning": "Choose between answering a question honestly and doing a challenge in a game.",
+    "example": "It's your turn: truth or dare?",
+    "note": "This is the name of a game as well as the question players ask. Players can decline uncomfortable questions or challenges.",
+    "prompt": "It is a friend's turn in a game where they choose a truthful answer or a challenge. Ask them to choose.",
+    "transfer": "Suggest this familiar question-and-challenge game for a party.",
+    "transferSample": "Does anyone want to play truth or dare?"
+  },
+  {
+    "id": "dragged-me-along",
+    "expression": "Drag someone along",
+    "meaning": "Persuade or pressure someone to come with you when they do not really want to.",
+    "example": "My friends dragged me along to karaoke.",
+    "note": "Often an exaggeration; it does not necessarily describe physically pulling someone. Drag someone to a place is also natural.",
+    "prompt": "You did not want to sing, but your friends persuaded you to join them at karaoke. Describe what happened.",
+    "transfer": "A sibling reluctantly persuaded you to attend a networking event.",
+    "transferSample": "My sister dragged me along to a networking event."
+  },
+  {
+    "id": "sneak-out",
+    "expression": "Sneak out",
+    "meaning": "Leave quietly and secretly so that other people do not notice.",
+    "example": "We sneaked out before the speeches started.",
+    "note": "Sneaked and snuck are both used as past forms. Snuck is especially common in informal English.",
+    "prompt": "Describe leaving an event quietly before the speeches, without attracting attention.",
+    "transfer": "A cat left through an open door while nobody noticed. Explain what happened.",
+    "transferSample": "The cat snuck out while the door was open."
+  },
+  {
+    "id": "go-along-with",
+    "expression": "Go along with something",
+    "meaning": "Agree to or cooperate with someone else's idea or plan.",
+    "example": "I'll go along with your plan this time.",
+    "note": "Go along with a plan means accept it. Join in means take part in an activity; it does not necessarily express agreement.",
+    "prompt": "You are willing to accept a friend's proposed plan this time. Tell them.",
+    "transfer": "A team chooses a different approach from yours. Say you will cooperate.",
+    "transferSample": "I'm happy to go along with the team's decision."
+  },
+  {
+    "id": "join-in",
+    "expression": "Join in",
+    "meaning": "Start taking part in an activity that other people are already doing.",
+    "example": "Come and join in the game!",
+    "note": "Join in an activity or join in with others. Join a club usually has no in.",
+    "prompt": "Friends are playing a game. Invite someone watching to take part.",
+    "transfer": "People are singing together. Describe beginning to sing with them.",
+    "transferSample": "I joined in when I recognised the song."
+  },
+  {
+    "id": "credit-photographer",
+    "expression": "Photo credit",
+    "meaning": "An acknowledgement of the person who took a photograph.",
+    "example": "Please include a photo credit when you post the picture.",
+    "note": "Tagging the photographer links to their account; giving credit acknowledges their work. Credit does not replace permission to use a photo.",
+    "prompt": "You took a photo for a friend. Ask them to acknowledge you when posting it.",
+    "transfer": "Write a short caption acknowledging a fictional photographer named Alex.",
+    "transferSample": "Photo credit: Alex."
+  },
+  {
+    "id": "photographer-availability",
+    "expression": "Are you available for a photo shoot?",
+    "meaning": "Ask whether a photographer can take a booking for a photography session.",
+    "example": "Are you available for a photo shoot next Saturday?",
+    "note": "For pricing, ask Could you send me your rates? Add the type of shoot and date when making a real enquiry.",
+    "prompt": "Ask a photographer whether they can take a booking next Saturday.",
+    "transfer": "Enquire about a portrait session next month.",
+    "transferSample": "Are you available for a portrait photo shoot next month?"
+  },
+  {
+    "id": "make-a-booking",
+    "expression": "Make a booking",
+    "meaning": "Arrange in advance to use a service, place or facility at a particular time.",
+    "example": "I'd like to make a booking for the rooftop barbecue area.",
+    "note": "Make a reservation is similar. For an appointment, I'd like to book an appointment is natural and does not need will.",
+    "prompt": "Ask reception to reserve the rooftop barbecue area.",
+    "transfer": "Arrange a time to use a meeting room tomorrow afternoon.",
+    "transferSample": "Can I make a booking for the meeting room tomorrow afternoon?"
+  },
+  {
+    "id": "book-appointment",
+    "expression": "I'd like to book an appointment",
+    "meaning": "Politely ask to arrange a time to meet someone providing a service.",
+    "example": "I'd like to book an appointment for Friday, please.",
+    "note": "I'd means I would here. You can also say Can I book an appointment? There is no need to add will.",
+    "prompt": "Politely ask a receptionist to arrange an appointment on Friday.",
+    "transfer": "Ask a salon for an appointment next week.",
+    "transferSample": "I'd like to book an appointment for next week, please."
+  },
+  {
+    "id": "prepare-an-outfit",
+    "expression": "Put an outfit together",
+    "meaning": "Choose clothes and accessories that work well together for an occasion.",
+    "example": "I'm putting an outfit together for the wedding.",
+    "note": "Pick out an outfit focuses on choosing it. Lay out your clothes means arrange them ready to wear.",
+    "prompt": "Explain that you are choosing coordinated clothes for a wedding.",
+    "transfer": "A friend needs help choosing clothes for an interview. Offer help.",
+    "transferSample": "I can help you put an outfit together for the interview."
+  },
+  {
+    "id": "film-a-video",
+    "expression": "Film",
+    "meaning": "Record moving images with a camera.",
+    "example": "Can you film a short video for me?",
+    "note": "Film is also a noun meaning a movie. Take a photo means capture a still image, while film describes recording video.",
+    "prompt": "Ask someone to record a short video for you.",
+    "transfer": "Describe recording a dance performance with a camera.",
+    "transferSample": "I filmed the dance performance."
+  },
+  {
+    "id": "that-long",
+    "expression": "That long?",
+    "meaning": "Express surprise about the length of time someone has just mentioned.",
+    "example": "The queue took two hours. — That long?",
+    "note": "Use That far? for distance and That much? for an amount or price. These short replies depend on the previous sentence.",
+    "prompt": "A friend says they waited two hours. React with surprise about the duration.",
+    "transfer": "Someone says a repair will take six weeks. React briefly.",
+    "transferSample": "That long? I thought it would take a few days."
+  },
+  {
+    "id": "texas-holdem",
+    "expression": "Texas hold'em",
+    "meaning": "A form of poker in which players combine their two private cards with shared cards on the table.",
+    "example": "They were talking about Texas hold'em.",
+    "note": "Hold'em is a shortened spelling of hold them. This card teaches the game's name, not betting strategy.",
+    "prompt": "Name the poker game with two private cards per player and shared cards on the table.",
+    "transfer": "Ask a friend whether they know this type of poker.",
+    "transferSample": "Do you know how Texas hold'em works?"
+  }
+]

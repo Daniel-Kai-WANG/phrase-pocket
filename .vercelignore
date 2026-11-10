@@ -1,0 +1,11 @@
+.env*
+.git
+.github
+data/private
+dist
+node_modules
+test-results
+playwright-report
+coverage
+*.tsbuildinfo
+.DS_Store

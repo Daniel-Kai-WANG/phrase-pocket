@@ -1,0 +1,22 @@
+[
+  {
+    "id": "costs-per-person",
+    "expression": "It costs … per person",
+    "meaning": "State the price that each individual needs to pay.",
+    "example": "The diving trip costs $275 per person.",
+    "note": "Per person means for each participant. For a solo price, ask Does that price apply if I book on my own? This example is language practice, not a current price quote.",
+    "prompt": "Explain a fictional diving trip price of $275 for each participant.",
+    "transfer": "Describe a fictional tour priced at $40 for each visitor.",
+    "transferSample": "The tour costs $40 per person."
+  },
+  {
+    "id": "on-my-own",
+    "expression": "On my own",
+    "meaning": "Alone or without help, depending on context.",
+    "example": "I'm going on the tour on my own.",
+    "note": "For travel bookings, it means you are not travelling with a companion. It does not necessarily mean the activity itself will be unsupervised.",
+    "prompt": "Tell a tour organiser you are travelling without a companion.",
+    "transfer": "Explain that you completed a task without assistance.",
+    "transferSample": "I finished it on my own."
+  }
+]

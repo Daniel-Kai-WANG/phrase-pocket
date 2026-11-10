@@ -1,0 +1,173 @@
+[
+  {
+    "id": "pessimistic",
+    "expression": "Pessimistic",
+    "meaning": "Expecting bad outcomes or focusing on what may go wrong.",
+    "example": "I'm trying not to be pessimistic about the result.",
+    "note": "Optimistic is the opposite. An outlook is a person's general attitude towards life or the future.",
+    "prompt": "You keep expecting the result to be bad. Describe the attitude you are trying to avoid.",
+    "transfer": "Describe someone who always expects plans to fail.",
+    "transferSample": "He has a pessimistic outlook."
+  },
+  {
+    "id": "out-of-sorts",
+    "expression": "Out of sorts",
+    "meaning": "Feeling slightly unwell, upset or unlike your usual self.",
+    "example": "I'm a bit out of sorts today.",
+    "note": "This is a broad description of how you feel, not a diagnosis. A bit softens the expression.",
+    "prompt": "You do not feel quite yourself today, but cannot name one clear problem. Explain briefly.",
+    "transfer": "A friend asks why you seem unusually quiet. Describe feeling unsettled.",
+    "transferSample": "I've been feeling a little out of sorts."
+  },
+  {
+    "id": "cant-sleep",
+    "expression": "I can't get to sleep",
+    "meaning": "I am trying to fall asleep but am unable to.",
+    "example": "I'm tired, but I can't get to sleep.",
+    "note": "I can't stay asleep means you fall asleep but keep waking up. Insomnia names a sleep problem; one difficult night does not establish a diagnosis.",
+    "prompt": "You feel tired but are unable to fall asleep. Tell a friend.",
+    "transfer": "Describe having trouble falling asleep before an important event.",
+    "transferSample": "I can't get to sleep because I'm thinking about tomorrow."
+  },
+  {
+    "id": "im-relieved",
+    "expression": "I'm relieved",
+    "meaning": "I feel less worried because a problem or uncertainty has ended.",
+    "example": "I'm relieved you got home safely.",
+    "note": "Relieved describes the person. A relief describes the thing or event: That's a relief.",
+    "prompt": "Someone you were worried about has arrived home safely. Tell them how you feel.",
+    "transfer": "A lost document has been found. React with reduced worry.",
+    "transferSample": "I'm so relieved we found it."
+  },
+  {
+    "id": "speechless",
+    "expression": "Speechless",
+    "meaning": "Unable to think of anything to say because of a strong reaction.",
+    "example": "That surprise left me speechless.",
+    "note": "Can express amazement, gratitude, shock or frustration. Context determines whether the reaction is positive.",
+    "prompt": "A wonderful surprise has left you unable to find words. Describe your reaction.",
+    "transfer": "Something unbelievably rude happens and you cannot find a response.",
+    "transferSample": "I'm honestly speechless."
+  },
+  {
+    "id": "sulky",
+    "expression": "Sulky",
+    "meaning": "Showing annoyance by being quiet, unfriendly or unwilling to join in.",
+    "example": "He went quiet and looked sulky.",
+    "note": "This describes behaviour and can sound critical. Quiet alone does not necessarily mean sulky.",
+    "prompt": "Describe someone who becomes quiet and unfriendly because they did not get their way.",
+    "transfer": "You realise you were withdrawing in an annoyed way. Acknowledge it.",
+    "transferSample": "Sorry, I was being sulky earlier."
+  },
+  {
+    "id": "sarcastic",
+    "expression": "Sarcastic",
+    "meaning": "Using words that often mean the opposite of what is said to mock or criticise.",
+    "example": "Great timing, she said in a sarcastic voice after he arrived late.",
+    "note": "Tone and context matter. Sarcasm can be playful between friends or hurtful; it is not the same as every joke.",
+    "prompt": "Someone says Great timing to a person who is very late, intending criticism. Describe the tone.",
+    "transfer": "Explain that your earlier remark was mocking rather than literal.",
+    "transferSample": "I was being sarcastic; I didn't mean it literally."
+  },
+  {
+    "id": "roll-your-eyes",
+    "expression": "Roll your eyes",
+    "meaning": "Move your eyes upward to show annoyance, disbelief or impatience.",
+    "example": "She rolled her eyes at the excuse.",
+    "note": "Can be playful, but often appears dismissive. Roll your eyes at something is a common pattern.",
+    "prompt": "Describe the eye movement someone makes to show irritation at a silly excuse.",
+    "transfer": "A friend makes the same bad joke again. Describe your amused but impatient reaction.",
+    "transferSample": "I rolled my eyes at his joke."
+  },
+  {
+    "id": "satisfied",
+    "expression": "Satisfied",
+    "meaning": "Pleased because something meets your needs or expectations.",
+    "example": "I'm satisfied with the result.",
+    "note": "Usually satisfied with something. Content means calmly happy with your situation and stresses the second syllable in this use.",
+    "prompt": "A result meets your expectations. Say how you feel about it.",
+    "transfer": "A repair has been done well. Tell the person you are pleased with the service.",
+    "transferSample": "I'm very satisfied with the service."
+  },
+  {
+    "id": "content-feeling",
+    "expression": "Content",
+    "meaning": "Calmly happy with what you have or with your situation.",
+    "example": "I'm content with a quiet evening at home.",
+    "note": "Pronounce the adjective kuh-TENT. The noun meaning material inside a book or website is usually CON-tent.",
+    "pronunciation": "For this feeling, stress the second syllable: kuh-TENT.",
+    "prompt": "Say you are calmly happy spending a quiet evening at home.",
+    "transfer": "Explain that you do not need a bigger home to feel happy with your situation.",
+    "transferSample": "I'm content with the place I have."
+  },
+  {
+    "id": "dislike",
+    "expression": "Dislike",
+    "meaning": "Not like something or someone.",
+    "example": "I dislike being interrupted.",
+    "note": "Dislike is usually less strong than hate. Follow it with a noun or an -ing form, such as dislike waiting.",
+    "prompt": "Say that being interrupted is something you do not like, without using a very strong word.",
+    "transfer": "Explain that waiting in long queues is unpleasant for you.",
+    "transferSample": "I dislike waiting in long queues."
+  },
+  {
+    "id": "hate",
+    "expression": "Hate",
+    "meaning": "Dislike something or someone very strongly.",
+    "example": "I hate wasting time in traffic.",
+    "note": "Often used casually about experiences, but I hate you is much stronger and more personal. Do not treat dislike and hate as identical in intensity.",
+    "prompt": "Express a strong dislike of wasting time in traffic.",
+    "transfer": "Describe your strong dislike of being kept waiting without an explanation.",
+    "transferSample": "I hate being kept waiting without knowing why."
+  },
+  {
+    "id": "would-it-kill-you",
+    "expression": "Would it kill you to…?",
+    "meaning": "A pointed way to say that a small requested action should not be difficult.",
+    "example": "Would it kill you to let me know you're running late?",
+    "note": "Usually sounds irritated or sarcastic. Could you let me know next time? is a gentler request.",
+    "prompt": "You are irritated that someone never warns you about being late. Make a pointed request using a rhetorical question.",
+    "transfer": "In a fictional argument, complain that someone cannot offer a simple thank-you.",
+    "transferSample": "Would it kill you to say thank you?"
+  },
+  {
+    "id": "gloomy-weather",
+    "expression": "Gloomy",
+    "meaning": "Dark and dull, or feeling sad and without much hope.",
+    "example": "The weather is gloomy today.",
+    "note": "For weather, it suggests dark cloud and little sunlight. Here the target sense is weather, rather than a person's mood.",
+    "prompt": "Describe a dark, cloudy day with little sunshine.",
+    "transfer": "Explain why you want a bright lamp on a dull afternoon.",
+    "transferSample": "It's so gloomy outside that I need a light on."
+  },
+  {
+    "id": "memorable",
+    "expression": "Memorable",
+    "meaning": "Special, unusual or impressive enough to be remembered.",
+    "example": "It was a memorable evening.",
+    "note": "Remember is a verb; memory is a noun; memorable is an adjective. Memorable does not always mean pleasant.",
+    "prompt": "Describe an evening you are likely to remember because it was special.",
+    "transfer": "A speech made a lasting impression. Describe it.",
+    "transferSample": "That was a really memorable speech."
+  },
+  {
+    "id": "remember",
+    "expression": "Remember",
+    "meaning": "Keep something in your mind or bring it back to mind.",
+    "example": "I still remember our first conversation.",
+    "note": "Remember doing refers to a past experience. Remember to do refers to not forgetting a task.",
+    "prompt": "Say that your first conversation with someone is still clear in your mind.",
+    "transfer": "Remind a friend not to forget to bring their keys.",
+    "transferSample": "Remember to bring your keys."
+  },
+  {
+    "id": "memory",
+    "expression": "A memory",
+    "meaning": "Something from the past that you can bring back to mind.",
+    "example": "That's one of my favourite childhood memories.",
+    "note": "A memory is one remembered experience. Memory without an article can mean the ability to remember.",
+    "prompt": "Describe a favourite remembered experience from childhood.",
+    "transfer": "Say a photograph brings back a pleasant experience from the past.",
+    "transferSample": "This photo brings back a lovely memory."
+  }
+]

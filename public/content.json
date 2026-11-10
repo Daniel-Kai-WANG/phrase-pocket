@@ -1,0 +1,4282 @@
+{
+  "version": 1,
+  "revision": 2,
+  "publishedAt": "2026-11-10T05:53:24.955Z",
+  "personalCheckedAt": "2026-11-09T14:05:07.000Z",
+  "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
+  "sourceSyncMode": "manual",
+  "phrases": [
+    {
+      "id": "split-the-bill",
+      "expression": "Split the bill",
+      "meaning": "Share the cost of a meal or another purchase.",
+      "example": "Shall we split the bill?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Split it equally means pay equal amounts. Pay for what we each ordered means cover your own items.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Dinner is over. Suggest that you and your friend share the cost.",
+          "sample": "Shall we split the bill?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You and two friends order takeaway. Suggest sharing its total cost equally.",
+          "sample": "Why don't we split the bill three ways?"
+        }
+      ]
+    },
+    {
+      "id": "take-turns-paying",
+      "expression": "Take turns paying",
+      "meaning": "One person pays this time, and another person pays next time.",
+      "example": "Do you prefer splitting the bill or taking turns paying?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is different from each person paying part of the same bill.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a friend whether they prefer sharing each bill or paying on alternate visits.",
+          "sample": "Do you prefer splitting the bill or taking turns paying?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You paid for coffee yesterday. Suggest a system where you alternate who pays.",
+          "sample": "Let's take turns paying for coffee."
+        }
+      ]
+    },
+    {
+      "id": "in-vain",
+      "expression": "In vain",
+      "meaning": "Without achieving the result you hoped for.",
+      "example": "I just don't want to do all that work in vain.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "It often describes effort that was unsuccessful. It does not simply mean doing something for free.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You are prepared to work hard, but you do not want that effort to achieve nothing. Explain this.",
+          "sample": "I just don't want to do all that work in vain."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You searched everywhere for a missing ticket but could not find it. Describe your search.",
+          "sample": "I searched everywhere in vain."
+        }
+      ]
+    },
+    {
+      "id": "versatile",
+      "expression": "Versatile",
+      "meaning": "Able to do many different things well or be used in different ways.",
+      "example": "She's a versatile developer who works on websites and mobile apps.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Say VUR-suh-tile in common British and Australian pronunciation. American pronunciation often ends in tul.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a developer who is good at several different kinds of projects.",
+          "sample": "She's a versatile developer who works on websites and mobile apps."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A jacket works for work, travel and casual weekends. Describe it.",
+          "sample": "It's a versatile jacket that I can wear almost anywhere."
+        }
+      ]
+    },
+    {
+      "id": "i-knew-it",
+      "expression": "I knew it!",
+      "meaning": "What just happened confirms something you already believed.",
+      "example": "Ha, I knew it! You were planning a surprise.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "I knew you would means you predicted a person's action. I knew it means a fact or suspicion was confirmed.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7abead45-ce28-4841-9e87-e17e0306e598",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend admits they were planning a surprise. You already suspected it. React playfully.",
+          "sample": "Ha, I knew it! You were planning a surprise."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your guess about the ending of a film turns out to be right. React.",
+          "sample": "I knew it! That character was hiding something."
+        }
+      ]
+    },
+    {
+      "id": "genuine",
+      "expression": "Genuine",
+      "meaning": "Real and honest, rather than pretending or being fake.",
+      "example": "He seems like a really genuine person.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Sincere focuses on honestly meaning what you say or feel. Genuine also describes real objects or authentic things.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "4be1d333-d2ce-4adf-8f5b-55a54debc190",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe someone who is honest and does not pretend to be someone else.",
+          "sample": "He seems like a really genuine person."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You want to say that someone's concern was real rather than polite pretending.",
+          "sample": "She showed genuine concern for her friend."
+        }
+      ]
+    },
+    {
+      "id": "sincere",
+      "expression": "Sincere",
+      "meaning": "Honestly meaning what you say or expressing what you really feel.",
+      "example": "I think his apology was sincere.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often used with apology, thanks, concern and wish. Stress the second syllable: sin-SEER.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "4be1d333-d2ce-4adf-8f5b-55a54debc190",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend apologises and you believe they really mean it. Describe the apology.",
+          "sample": "I think his apology was sincere."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Thank a colleague warmly and make clear that you truly mean it.",
+          "sample": "Please accept my sincere thanks for your help."
+        }
+      ]
+    },
+    {
+      "id": "one-person-show",
+      "expression": "A one-person show",
+      "meaning": "A performance with one performer, or a situation where one person does nearly everything.",
+      "example": "Organising this event has turned into a one-person show.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A monologue is a long speech by one person. A monopoly is exclusive control of a market or activity.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "a2b80d00-fee2-4e75-a727-80dd194dbb43",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You are organising an event and everyone else has stopped helping. Describe the situation.",
+          "sample": "Organising this event has turned into a one-person show."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a theatre performance with just one actor.",
+          "sample": "We saw a brilliant one-person show at the theatre."
+        }
+      ]
+    },
+    {
+      "id": "monopoly",
+      "expression": "Monopoly",
+      "meaning": "Exclusive control over a market, supply or activity.",
+      "example": "The company has a monopoly on the local service.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is not the word for a speech by one person; that word is monologue. Monopoly is also a board game.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "a2b80d00-fee2-4e75-a727-80dd194dbb43",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Only one company provides a local service. Describe its exclusive control.",
+          "sample": "The company has a monopoly on the local service."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "One business controls the entire supply of a product. Describe that position.",
+          "sample": "That business has a monopoly on the supply."
+        }
+      ]
+    },
+    {
+      "id": "drama-queen",
+      "expression": "A drama queen",
+      "meaning": "Someone who reacts to small problems in an exaggerated, dramatic way.",
+      "example": "You're being a bit of a drama queen about this.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can be affectionate teasing between close friends, but can also be insulting or dismissive. It is not an exact label for every demanding person.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "caac19ce-93e0-402c-bcb4-c729709c3429",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A close friend jokingly overreacts to a tiny problem. Tease them gently, in a context where they welcome it.",
+          "sample": "You're being a bit of a drama queen about this."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You admit that your own reaction to a minor delay was exaggerated.",
+          "sample": "I was being a bit of a drama queen about the delay."
+        }
+      ]
+    },
+    {
+      "id": "not-up-to-much",
+      "expression": "Not up to much",
+      "meaning": "I do not have much planned or happening.",
+      "example": "Not up to much, just having a quiet afternoon.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. Use it to describe your activities, not your ability.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks about your plans this afternoon. You have nothing special planned.",
+          "sample": "Not up to much, just having a quiet afternoon."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A colleague asks what you did over the weekend. It was very quiet.",
+          "sample": "I wasn't up to much, just relaxing at home."
+        }
+      ]
+    },
+    {
+      "id": "can-t-complain",
+      "expression": "Can't complain",
+      "meaning": "Things are going reasonably well.",
+      "example": "Can't complain. Work's been pretty good lately.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "An understated positive answer, not a literal rule about complaining.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "An old friend asks how life is going. Things are fine.",
+          "sample": "Can't complain. Work's been pretty good lately."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your neighbour asks how your new job is going. It is going quite well.",
+          "sample": "Can't complain. Everyone's been really helpful."
+        }
+      ]
+    },
+    {
+      "id": "give-me-a-shout",
+      "expression": "Give me a shout",
+      "meaning": "Contact me or let me know.",
+      "example": "Give me a shout when you're free for coffee.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. It usually does not mean speaking loudly.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You want a friend to contact you when they have a free afternoon.",
+          "sample": "Give me a shout when you're free for coffee."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A teammate may need help later. Invite them to contact you.",
+          "sample": "Give me a shout if you need a hand."
+        }
+      ]
+    },
+    {
+      "id": "have-a-soft-spot-for-someone",
+      "expression": "Have a soft spot for someone",
+      "meaning": "Feel especially fond of someone, often despite their faults.",
+      "example": "I've always had a soft spot for my old neighbour.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Can also refer to places or things. It does not always mean romantic attraction.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that you feel especially fond of your old neighbour.",
+          "sample": "I've always had a soft spot for my old neighbour."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You feel fond of the small café where you first worked. Explain that feeling.",
+          "sample": "I've got a soft spot for that little café."
+        }
+      ]
+    },
+    {
+      "id": "play-hard-to-get",
+      "expression": "Play hard to get",
+      "meaning": "Act less interested than you are to make someone pursue you.",
+      "example": "I think he's playing hard to get.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Usually used in dating. Do not assume that a real lack of interest is a game.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friend thinks their date is deliberately acting uninterested. Describe that behaviour.",
+          "sample": "I think he's playing hard to get."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone delays replying because they want to seem less eager. Describe the strategy.",
+          "sample": "She's playing hard to get by waiting before she replies."
+        }
+      ]
+    },
+    {
+      "id": "give-someone-butterflies",
+      "expression": "Give someone butterflies",
+      "meaning": "Make someone feel fluttery excitement or nervousness.",
+      "example": "Seeing her still gives me butterflies.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Often romantic, but also used for anticipation and nervousness.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe the excited, nervous feeling you get when you see someone you like.",
+          "sample": "Seeing her still gives me butterflies."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You feel nervous excitement before going on stage. Describe how performing affects you.",
+          "sample": "Going on stage gives me butterflies."
+        }
+      ]
+    },
+    {
+      "id": "get-my-point-across",
+      "expression": "Get my point across",
+      "meaning": "Communicate an idea so someone understands it.",
+      "example": "I couldn't get my point across in the meeting.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Use get something across or get a point across. Get across something can have other meanings.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You had a useful idea in a meeting but could not make people understand it.",
+          "sample": "I couldn't get my point across in the meeting."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You want your presentation to make one main idea clear. Explain your goal.",
+          "sample": "I want to get my main point across clearly."
+        }
+      ]
+    },
+    {
+      "id": "touch-base",
+      "expression": "Touch base",
+      "meaning": "Contact someone briefly to exchange news or check progress.",
+      "example": "Let's touch base tomorrow about the proposal.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Common in work conversations. Use touch base with someone about something.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Arrange a brief progress check with a colleague tomorrow.",
+          "sample": "Let's touch base tomorrow about the proposal."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You want to contact a friend briefly after their first week in a new job.",
+          "sample": "I'll touch base with you on Friday and see how it's going."
+        }
+      ]
+    },
+    {
+      "id": "run-something-past-someone",
+      "expression": "Run something past someone",
+      "meaning": "Tell someone an idea to get their opinion or approval.",
+      "example": "Can I run an idea past you?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Run something by someone is also natural.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a colleague if you can share an idea for their opinion.",
+          "sample": "Can I run an idea past you?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Before booking a trip, you want your partner's view on the plan.",
+          "sample": "I'll run the plan past you before I book anything."
+        }
+      ]
+    },
+    {
+      "id": "tag-along",
+      "expression": "Tag along",
+      "meaning": "Join someone else's trip or activity.",
+      "example": "Mind if I tag along to the market?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. It can suggest joining plans that were already made.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friends are going to the market. Ask to join them.",
+          "sample": "Mind if I tag along to the market?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your flatmate is going for a walk. Ask whether you can come too.",
+          "sample": "Can I tag along on your walk?"
+        }
+      ]
+    },
+    {
+      "id": "bail-on-someone",
+      "expression": "Bail on someone",
+      "meaning": "Cancel or leave plans involving someone, often at short notice.",
+      "example": "Sorry I bailed on you last night.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. Bail can also have legal meanings, which are different.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Apologise for cancelling dinner with your friend at the last minute.",
+          "sample": "Sorry I bailed on you last night."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend cancels your weekend plans again. Explain why you are disappointed.",
+          "sample": "I'm disappointed that you bailed on me again."
+        }
+      ]
+    },
+    {
+      "id": "suss-something-out",
+      "expression": "Suss something out",
+      "meaning": "Investigate or understand something by checking it.",
+      "example": "I'll suss out the parking before we go.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Informal, common in Australian and British English.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You want to check the parking situation before a visit.",
+          "sample": "I'll suss out the parking before we go."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You are trying to understand how a new booking system works.",
+          "sample": "I'm still sussing out how the booking system works."
+        }
+      ]
+    },
+    {
+      "id": "rub-someone-the-wrong-way",
+      "expression": "Rub someone the wrong way",
+      "meaning": "Annoy someone, often because of your manner or attitude.",
+      "example": "His dismissive tone rubbed me the wrong way.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "American English often uses rub someone the wrong way; British English also uses rub someone up the wrong way.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A colleague's dismissive tone annoyed you. Explain how it affected you.",
+          "sample": "His dismissive tone rubbed me the wrong way."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your joke annoyed a friend even though you meant no harm.",
+          "sample": "I think my joke rubbed her the wrong way."
+        }
+      ]
+    },
+    {
+      "id": "have-a-short-fuse",
+      "expression": "Have a short fuse",
+      "meaning": "Become angry very easily or quickly.",
+      "example": "I've had a short fuse lately because I'm exhausted.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "It describes a tendency to anger, not a single calm disagreement.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You have been getting angry quickly because you are exhausted. Explain it.",
+          "sample": "I've had a short fuse lately because I'm exhausted."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A character in a film gets angry at the smallest problem. Describe them.",
+          "sample": "That character has a very short fuse."
+        }
+      ]
+    },
+    {
+      "id": "take-something-in-your-stride",
+      "expression": "Take something in your stride",
+      "meaning": "Deal calmly with a difficulty or surprise.",
+      "example": "She took the last-minute change in her stride.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "In American English, take something in stride is also common.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Praise a colleague who stayed calm when the plan changed suddenly.",
+          "sample": "She took the last-minute change in her stride."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You had a travel delay but handled it without much stress.",
+          "sample": "I took the delay in my stride and found somewhere to read."
+        }
+      ]
+    },
+    {
+      "id": "have-a-squiz",
+      "expression": "Have a squiz",
+      "meaning": "Have a quick look.",
+      "example": "Let's have a squiz at the menu.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Very informal Australian and New Zealand English. Squiz rhymes with quiz.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a friend to take a quick look at a café menu with you.",
+          "sample": "Let's have a squiz at the menu."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend has a new camera. Ask to have a look at it.",
+          "sample": "Can I have a squiz at your new camera?"
+        }
+      ]
+    },
+    {
+      "id": "set-you-back",
+      "expression": "Set you back",
+      "meaning": "Cost you an amount of money.",
+      "example": "That jacket will set you back about two hundred dollars.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Informal when discussing cost. Set someone back can also mean delay their progress.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that a jacket costs about two hundred dollars.",
+          "sample": "That jacket will set you back about two hundred dollars."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone asks how much your weekend trip cost.",
+          "sample": "The trip set me back about four hundred dollars."
+        }
+      ]
+    },
+    {
+      "id": "hit-the-spot",
+      "expression": "Hit the spot",
+      "meaning": "Be exactly what you wanted or needed, especially food or drink.",
+      "example": "That cold drink really hit the spot.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Usually expresses satisfaction or relief, not a physical hit.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You have a cold drink after a long walk. Say how satisfying it is.",
+          "sample": "That cold drink really hit the spot."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You enjoy a bowl of soup on a cold evening.",
+          "sample": "That soup really hit the spot."
+        }
+      ]
+    },
+    {
+      "id": "take-the-piss",
+      "expression": "Take the piss",
+      "meaning": "Make fun of someone, or behave unreasonably.",
+      "example": "Are you taking the piss, or are you serious?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Very informal and mildly vulgar. Use with people who are comfortable with it.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A mate makes a ridiculous claim. Ask if they are joking.",
+          "sample": "Are you taking the piss, or are you serious?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend keeps teasing you about your terrible singing. Describe it.",
+          "sample": "He's taking the piss out of my singing."
+        }
+      ]
+    },
+    {
+      "id": "give-someone-stick",
+      "expression": "Give someone stick",
+      "meaning": "Tease or criticise someone.",
+      "example": "My mates gave me stick for missing the goal.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Informal British and Australian English. Tone decides whether it feels playful or harsh.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friends tease you because you missed an easy goal. Describe what happened.",
+          "sample": "My mates gave me stick for missing the goal."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A teammate arrived late and everyone teased them about it.",
+          "sample": "We gave him a bit of stick for being late."
+        }
+      ]
+    },
+    {
+      "id": "have-a-laugh",
+      "expression": "Have a laugh",
+      "meaning": "Enjoy a funny or pleasant time together; sometimes mean to joke.",
+      "example": "We had a laugh over lunch.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Having a laugh can mean joking. Are you having a laugh? can express disbelief.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that lunch with your colleagues was funny and enjoyable.",
+          "sample": "We had a laugh over lunch."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone asks an absurd price. In casual British English, question whether they are serious.",
+          "sample": "You're having a laugh if you think I'll pay that much."
+        }
+      ]
+    },
+    {
+      "id": "been-flat-out",
+      "expression": "Been flat out",
+      "meaning": "Have been extremely busy.",
+      "example": "I've been flat out with work this week.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Common in Australian English. Flat out can also mean at maximum speed.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks why they have not seen you lately. Work has been extremely busy.",
+          "sample": "I've been flat out with work this week."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You have been very busy preparing for a move. Explain why you missed a message.",
+          "sample": "Sorry, I've been flat out getting ready to move."
+        }
+      ]
+    },
+    {
+      "id": "can-t-go-wrong-with",
+      "expression": "Can't go wrong with ...",
+      "meaning": "Something is a reliable or safe choice.",
+      "example": "You can't go wrong with a good Thai place.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "An enthusiastic recommendation, not a literal guarantee.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Recommend Thai food as a reliable dinner choice.",
+          "sample": "You can't go wrong with a good Thai place."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your friend needs a simple picnic snack. Recommend fresh fruit.",
+          "sample": "You can't go wrong with fresh fruit for a picnic."
+        }
+      ]
+    },
+    {
+      "id": "i-m-easy",
+      "expression": "I'm easy",
+      "meaning": "I am happy with any of the options.",
+      "example": "I'm easy. Coffee or lunch both sound good.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual, common in Australia and Britain. Use a clear choice context to avoid unintended meanings.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks whether you prefer coffee or lunch. You are happy with either.",
+          "sample": "I'm easy. Coffee or lunch both sound good."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your friends ask whether to meet on Saturday or Sunday. Both suit you.",
+          "sample": "I'm easy. Either day works for me."
+        }
+      ]
+    },
+    {
+      "id": "so-are-you",
+      "expression": "So are you",
+      "meaning": "You have the same quality that was just mentioned about me.",
+      "example": "You're very kind. — So are you.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Match the auxiliary: You look tired — So do you. You're tired — So are you. You are too also works after You're kind.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend says you are very kind. Return the same compliment.",
+          "sample": "You're very kind. — So are you."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone says you are a good listener. Tell them the same is true of them.",
+          "sample": "So are you. You always listen carefully."
+        }
+      ]
+    },
+    {
+      "id": "what-are-you-up-to",
+      "expression": "Are you up to much?",
+      "meaning": "Are you doing anything interesting or do you have many plans?",
+      "example": "Are you up to much this weekend?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A casual way to ask about plans. Not up to much means you have no major plans.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a friend casually whether they have any plans this weekend.",
+          "sample": "Are you up to much this weekend?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Start a relaxed chat by asking whether a friend has plans tonight.",
+          "sample": "Are you up to much tonight?"
+        }
+      ]
+    },
+    {
+      "id": "how-was-work",
+      "expression": "How was work?",
+      "meaning": "Tell me what your day or shift at work was like.",
+      "example": "Hey, how was work today?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use was for a finished shift. How's work going? asks about the current situation more generally.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friend has just finished a shift. Ask about their day.",
+          "sample": "Hey, how was work today?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your partner worked late yesterday. Ask how that shift went.",
+          "sample": "How was work yesterday?"
+        }
+      ]
+    },
+    {
+      "id": "meet-up",
+      "expression": "Meet up",
+      "meaning": "Meet another person, usually by arrangement, to spend time together.",
+      "example": "Do you want to meet up after work?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Meet up with someone names the other person. Meetup can be a noun for an organised gathering.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Invite a friend to spend time with you after work.",
+          "sample": "Do you want to meet up after work?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Arrange to see a former classmate when you visit their city.",
+          "sample": "Let's meet up when I'm in town."
+        }
+      ]
+    },
+    {
+      "id": "truth-or-dare",
+      "expression": "Truth or dare?",
+      "meaning": "Choose between answering a question honestly and doing a challenge in a game.",
+      "example": "It's your turn: truth or dare?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is the name of a game as well as the question players ask. Players can decline uncomfortable questions or challenges.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "It is a friend's turn in a game where they choose a truthful answer or a challenge. Ask them to choose.",
+          "sample": "It's your turn: truth or dare?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Suggest this familiar question-and-challenge game for a party.",
+          "sample": "Does anyone want to play truth or dare?"
+        }
+      ]
+    },
+    {
+      "id": "dragged-me-along",
+      "expression": "Drag someone along",
+      "meaning": "Persuade or pressure someone to come with you when they do not really want to.",
+      "example": "My friends dragged me along to karaoke.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often an exaggeration; it does not necessarily describe physically pulling someone. Drag someone to a place is also natural.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You did not want to sing, but your friends persuaded you to join them at karaoke. Describe what happened.",
+          "sample": "My friends dragged me along to karaoke."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A sibling reluctantly persuaded you to attend a networking event.",
+          "sample": "My sister dragged me along to a networking event."
+        }
+      ]
+    },
+    {
+      "id": "sneak-out",
+      "expression": "Sneak out",
+      "meaning": "Leave quietly and secretly so that other people do not notice.",
+      "example": "We sneaked out before the speeches started.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Sneaked and snuck are both used as past forms. Snuck is especially common in informal English.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe leaving an event quietly before the speeches, without attracting attention.",
+          "sample": "We sneaked out before the speeches started."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A cat left through an open door while nobody noticed. Explain what happened.",
+          "sample": "The cat snuck out while the door was open."
+        }
+      ]
+    },
+    {
+      "id": "go-along-with",
+      "expression": "Go along with something",
+      "meaning": "Agree to or cooperate with someone else's idea or plan.",
+      "example": "I'll go along with your plan this time.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Go along with a plan means accept it. Join in means take part in an activity; it does not necessarily express agreement.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You are willing to accept a friend's proposed plan this time. Tell them.",
+          "sample": "I'll go along with your plan this time."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A team chooses a different approach from yours. Say you will cooperate.",
+          "sample": "I'm happy to go along with the team's decision."
+        }
+      ]
+    },
+    {
+      "id": "join-in",
+      "expression": "Join in",
+      "meaning": "Start taking part in an activity that other people are already doing.",
+      "example": "Come and join in the game!",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Join in an activity or join in with others. Join a club usually has no in.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Friends are playing a game. Invite someone watching to take part.",
+          "sample": "Come and join in the game!"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "People are singing together. Describe beginning to sing with them.",
+          "sample": "I joined in when I recognised the song."
+        }
+      ]
+    },
+    {
+      "id": "credit-photographer",
+      "expression": "Photo credit",
+      "meaning": "An acknowledgement of the person who took a photograph.",
+      "example": "Please include a photo credit when you post the picture.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Tagging the photographer links to their account; giving credit acknowledges their work. Credit does not replace permission to use a photo.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You took a photo for a friend. Ask them to acknowledge you when posting it.",
+          "sample": "Please include a photo credit when you post the picture."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Write a short caption acknowledging a fictional photographer named Alex.",
+          "sample": "Photo credit: Alex."
+        }
+      ]
+    },
+    {
+      "id": "photographer-availability",
+      "expression": "Are you available for a photo shoot?",
+      "meaning": "Ask whether a photographer can take a booking for a photography session.",
+      "example": "Are you available for a photo shoot next Saturday?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "For pricing, ask Could you send me your rates? Add the type of shoot and date when making a real enquiry.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a photographer whether they can take a booking next Saturday.",
+          "sample": "Are you available for a photo shoot next Saturday?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Enquire about a portrait session next month.",
+          "sample": "Are you available for a portrait photo shoot next month?"
+        }
+      ]
+    },
+    {
+      "id": "make-a-booking",
+      "expression": "Make a booking",
+      "meaning": "Arrange in advance to use a service, place or facility at a particular time.",
+      "example": "I'd like to make a booking for the rooftop barbecue area.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Make a reservation is similar. For an appointment, I'd like to book an appointment is natural and does not need will.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask reception to reserve the rooftop barbecue area.",
+          "sample": "I'd like to make a booking for the rooftop barbecue area."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Arrange a time to use a meeting room tomorrow afternoon.",
+          "sample": "Can I make a booking for the meeting room tomorrow afternoon?"
+        }
+      ]
+    },
+    {
+      "id": "book-appointment",
+      "expression": "I'd like to book an appointment",
+      "meaning": "Politely ask to arrange a time to meet someone providing a service.",
+      "example": "I'd like to book an appointment for Friday, please.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "I'd means I would here. You can also say Can I book an appointment? There is no need to add will.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Politely ask a receptionist to arrange an appointment on Friday.",
+          "sample": "I'd like to book an appointment for Friday, please."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask a salon for an appointment next week.",
+          "sample": "I'd like to book an appointment for next week, please."
+        }
+      ]
+    },
+    {
+      "id": "prepare-an-outfit",
+      "expression": "Put an outfit together",
+      "meaning": "Choose clothes and accessories that work well together for an occasion.",
+      "example": "I'm putting an outfit together for the wedding.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Pick out an outfit focuses on choosing it. Lay out your clothes means arrange them ready to wear.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain that you are choosing coordinated clothes for a wedding.",
+          "sample": "I'm putting an outfit together for the wedding."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend needs help choosing clothes for an interview. Offer help.",
+          "sample": "I can help you put an outfit together for the interview."
+        }
+      ]
+    },
+    {
+      "id": "film-a-video",
+      "expression": "Film",
+      "meaning": "Record moving images with a camera.",
+      "example": "Can you film a short video for me?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Film is also a noun meaning a movie. Take a photo means capture a still image, while film describes recording video.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask someone to record a short video for you.",
+          "sample": "Can you film a short video for me?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe recording a dance performance with a camera.",
+          "sample": "I filmed the dance performance."
+        }
+      ]
+    },
+    {
+      "id": "that-long",
+      "expression": "That long?",
+      "meaning": "Express surprise about the length of time someone has just mentioned.",
+      "example": "The queue took two hours. — That long?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use That far? for distance and That much? for an amount or price. These short replies depend on the previous sentence.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend says they waited two hours. React with surprise about the duration.",
+          "sample": "The queue took two hours. — That long?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone says a repair will take six weeks. React briefly.",
+          "sample": "That long? I thought it would take a few days."
+        }
+      ]
+    },
+    {
+      "id": "texas-holdem",
+      "expression": "Texas hold'em",
+      "meaning": "A form of poker in which players combine their two private cards with shared cards on the table.",
+      "example": "They were talking about Texas hold'em.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Hold'em is a shortened spelling of hold them. This card teaches the game's name, not betting strategy.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the poker game with two private cards per player and shared cards on the table.",
+          "sample": "They were talking about Texas hold'em."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask a friend whether they know this type of poker.",
+          "sample": "Do you know how Texas hold'em works?"
+        }
+      ]
+    },
+    {
+      "id": "right-to-be-jealous",
+      "expression": "Do I even have the right to be jealous?",
+      "meaning": "Question whether your relationship gives you any reason to expect exclusivity or feel entitled to jealousy.",
+      "example": "Do I even have the right to be jealous? We haven't said we're exclusive.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This asks about your position in the relationship, not your personal worth. Who am I to be jealous? is a more self-questioning alternative.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "d0f3b6ec-1309-4780-a408-7a8e482153e8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a fictional conversation, someone asks whether you are jealous. You are unsure whether you are exclusive, so question whether it is your place to feel that way.",
+          "sample": "Do I even have the right to be jealous? We haven't said we're exclusive."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "In another fictional dating conversation, explain why you feel hesitant to express jealousy before the relationship is defined.",
+          "sample": "I feel a little jealous, but do I even have the right to be jealous?"
+        }
+      ]
+    },
+    {
+      "id": "argue",
+      "expression": "Argue",
+      "meaning": "Speak to someone in disagreement, sometimes angrily.",
+      "example": "I don't want to argue about this tonight.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Argue with someone about something. Argue can also mean give reasons for a position; this card focuses on disagreement between people.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell someone you do not want an angry disagreement about this tonight.",
+          "sample": "I don't want to argue about this tonight."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that two friends disagreed about where to eat.",
+          "sample": "They argued about where to have dinner."
+        }
+      ]
+    },
+    {
+      "id": "let-someone-go",
+      "expression": "Let someone go",
+      "meaning": "Allow someone to leave or stop trying to keep them in a relationship or situation.",
+      "example": "Sometimes caring about someone means letting them go.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "In a workplace, let someone go can mean dismiss them from their job. Context is essential.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a fictional relationship discussion, say that caring for someone can involve allowing them to leave.",
+          "sample": "Sometimes caring about someone means letting them go."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you will stop trying to persuade a friend to stay when they want to move away.",
+          "sample": "I need to let them go and support their choice."
+        }
+      ]
+    },
+    {
+      "id": "support-your-decision",
+      "expression": "I support your decision",
+      "meaning": "I accept your choice and want to help you pursue it.",
+      "example": "I'll miss you, but I support your decision to move.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Supporting a decision does not necessarily mean feeling happy about every consequence.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend is moving away for a new opportunity. Say you will miss them but back their choice.",
+          "sample": "I'll miss you, but I support your decision to move."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Encourage someone who has chosen to change careers.",
+          "sample": "I support your decision to try a different career."
+        }
+      ]
+    },
+    {
+      "id": "confess",
+      "expression": "Confess",
+      "meaning": "Admit something you have kept secret, often something you feel embarrassed or guilty about.",
+      "example": "I have to confess: I forgot your birthday.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "For attraction, tell someone how you feel often sounds more natural than confess your love. Confess can sound serious or dramatic.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Admit, a little sheepishly, that you forgot someone's birthday.",
+          "sample": "I have to confess: I forgot your birthday."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Admit you secretly enjoyed a film you had criticised.",
+          "sample": "I have to confess, I actually enjoyed that film."
+        }
+      ]
+    },
+    {
+      "id": "get-to-know",
+      "expression": "Get to know someone",
+      "meaning": "Gradually learn about a person's character, interests and life.",
+      "example": "I'd like to get to know you better.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Know describes familiarity; get to know describes developing it. It does not require a romantic meaning.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell someone you would like to learn more about them over time.",
+          "sample": "I'd like to get to know you better."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe becoming familiar with new teammates during your first month.",
+          "sample": "I'm getting to know my new teammates."
+        }
+      ]
+    },
+    {
+      "id": "what-do-you-see-in-me",
+      "expression": "What do you see in me?",
+      "meaning": "Ask what qualities make another person like or feel attracted to you.",
+      "example": "I'm curious: what do you see in me?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can sound curious, insecure or self-deprecating depending on tone. It is not a question about literal eyesight.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a partner what qualities attract them to you.",
+          "sample": "I'm curious: what do you see in me?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "In a fictional dialogue, a character is surprised that someone likes them. Write their question.",
+          "sample": "What do you see in me?"
+        }
+      ]
+    },
+    {
+      "id": "one-sided-relationship",
+      "expression": "A one-sided relationship",
+      "meaning": "A relationship in which one person puts in much more effort or care than the other.",
+      "example": "It feels like a one-sided relationship when I'm always the one making plans.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "More precise for unequal emotional effort than a monologue or a one-person show.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a fictional situation, one partner always organises everything and receives little effort back. Describe the relationship.",
+          "sample": "It feels like a one-sided relationship when I'm always the one making plans."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a friendship where only one person ever reaches out.",
+          "sample": "That friendship has started to feel like a one-sided relationship."
+        }
+      ]
+    },
+    {
+      "id": "toxic-behaviour",
+      "expression": "Toxic",
+      "meaning": "Harmful to people's wellbeing or to the atmosphere of a relationship or group.",
+      "example": "Constant insults created a toxic atmosphere.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is a strong informal description of harmful patterns, not a diagnosis. Be specific about behaviour rather than relying only on a label.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a group atmosphere damaged by constant insults.",
+          "sample": "Constant insults created a toxic atmosphere."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that repeated manipulation has made a fictional relationship harmful.",
+          "sample": "The relationship has become toxic."
+        }
+      ]
+    },
+    {
+      "id": "cheeky",
+      "expression": "Cheeky",
+      "meaning": "Playfully bold or slightly rude in a way that may be amusing.",
+      "example": "You're a cheeky little fox, aren't you?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often affectionate in British and Australian conversation. It can also mean disrespectful, depending on the relationship and tone.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tease a close friend affectionately after a bold but harmless joke, using the fox expression.",
+          "sample": "You're a cheeky little fox, aren't you?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a child's amusing, slightly bold grin.",
+          "sample": "She gave me a cheeky grin."
+        }
+      ]
+    },
+    {
+      "id": "sly",
+      "expression": "Sly",
+      "meaning": "Clever in a secretive or sometimes dishonest way.",
+      "example": "That was a sly little trick.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can be playful or critical. A sly smile suggests the person knows something they are not openly saying.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a clever but sneaky trick.",
+          "sample": "That was a sly little trick."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone smiles as if they are hiding a secret. Describe the smile.",
+          "sample": "He gave me a sly smile."
+        }
+      ]
+    },
+    {
+      "id": "dont-play-dumb",
+      "expression": "Don't play dumb",
+      "meaning": "Do not pretend that you do not know or understand something.",
+      "example": "Don't play dumb; you know what I mean.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Direct and potentially insulting. If you need a gentler tone, say I think you know what I mean.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a fictional argument, tell someone to stop pretending not to understand.",
+          "sample": "Don't play dumb; you know what I mean."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A close friend jokingly pretends not to know who ate the cake. Respond teasingly.",
+          "sample": "Don't play dumb. I saw you with the last slice."
+        }
+      ]
+    },
+    {
+      "id": "well-behaved",
+      "expression": "Well-behaved",
+      "meaning": "Behaving politely or in a way that is expected and acceptable.",
+      "example": "The children were very well-behaved at dinner.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often used about children or animals. Calling an adult obedient or well-behaved can sound patronising unless playful and welcome.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe children who behaved politely through dinner.",
+          "sample": "The children were very well-behaved at dinner."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a dog that stayed calm during a visit.",
+          "sample": "Your dog was really well-behaved."
+        }
+      ]
+    },
+    {
+      "id": "disobedient",
+      "expression": "Disobedient",
+      "meaning": "Deliberately not following rules or instructions from someone in authority.",
+      "example": "The story is about a disobedient child.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Disobedient is standard; unobeyable is not the usual word for a person who does not obey. Avoid applying this label casually to an adult partner.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a child in a story who deliberately ignores rules.",
+          "sample": "The story is about a disobedient child."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Compare an obedient character with another who refuses instructions.",
+          "sample": "The second character is much more disobedient."
+        }
+      ]
+    },
+    {
+      "id": "stubborn",
+      "expression": "Stubborn",
+      "meaning": "Unwilling to change your mind or actions even when others ask you to.",
+      "example": "That stubborn otter refused to move from the path.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can be critical or affectionately teasing. Determined is often more positive when persistence is admired.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an otter in a playful story that refuses to move.",
+          "sample": "That stubborn otter refused to move from the path."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Admit you were unwilling to consider someone else's suggestion.",
+          "sample": "I was being stubborn about it."
+        }
+      ]
+    },
+    {
+      "id": "empty-words",
+      "expression": "Empty words",
+      "meaning": "Words that sound good but are not supported by sincere feeling or action.",
+      "example": "I can't tell whether he means it or whether it's just empty words.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This questions sincerity or follow-through. It is stronger than simply saying you are unsure.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You cannot tell whether a promise is sincere or only pleasant talk. Express that uncertainty.",
+          "sample": "I can't tell whether he means it or whether it's just empty words."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask for action instead of more unsupported promises.",
+          "sample": "I need more than empty words."
+        }
+      ]
+    },
+    {
+      "id": "exclusive-relationship",
+      "expression": "Be exclusive",
+      "meaning": "Agree to date only each other.",
+      "example": "Have we agreed to be exclusive?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Relationship expectations should be discussed. You're exclusively mine can sound possessive; Are we exclusive? is clearer when asking about an agreement.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask someone you are dating whether you have agreed not to date other people.",
+          "sample": "Have we agreed to be exclusive?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Tell a friend that you and your partner have mutually agreed to date only each other.",
+          "sample": "We've decided to be exclusive."
+        }
+      ]
+    },
+    {
+      "id": "smooth-talking",
+      "expression": "Smooth-talking",
+      "meaning": "Speaking confidently and charmingly, sometimes to persuade or manipulate.",
+      "example": "He's charming, but he can be a bit smooth-talking.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Greasy and oily usually describe substances or textures. For a person's excessive charm, smooth-talking or smarmy may fit depending on the intended criticism.",
+      "theme": "relationships",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe someone who uses polished charm to persuade people.",
+          "sample": "He's charming, but he can be a bit smooth-talking."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a fictional salesperson whose polished talk makes you cautious.",
+          "sample": "The smooth-talking salesperson promised far too much."
+        }
+      ]
+    },
+    {
+      "id": "pessimistic",
+      "expression": "Pessimistic",
+      "meaning": "Expecting bad outcomes or focusing on what may go wrong.",
+      "example": "I'm trying not to be pessimistic about the result.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Optimistic is the opposite. An outlook is a person's general attitude towards life or the future.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You keep expecting the result to be bad. Describe the attitude you are trying to avoid.",
+          "sample": "I'm trying not to be pessimistic about the result."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe someone who always expects plans to fail.",
+          "sample": "He has a pessimistic outlook."
+        }
+      ]
+    },
+    {
+      "id": "out-of-sorts",
+      "expression": "Out of sorts",
+      "meaning": "Feeling slightly unwell, upset or unlike your usual self.",
+      "example": "I'm a bit out of sorts today.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is a broad description of how you feel, not a diagnosis. A bit softens the expression.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You do not feel quite yourself today, but cannot name one clear problem. Explain briefly.",
+          "sample": "I'm a bit out of sorts today."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend asks why you seem unusually quiet. Describe feeling unsettled.",
+          "sample": "I've been feeling a little out of sorts."
+        }
+      ]
+    },
+    {
+      "id": "cant-sleep",
+      "expression": "I can't get to sleep",
+      "meaning": "I am trying to fall asleep but am unable to.",
+      "example": "I'm tired, but I can't get to sleep.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "I can't stay asleep means you fall asleep but keep waking up. Insomnia names a sleep problem; one difficult night does not establish a diagnosis.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You feel tired but are unable to fall asleep. Tell a friend.",
+          "sample": "I'm tired, but I can't get to sleep."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe having trouble falling asleep before an important event.",
+          "sample": "I can't get to sleep because I'm thinking about tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "im-relieved",
+      "expression": "I'm relieved",
+      "meaning": "I feel less worried because a problem or uncertainty has ended.",
+      "example": "I'm relieved you got home safely.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Relieved describes the person. A relief describes the thing or event: That's a relief.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Someone you were worried about has arrived home safely. Tell them how you feel.",
+          "sample": "I'm relieved you got home safely."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A lost document has been found. React with reduced worry.",
+          "sample": "I'm so relieved we found it."
+        }
+      ]
+    },
+    {
+      "id": "speechless",
+      "expression": "Speechless",
+      "meaning": "Unable to think of anything to say because of a strong reaction.",
+      "example": "That surprise left me speechless.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can express amazement, gratitude, shock or frustration. Context determines whether the reaction is positive.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A wonderful surprise has left you unable to find words. Describe your reaction.",
+          "sample": "That surprise left me speechless."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Something unbelievably rude happens and you cannot find a response.",
+          "sample": "I'm honestly speechless."
+        }
+      ]
+    },
+    {
+      "id": "sulky",
+      "expression": "Sulky",
+      "meaning": "Showing annoyance by being quiet, unfriendly or unwilling to join in.",
+      "example": "He went quiet and looked sulky.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This describes behaviour and can sound critical. Quiet alone does not necessarily mean sulky.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe someone who becomes quiet and unfriendly because they did not get their way.",
+          "sample": "He went quiet and looked sulky."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You realise you were withdrawing in an annoyed way. Acknowledge it.",
+          "sample": "Sorry, I was being sulky earlier."
+        }
+      ]
+    },
+    {
+      "id": "sarcastic",
+      "expression": "Sarcastic",
+      "meaning": "Using words that often mean the opposite of what is said to mock or criticise.",
+      "example": "Great timing, she said in a sarcastic voice after he arrived late.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Tone and context matter. Sarcasm can be playful between friends or hurtful; it is not the same as every joke.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Someone says Great timing to a person who is very late, intending criticism. Describe the tone.",
+          "sample": "Great timing, she said in a sarcastic voice after he arrived late."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that your earlier remark was mocking rather than literal.",
+          "sample": "I was being sarcastic; I didn't mean it literally."
+        }
+      ]
+    },
+    {
+      "id": "roll-your-eyes",
+      "expression": "Roll your eyes",
+      "meaning": "Move your eyes upward to show annoyance, disbelief or impatience.",
+      "example": "She rolled her eyes at the excuse.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Can be playful, but often appears dismissive. Roll your eyes at something is a common pattern.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe the eye movement someone makes to show irritation at a silly excuse.",
+          "sample": "She rolled her eyes at the excuse."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend makes the same bad joke again. Describe your amused but impatient reaction.",
+          "sample": "I rolled my eyes at his joke."
+        }
+      ]
+    },
+    {
+      "id": "satisfied",
+      "expression": "Satisfied",
+      "meaning": "Pleased because something meets your needs or expectations.",
+      "example": "I'm satisfied with the result.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Usually satisfied with something. Content means calmly happy with your situation and stresses the second syllable in this use.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A result meets your expectations. Say how you feel about it.",
+          "sample": "I'm satisfied with the result."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A repair has been done well. Tell the person you are pleased with the service.",
+          "sample": "I'm very satisfied with the service."
+        }
+      ]
+    },
+    {
+      "id": "content-feeling",
+      "expression": "Content",
+      "meaning": "Calmly happy with what you have or with your situation.",
+      "example": "I'm content with a quiet evening at home.",
+      "pronunciation": "For this feeling, stress the second syllable: kuh-TENT.",
+      "register": "Conversational",
+      "note": "Pronounce the adjective kuh-TENT. The noun meaning material inside a book or website is usually CON-tent.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say you are calmly happy spending a quiet evening at home.",
+          "sample": "I'm content with a quiet evening at home."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you do not need a bigger home to feel happy with your situation.",
+          "sample": "I'm content with the place I have."
+        }
+      ]
+    },
+    {
+      "id": "dislike",
+      "expression": "Dislike",
+      "meaning": "Not like something or someone.",
+      "example": "I dislike being interrupted.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Dislike is usually less strong than hate. Follow it with a noun or an -ing form, such as dislike waiting.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that being interrupted is something you do not like, without using a very strong word.",
+          "sample": "I dislike being interrupted."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that waiting in long queues is unpleasant for you.",
+          "sample": "I dislike waiting in long queues."
+        }
+      ]
+    },
+    {
+      "id": "hate",
+      "expression": "Hate",
+      "meaning": "Dislike something or someone very strongly.",
+      "example": "I hate wasting time in traffic.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often used casually about experiences, but I hate you is much stronger and more personal. Do not treat dislike and hate as identical in intensity.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Express a strong dislike of wasting time in traffic.",
+          "sample": "I hate wasting time in traffic."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe your strong dislike of being kept waiting without an explanation.",
+          "sample": "I hate being kept waiting without knowing why."
+        }
+      ]
+    },
+    {
+      "id": "would-it-kill-you",
+      "expression": "Would it kill you to…?",
+      "meaning": "A pointed way to say that a small requested action should not be difficult.",
+      "example": "Would it kill you to let me know you're running late?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Usually sounds irritated or sarcastic. Could you let me know next time? is a gentler request.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You are irritated that someone never warns you about being late. Make a pointed request using a rhetorical question.",
+          "sample": "Would it kill you to let me know you're running late?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "In a fictional argument, complain that someone cannot offer a simple thank-you.",
+          "sample": "Would it kill you to say thank you?"
+        }
+      ]
+    },
+    {
+      "id": "gloomy-weather",
+      "expression": "Gloomy",
+      "meaning": "Dark and dull, or feeling sad and without much hope.",
+      "example": "The weather is gloomy today.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "For weather, it suggests dark cloud and little sunlight. Here the target sense is weather, rather than a person's mood.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a dark, cloudy day with little sunshine.",
+          "sample": "The weather is gloomy today."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain why you want a bright lamp on a dull afternoon.",
+          "sample": "It's so gloomy outside that I need a light on."
+        }
+      ]
+    },
+    {
+      "id": "memorable",
+      "expression": "Memorable",
+      "meaning": "Special, unusual or impressive enough to be remembered.",
+      "example": "It was a memorable evening.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Remember is a verb; memory is a noun; memorable is an adjective. Memorable does not always mean pleasant.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an evening you are likely to remember because it was special.",
+          "sample": "It was a memorable evening."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A speech made a lasting impression. Describe it.",
+          "sample": "That was a really memorable speech."
+        }
+      ]
+    },
+    {
+      "id": "remember",
+      "expression": "Remember",
+      "meaning": "Keep something in your mind or bring it back to mind.",
+      "example": "I still remember our first conversation.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Remember doing refers to a past experience. Remember to do refers to not forgetting a task.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that your first conversation with someone is still clear in your mind.",
+          "sample": "I still remember our first conversation."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Remind a friend not to forget to bring their keys.",
+          "sample": "Remember to bring your keys."
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "expression": "A memory",
+      "meaning": "Something from the past that you can bring back to mind.",
+      "example": "That's one of my favourite childhood memories.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A memory is one remembered experience. Memory without an article can mean the ability to remember.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a favourite remembered experience from childhood.",
+          "sample": "That's one of my favourite childhood memories."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say a photograph brings back a pleasant experience from the past.",
+          "sample": "This photo brings back a lovely memory."
+        }
+      ]
+    },
+    {
+      "id": "on-purpose",
+      "expression": "On purpose",
+      "meaning": "Intentionally, rather than by accident.",
+      "example": "I didn't ignore your message on purpose.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Deliberately has a similar meaning. On purpose is not the same as for a purpose, which explains a reason or function.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain that you did not intentionally ignore someone's message.",
+          "sample": "I didn't ignore your message on purpose."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A teammate asks whether you changed a setting accidentally. Say the change was intentional.",
+          "sample": "I changed it on purpose."
+        }
+      ]
+    },
+    {
+      "id": "proactive",
+      "expression": "Proactive",
+      "meaning": "Taking action early instead of waiting for problems or instructions.",
+      "example": "She's proactive about solving small problems.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Proactive is about anticipating and acting. Active alone does not necessarily mean anticipating a need.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a colleague who notices potential problems and acts before being asked.",
+          "sample": "She's proactive about solving small problems."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that your team should prevent issues rather than only respond to them.",
+          "sample": "We need to be more proactive about maintenance."
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "expression": "Passive",
+      "meaning": "Allowing things to happen without taking much action or control.",
+      "example": "Don't be too passive in the discussion; share your ideas.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Passive can describe behaviour. The passive voice is a separate grammar term.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Encourage a colleague to contribute rather than simply let others direct the discussion.",
+          "sample": "Don't be too passive in the discussion; share your ideas."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe your earlier habit of waiting for instructions instead of taking initiative.",
+          "sample": "I used to be quite passive at work."
+        }
+      ]
+    },
+    {
+      "id": "willing-to",
+      "expression": "Be willing to",
+      "meaning": "Be ready or prepared to do something voluntarily.",
+      "example": "I'm willing to learn a new system.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use willing to + base verb. Willing is about readiness, not necessarily enjoyment.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a manager you are prepared to learn a different system.",
+          "sample": "I'm willing to learn a new system."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Offer to change your schedule to help a team.",
+          "sample": "I'm willing to adjust my schedule."
+        }
+      ]
+    },
+    {
+      "id": "even-though",
+      "expression": "Even though",
+      "meaning": "Despite the fact that; introduces a real situation that contrasts with another fact.",
+      "example": "I went for a walk even though it was raining.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Even though usually refers to an actual fact. Even if often introduces a hypothetical possibility.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say you went for a walk despite the rain that was actually falling.",
+          "sample": "I went for a walk even though it was raining."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you enjoyed a difficult project despite how demanding it was.",
+          "sample": "I enjoyed the project even though it was difficult."
+        }
+      ]
+    },
+    {
+      "id": "regardless-of",
+      "expression": "Regardless of",
+      "meaning": "Without being affected by a particular factor.",
+      "example": "We'll continue regardless of the weather.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Follow regardless of with a noun, pronoun or -ing phrase. Regardless of whether can introduce alternatives.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say the weather will not change your decision to continue.",
+          "sample": "We'll continue regardless of the weather."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that everyone should be treated respectfully, whatever their experience level.",
+          "sample": "Everyone deserves respect regardless of experience."
+        }
+      ]
+    },
+    {
+      "id": "prerequisite",
+      "expression": "A prerequisite",
+      "meaning": "Something required before another thing can happen or be done.",
+      "example": "Basic computer skills are a prerequisite for this course.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A prerequisite for something. It is a requirement beforehand, not merely a useful extra.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that basic computer skills are required before starting a course.",
+          "sample": "Basic computer skills are a prerequisite for this course."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that completing an introductory module is necessary before the advanced one.",
+          "sample": "The introductory module is a prerequisite for the advanced course."
+        }
+      ]
+    },
+    {
+      "id": "absorb-knowledge",
+      "expression": "Absorb information",
+      "meaning": "Take in and gradually understand or remember information.",
+      "example": "I need some time to absorb all this information.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Absorb can also mean take in liquid. Sober has a different meaning and is not the verb for learning information.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You have received a lot of new information and need time to take it in. Explain.",
+          "sample": "I need some time to absorb all this information."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe learning a great deal by listening carefully to experienced colleagues.",
+          "sample": "I absorb a lot of information by listening to the team."
+        }
+      ]
+    },
+    {
+      "id": "elaborate-on",
+      "expression": "Elaborate on something",
+      "meaning": "Explain something in more detail.",
+      "example": "Could you elaborate on your idea?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "The verb ends with an ayt sound. Elaborate as an adjective means detailed or complicated and has a different ending.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask someone to explain their idea in greater detail.",
+          "sample": "Could you elaborate on your idea?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A speaker mentions an unexpected result. Ask for more explanation.",
+          "sample": "Could you elaborate on that result?"
+        }
+      ]
+    },
+    {
+      "id": "expand",
+      "expression": "Expand",
+      "meaning": "Become larger or make something larger.",
+      "example": "The team plans to expand the service.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Expand on an idea can mean explain it further. Expand alone also describes growth in size, scope or quantity.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a plan to make a service cover more areas.",
+          "sample": "The team plans to expand the service."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say a business wants to increase the range of products it offers.",
+          "sample": "The business wants to expand its product range."
+        }
+      ]
+    },
+    {
+      "id": "contract-shrink",
+      "expression": "Contract",
+      "meaning": "Become smaller or draw closer together.",
+      "example": "This material contracts when it cools.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "The verb in this sense usually stresses the second syllable. A contract as a noun is an agreement and usually stresses the first.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a material becoming smaller as it cools.",
+          "sample": "This material contracts when it cools."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that a muscle becomes shorter when it tightens.",
+          "sample": "The muscle contracts when it tightens."
+        }
+      ]
+    },
+    {
+      "id": "redact",
+      "expression": "Redact",
+      "meaning": "Remove or hide parts of a document before sharing it.",
+      "example": "Please redact the personal details before sharing the report.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often used for private or confidential information. Hiding text visually is not always the same as removing it from the file.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a colleague to remove personal details before distributing a report.",
+          "sample": "Please redact the personal details before sharing the report."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that names were removed from a published document.",
+          "sample": "The names were redacted from the document."
+        }
+      ]
+    },
+    {
+      "id": "remark",
+      "expression": "A remark",
+      "meaning": "A spoken or written comment about something.",
+      "example": "She made an interesting remark about the design.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Make a remark is common. Remark can also be a verb: He remarked that the room was quiet.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an interesting comment someone made about a design.",
+          "sample": "She made an interesting remark about the design."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Apologise for a comment that sounded unkind.",
+          "sample": "I'm sorry about that remark."
+        }
+      ]
+    },
+    {
+      "id": "assume",
+      "expression": "Assume",
+      "meaning": "Accept something as true without being certain or checking it first.",
+      "example": "I assumed the meeting was online.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Assume does not mean know. I assume can express a tentative expectation, depending on tone.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain that you believed the meeting would be online but had not checked.",
+          "sample": "I assumed the meeting was online."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Tell someone you mistakenly thought they had already received the file.",
+          "sample": "I assumed you already had the file."
+        }
+      ]
+    },
+    {
+      "id": "stand-out",
+      "expression": "Stand out",
+      "meaning": "Be easy to notice because you are different or especially good.",
+      "example": "Her clear examples made the presentation stand out.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Stand out from the crowd is a common phrase. Standing out is not always positive; context matters.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain that clear examples made a presentation especially noticeable.",
+          "sample": "Her clear examples made the presentation stand out."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a bright red bag among several dark bags.",
+          "sample": "The red bag really stands out."
+        }
+      ]
+    },
+    {
+      "id": "bills-wont-pay-themselves",
+      "expression": "The bills won't pay themselves",
+      "meaning": "A humorous or resigned way to say you need to earn money to cover expenses.",
+      "example": "I'd love another day off, but the bills won't pay themselves.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This personifies bills for humour. It usually explains returning to work or being practical about earning money.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You would like another day off, but need to earn money. Say this with mild humour.",
+          "sample": "I'd love another day off, but the bills won't pay themselves."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend asks why you are taking an extra shift. Reply with the familiar expression about expenses.",
+          "sample": "Well, the bills won't pay themselves."
+        }
+      ]
+    },
+    {
+      "id": "reasonable-grounds",
+      "expression": "Reasonable grounds",
+      "meaning": "Sensible or credible reasons for a belief or suspicion.",
+      "example": "There are reasonable grounds to question that claim.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Often formal. Legal uses can have a specific standard; this card teaches the general phrase, not a legal test.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that there are credible reasons to question a claim.",
+          "sample": "There are reasonable grounds to question that claim."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that evidence gives people a sensible basis for concern.",
+          "sample": "There are reasonable grounds for concern."
+        }
+      ]
+    },
+    {
+      "id": "suspicion",
+      "expression": "Suspicion",
+      "meaning": "A feeling or belief that something may be true, often something wrong, without being certain.",
+      "example": "I had a suspicion that something was missing.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A suspicion can be a particular hunch. Suspicion of someone suggests distrust; it does not establish proof.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a feeling, short of certainty, that something was missing.",
+          "sample": "I had a suspicion that something was missing."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say you thought a surprise was being planned before anyone confirmed it.",
+          "sample": "I had a suspicion that they were planning a surprise."
+        }
+      ]
+    },
+    {
+      "id": "recommendation-feed",
+      "expression": "My feed",
+      "meaning": "The stream of posts, videos or updates shown to me in an app or website.",
+      "example": "My feed is full of cooking videos today.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Recommendations are suggested items. The algorithm is a system used to select or rank them; feed names what you browse.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that the videos shown to you today are mostly about cooking.",
+          "sample": "My feed is full of cooking videos today."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that a particular topic keeps appearing in your social app.",
+          "sample": "That topic keeps showing up in my feed."
+        }
+      ]
+    },
+    {
+      "id": "fabulous",
+      "expression": "Fabulous",
+      "meaning": "Extremely good, enjoyable or attractive.",
+      "example": "You look fabulous in that jacket.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "An enthusiastic compliment. Awesome is another informal way to express strong approval.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Give an enthusiastic compliment about a friend's jacket and appearance.",
+          "sample": "You look fabulous in that jacket."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a holiday you enjoyed very much.",
+          "sample": "We had a fabulous holiday."
+        }
+      ]
+    },
+    {
+      "id": "awesome",
+      "expression": "Awesome",
+      "meaning": "Very good or impressive, in informal conversation.",
+      "example": "That sounds awesome!",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Often a casual positive reaction. In other contexts, awesome can describe something that inspires awe.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend describes an exciting weekend plan. React enthusiastically.",
+          "sample": "That sounds awesome!"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Thank someone for doing an excellent job helping you.",
+          "sample": "You've been awesome. Thanks for all your help."
+        }
+      ]
+    },
+    {
+      "id": "tummy",
+      "expression": "Tummy",
+      "meaning": "An informal, often child-friendly word for the stomach or belly.",
+      "example": "My tummy is rumbling.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Casual or affectionate. Stomach or abdomen is more suitable in formal contexts, depending on meaning.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say playfully that your belly is making hungry noises.",
+          "sample": "My tummy is rumbling."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A character in a children's story says their belly feels full. Write their line.",
+          "sample": "My tummy is full."
+        }
+      ]
+    },
+    {
+      "id": "meme",
+      "expression": "A meme",
+      "meaning": "An idea, image, video or joke that people share and adapt, especially online.",
+      "example": "That cat meme made me laugh.",
+      "pronunciation": "One syllable: meem, rhyming with team.",
+      "register": "Informal",
+      "note": "In everyday internet use, often a recognisable joke format. Pronounce it meem, one syllable.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an online cat joke in a widely shared image format.",
+          "sample": "That cat meme made me laugh."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask a friend to send you a funny shared internet joke again.",
+          "sample": "Can you send me that meme again?"
+        }
+      ]
+    },
+    {
+      "id": "aint",
+      "expression": "Ain't",
+      "meaning": "A very informal form used in some varieties of English in place of am not, is not, are not, has not or have not.",
+      "example": "I ain't ready yet.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Very informal / dialectal",
+      "note": "Useful to recognise in dialogue and songs. It is not generally appropriate in formal writing. The example means I am not ready yet.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a fictional character's very informal dialogue, say I am not ready yet using the contracted dialect form.",
+          "sample": "I ain't ready yet."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A fictional character says something is not fair in very informal speech. Write the line.",
+          "sample": "That ain't fair."
+        }
+      ]
+    },
+    {
+      "id": "nvm",
+      "expression": "Nvm",
+      "meaning": "A text-message abbreviation for never mind.",
+      "example": "Nvm, I found it!",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Texting",
+      "note": "Used to withdraw a question or say something no longer matters. Spell out never mind in ordinary speech.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You asked where something was, but have just found it. Withdraw the question in a short text.",
+          "sample": "Nvm, I found it!"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend is about to help, but the issue is already resolved. Send a brief informal message.",
+          "sample": "Nvm, it's sorted now."
+        }
+      ]
+    },
+    {
+      "id": "hmu",
+      "expression": "HMU",
+      "meaning": "A text-message abbreviation for hit me up, meaning contact me.",
+      "example": "HMU if you're free this weekend.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Texting / slang",
+      "note": "Very casual and can sound friendly or flirtatious depending on context. Not suitable for most formal messages.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "In a casual text, invite a friend to contact you if they are free this weekend.",
+          "sample": "HMU if you're free this weekend."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask a friend to message you when they arrive in town, using the abbreviation.",
+          "sample": "HMU when you get into town."
+        }
+      ]
+    },
+    {
+      "id": "ngl",
+      "expression": "NGL",
+      "meaning": "A text-message abbreviation for not gonna lie, used before a candid opinion.",
+      "example": "NGL, I really enjoyed that film.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Texting / slang",
+      "note": "Informal. It often introduces honesty or mild surprise rather than literally describing a decision about lying.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Give a candid positive opinion about a film in a short informal text.",
+          "sample": "NGL, I really enjoyed that film."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Admit casually that a task was more difficult than expected.",
+          "sample": "NGL, that was harder than I expected."
+        }
+      ]
+    },
+    {
+      "id": "pov",
+      "expression": "POV",
+      "meaning": "An abbreviation for point of view, meaning the perspective from which something is seen or told.",
+      "example": "The story is told from the child's POV.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Abbreviation",
+      "note": "Social captions often use POV to invite the viewer into a situation, sometimes loosely. Formal writing usually spells it out first.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a story told through a child's perspective, using the abbreviation.",
+          "sample": "The story is told from the child's POV."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Label a video caption that places the viewer in the position of someone arriving late.",
+          "sample": "POV: you're the last person to arrive."
+        }
+      ]
+    },
+    {
+      "id": "wanna",
+      "expression": "Wanna",
+      "meaning": "An informal written representation of want to in casual speech.",
+      "example": "Do you wanna grab a coffee?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Very informal",
+      "note": "Use want to in formal writing. Wanna represents connected speech and is not a replacement for every use of want.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Invite a close friend for coffee using a very casual form of want to.",
+          "sample": "Do you wanna grab a coffee?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say casually that you want to watch a film tonight.",
+          "sample": "I wanna watch a film tonight."
+        }
+      ]
+    },
+    {
+      "id": "goofy",
+      "expression": "Goofy",
+      "meaning": "Silly, funny or a little awkward in an endearing way.",
+      "example": "He has a goofy sense of humour.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Often affectionate, but can also sound dismissive. Goofy with a capital G is also a fictional character's name.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a friend's silly but likeable sense of humour.",
+          "sample": "He has a goofy sense of humour."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a playful photograph where everyone makes silly faces.",
+          "sample": "We took a goofy photo together."
+        }
+      ]
+    },
+    {
+      "id": "kick-out",
+      "expression": "Kick someone out",
+      "meaning": "Force someone to leave a place or group.",
+      "example": "They kicked him out of the group chat.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Often informal and stronger than ask someone to leave. It does not always involve physical kicking.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe someone being forced to leave a group chat.",
+          "sample": "They kicked him out of the group chat."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A fictional disruptive guest is made to leave a party. Describe it.",
+          "sample": "They kicked the disruptive guest out of the party."
+        }
+      ]
+    },
+    {
+      "id": "tell-off",
+      "expression": "Tell someone off",
+      "meaning": "Speak angrily to someone because they have done something wrong.",
+      "example": "The teacher told us off for talking.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Tell someone off for doing something. Common in British and Australian English; scold is another word.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a teacher expressing anger because students kept talking.",
+          "sample": "The teacher told us off for talking."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A fictional manager criticises someone angrily for arriving late.",
+          "sample": "The manager told him off for being late."
+        }
+      ]
+    },
+    {
+      "id": "scold",
+      "expression": "Scold",
+      "meaning": "Speak to someone angrily about something they have done wrong.",
+      "example": "She scolded the child for drawing on the wall.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Often used about adults correcting children. Tell someone off is a conversational alternative.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an adult angrily correcting a child who drew on a wall.",
+          "sample": "She scolded the child for drawing on the wall."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A fictional character criticises a younger sibling for breaking a rule.",
+          "sample": "He scolded his younger brother for breaking the rule."
+        }
+      ]
+    },
+    {
+      "id": "swear",
+      "expression": "Swear",
+      "meaning": "Use words considered rude or offensive.",
+      "example": "He swore when he dropped the box.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Swear at someone directs offensive language towards them. Swear can also mean make a serious promise; that is a different sense.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe someone using offensive language after dropping a heavy box.",
+          "sample": "He swore when he dropped the box."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask someone not to direct rude words at you.",
+          "sample": "Please don't swear at me."
+        }
+      ]
+    },
+    {
+      "id": "yell",
+      "expression": "Yell",
+      "meaning": "Shout loudly.",
+      "example": "I could hear people yelling outside.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Yelling describes volume; scolding describes criticism. A person may yell to be heard without being angry.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe people shouting loudly outside.",
+          "sample": "I could hear people yelling outside."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask someone to speak more quietly because you are standing nearby.",
+          "sample": "You don't need to yell; I'm right here."
+        }
+      ]
+    },
+    {
+      "id": "blame",
+      "expression": "Blame",
+      "meaning": "Say or believe that someone or something is responsible for a problem.",
+      "example": "Don't blame yourself for the delay.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "Blame someone for something, or blame something on someone. Blame is not simply another word for shout.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Reassure someone that they should not hold themselves responsible for a delay.",
+          "sample": "Don't blame yourself for the delay."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say that a character unfairly holds the weather responsible for every problem.",
+          "sample": "He blames everything on the weather."
+        }
+      ]
+    },
+    {
+      "id": "bunny-hop",
+      "expression": "Bunny hop",
+      "meaning": "Make a short jump with both feet together; in some sports or games, perform a particular hopping movement.",
+      "example": "The children bunny-hopped across the grass.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal",
+      "note": "The movement has specialised meanings in cycling and games. This card uses the ordinary two-footed movement.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe children moving in little jumps with both feet together.",
+          "sample": "The children bunny-hopped across the grass."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A fitness instructor asks for small jumps with the feet together. Name the movement.",
+          "sample": "Let's do a few bunny hops."
+        }
+      ]
+    },
+    {
+      "id": "soggy",
+      "expression": "Soggy",
+      "meaning": "Unpleasantly wet and soft, especially when something should be crisp.",
+      "example": "The chips went soggy in the closed container.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Soggy describes texture. Greasy describes excess oil; bland describes weak flavour.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe chips that have become wet and soft instead of crisp.",
+          "sample": "The chips went soggy in the closed container."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe toast softened by too much liquid.",
+          "sample": "The toast is soggy now."
+        }
+      ]
+    },
+    {
+      "id": "greasy",
+      "expression": "Greasy",
+      "meaning": "Covered with or containing an unpleasant amount of oil or fat.",
+      "example": "These chips are a bit greasy.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Oily also describes oiliness. Greasy often suggests an unpleasant feel; neither is usually the best word for charming but insincere speech.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe chips that feel unpleasantly coated in oil.",
+          "sample": "These chips are a bit greasy."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe your hands after touching an oily pan.",
+          "sample": "My hands feel greasy."
+        }
+      ]
+    },
+    {
+      "id": "bland",
+      "expression": "Bland",
+      "meaning": "Lacking strong or interesting flavour.",
+      "example": "The soup tastes a little bland.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Bland can also describe something uninteresting. For food, it does not necessarily mean bad or inedible.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe soup that does not have much flavour.",
+          "sample": "The soup tastes a little bland."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Politely explain that a sauce could use more seasoning.",
+          "sample": "The sauce is a little bland; it could use more seasoning."
+        }
+      ]
+    },
+    {
+      "id": "season-food",
+      "expression": "Season",
+      "meaning": "Add ingredients such as salt, herbs or spices to improve the flavour of food.",
+      "example": "Season the vegetables to taste.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "As a food verb, this is different from a season of the year. Seasoning is the noun for flavouring ingredients or the act of adding them.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a cook to add flavouring to vegetables according to taste.",
+          "sample": "Season the vegetables to taste."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a sauce has had salt or other flavourings added.",
+          "sample": "Have you seasoned the sauce yet?"
+        }
+      ]
+    },
+    {
+      "id": "marinate",
+      "expression": "Marinate",
+      "meaning": "Leave food in a seasoned liquid or mixture so it takes on flavour.",
+      "example": "The recipe says to marinate the vegetables before cooking.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Marinade is the mixture; marinate is the verb. Dry brining uses salt without a liquid marinade.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe leaving vegetables in a seasoned mixture before cooking.",
+          "sample": "The recipe says to marinate the vegetables before cooking."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a recipe calls for an overnight flavouring step using a liquid mixture.",
+          "sample": "Does the recipe say to marinate it overnight?"
+        }
+      ]
+    },
+    {
+      "id": "dry-brine",
+      "expression": "Dry-brine",
+      "meaning": "Salt food in advance without soaking it in a liquid brine.",
+      "example": "This recipe tells you to dry-brine the meat.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This is cooking vocabulary, not a complete preparation method. Unlike a wet brine, it does not begin with soaking in a salt solution.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the preparation method of applying salt in advance without a liquid soak.",
+          "sample": "This recipe tells you to dry-brine the meat."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A recipe says to salt the food beforehand rather than immerse it in brine. Explain the instruction.",
+          "sample": "It asks you to dry-brine the food."
+        }
+      ]
+    },
+    {
+      "id": "overripe",
+      "expression": "Overripe",
+      "meaning": "Riper than is ideal, often becoming too soft.",
+      "example": "That banana is overripe.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use ripe or overripe for fruit. Overcooked refers to cooking too long, and mature often describes development or age.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a banana that has become too ripe and very soft.",
+          "sample": "That banana is overripe."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that peaches are past their best stage of ripeness.",
+          "sample": "The peaches are overripe."
+        }
+      ]
+    },
+    {
+      "id": "overcooked",
+      "expression": "Overcooked",
+      "meaning": "Cooked longer than is desirable.",
+      "example": "The pasta is overcooked and too soft.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Different foods become dry, tough or soft when overcooked. The word refers to cooking, not ripening.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe pasta made too soft by being cooked for too long.",
+          "sample": "The pasta is overcooked and too soft."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that vegetables lost their texture because they were cooked too long.",
+          "sample": "The vegetables are overcooked."
+        }
+      ]
+    },
+    {
+      "id": "hotpot",
+      "expression": "Hotpot",
+      "meaning": "A meal in which ingredients are cooked in a pot of hot broth, often at the table.",
+      "example": "Shall we have hotpot tonight?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "In some English contexts hotpot can refer to a baked stew; specify Chinese hotpot when helpful. Broth is the liquid used for cooking.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Suggest a meal where you cook ingredients in a shared pot of broth at the table.",
+          "sample": "Shall we have hotpot tonight?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you are choosing the Chinese table-cooking meal, not a baked stew.",
+          "sample": "I mean Chinese hotpot."
+        }
+      ]
+    },
+    {
+      "id": "beef-tallow-broth",
+      "expression": "Beef-tallow broth",
+      "meaning": "A broth made with rendered beef fat, often used as a hotpot base.",
+      "example": "This hotpot has a spicy beef-tallow broth.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Tallow is rendered animal fat; beef tallow specifically comes from cattle. Broth is the cooking liquid, not the meat slices added to it.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a spicy hotpot base made with rendered beef fat.",
+          "sample": "This hotpot has a spicy beef-tallow broth."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a hotpot broth contains rendered beef fat.",
+          "sample": "Is this a beef-tallow broth?"
+        }
+      ]
+    },
+    {
+      "id": "sago-taro-dessert",
+      "expression": "Sago and taro dessert soup",
+      "meaning": "A sweet dessert containing sago pearls and taro, often served in a sweet liquid.",
+      "example": "I'd like the sago and taro dessert soup.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Taro is a starchy root. If the taro is mashed, say mashed taro. Menu names vary, so ingredients can communicate more clearly than a fixed dish name.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Order a sweet soup with sago pearls and taro.",
+          "sample": "I'd like the sago and taro dessert soup."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a dessert containing sago pearls and mashed taro.",
+          "sample": "It's a dessert soup with sago and mashed taro."
+        }
+      ]
+    },
+    {
+      "id": "sukiyaki",
+      "expression": "Sukiyaki",
+      "meaning": "A Japanese hotpot-style dish commonly made with thinly sliced beef, vegetables and a sweet-savoury sauce.",
+      "example": "We had sukiyaki for dinner.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Sukiyaki is a dish name. It is different from the general term hotpot, which covers many types of meals.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the Japanese dish with thinly sliced beef and vegetables in a sweet-savoury cooking mixture.",
+          "sample": "We had sukiyaki for dinner."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Tell a friend what you ordered at a Japanese restaurant using this dish name.",
+          "sample": "I ordered sukiyaki."
+        }
+      ]
+    },
+    {
+      "id": "burrito",
+      "expression": "A burrito",
+      "meaning": "A tortilla wrapped around a filling such as beans, rice, vegetables or meat.",
+      "example": "I'd like a bean burrito, please.",
+      "pronunciation": "Stress the middle syllable: buh-REE-toh.",
+      "register": "Conversational",
+      "note": "The filling varies. In English, the middle syllable is usually stressed: buh-REE-toh.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Order a filled tortilla wrap with beans, using the dish's name.",
+          "sample": "I'd like a bean burrito, please."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a menu includes a vegetarian version of this wrapped dish.",
+          "sample": "Do you have a vegetarian burrito?"
+        }
+      ]
+    },
+    {
+      "id": "sichuan",
+      "expression": "Sichuan",
+      "meaning": "The name of a Chinese province, also used to describe food associated with that region.",
+      "example": "I enjoy Sichuan food.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Szechuan and Szechwan are alternative English spellings. Schezwan also appears on some menus, especially for adapted dishes; menu labels do not guarantee the same recipe.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say you enjoy the Chinese regional cuisine associated with spicy and numbing flavours, naming the region.",
+          "sample": "I enjoy Sichuan food."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask a friend whether they would like that regional cuisine for dinner.",
+          "sample": "Would you like Sichuan food tonight?"
+        }
+      ]
+    },
+    {
+      "id": "inside-out",
+      "expression": "Inside out",
+      "meaning": "With the inner surface facing outward.",
+      "example": "Your jumper is inside out.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Inside out is different from back to front, which means the front and back are reversed. Know something inside out is a separate idiom meaning know it thoroughly.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell someone that the inner surface of their jumper is facing outward.",
+          "sample": "Your jumper is inside out."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe turning a bag so you can clean its inner lining.",
+          "sample": "I turned the bag inside out."
+        }
+      ]
+    },
+    {
+      "id": "few-times-week",
+      "expression": "A few times a week",
+      "meaning": "Several times during each week.",
+      "example": "I go for a walk a few times a week.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Every few weeks means once after several weeks have passed. These two phrases describe very different frequencies.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say you take walks several times during each week.",
+          "sample": "I go for a walk a few times a week."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you practise speaking several times within a week.",
+          "sample": "I practise speaking a few times a week."
+        }
+      ]
+    },
+    {
+      "id": "every-few-weeks",
+      "expression": "Every few weeks",
+      "meaning": "Once after an interval of several weeks.",
+      "example": "We catch up every few weeks.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Not the same as a few times a week. Every few weeks describes less frequent events.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say you meet a friend at intervals of several weeks.",
+          "sample": "We catch up every few weeks."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe receiving a newsletter once after several weeks have passed.",
+          "sample": "The newsletter arrives every few weeks."
+        }
+      ]
+    },
+    {
+      "id": "is-he-here",
+      "expression": "Is he here?",
+      "meaning": "Ask whether a male person is present at this place.",
+      "example": "Is he here yet?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use the subject pronoun he, not the object pronoun him, before this form of be in a question.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask whether a male friend has arrived at the place where you are waiting.",
+          "sample": "Is he here yet?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a male colleague is currently in the room.",
+          "sample": "Is he here in the room?"
+        }
+      ]
+    },
+    {
+      "id": "i-dont-have-one",
+      "expression": "I don't have one",
+      "meaning": "I do not possess an item of the kind just mentioned.",
+      "example": "Do you have a pen? — I don't have one.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "One replaces a singular countable noun. A shorter answer to Do you have a pen? is No, I don't.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Someone asks whether you have a pen. Say you do not have such an item.",
+          "sample": "Do you have a pen? — I don't have one."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone asks if you have an umbrella. Answer without repeating the noun.",
+          "sample": "I don't have one."
+        }
+      ]
+    },
+    {
+      "id": "no-i-dont",
+      "expression": "No, I don't",
+      "meaning": "A short negative answer to a present-tense question using do.",
+      "example": "Do you own a car? — No, I don't.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Match the question's auxiliary: Are you ready? — No, I'm not. Have you finished? — No, I haven't.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Give a short negative answer to Do you own a car?",
+          "sample": "Do you own a car? — No, I don't."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Give a short negative answer to Do you like crowded places?",
+          "sample": "No, I don't."
+        }
+      ]
+    },
+    {
+      "id": "snore",
+      "expression": "Snore",
+      "meaning": "Make a noisy breathing sound while asleep.",
+      "example": "Apparently, I snore sometimes.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Snoring is the activity or sound. Snore is not the same as talk in your sleep.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Say that other people report you sometimes make noisy breathing sounds during sleep.",
+          "sample": "Apparently, I snore sometimes."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe hearing a sleeping character make a loud breathing noise in a story.",
+          "sample": "He was snoring loudly."
+        }
+      ]
+    },
+    {
+      "id": "astrology",
+      "expression": "Astrology",
+      "meaning": "A belief system that connects the positions of celestial bodies with human personality or events.",
+      "example": "She's interested in astrology and star signs.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Astronomy is the scientific study of objects and phenomena in space. Astrology and astronomy are different words and subjects.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the belief system involving star signs and personality.",
+          "sample": "She's interested in astrology and star signs."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Ask whether a friend is interested in star-sign interpretations.",
+          "sample": "Are you interested in astrology?"
+        }
+      ]
+    },
+    {
+      "id": "collar",
+      "expression": "A collar",
+      "meaning": "The part of a shirt around the neck, or a band worn around an animal's neck.",
+      "example": "This shirt has a detachable collar.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A detachable collar can be removed. Connor is a person's name, not the word for the part of a shirt.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the part of a shirt around the neck that can be removed on this design.",
+          "sample": "This shirt has a detachable collar."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a band around a dog's neck that holds an identification tag.",
+          "sample": "The dog has a tag on its collar."
+        }
+      ]
+    },
+    {
+      "id": "detachable",
+      "expression": "Detachable",
+      "meaning": "Designed so that it can be removed from something else.",
+      "example": "The jacket has a detachable hood.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Detach means separate or remove. Detachable describes a design feature, not something accidentally broken off.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a jacket hood designed to be taken off.",
+          "sample": "The jacket has a detachable hood."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a bag strap that can be removed when it is not needed.",
+          "sample": "The bag has a detachable strap."
+        }
+      ]
+    },
+    {
+      "id": "groom-oneself",
+      "expression": "Groom oneself",
+      "meaning": "Clean or tidy one's body, hair or appearance.",
+      "example": "The cat spent ten minutes grooming itself.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "For an adult person's appearance, grooming can refer to keeping hair, skin or clothing neat. Groom has other meanings, so context matters.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a cat cleaning and tidying its fur.",
+          "sample": "The cat spent ten minutes grooming itself."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe an animal tidying its coat before resting.",
+          "sample": "The animal groomed itself before settling down."
+        }
+      ]
+    },
+    {
+      "id": "mature",
+      "expression": "Mature",
+      "meaning": "Fully developed, or showing the judgement and responsibility expected of an adult.",
+      "example": "That was a mature way to handle the disagreement.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Use ripe for fruit ready to eat and cooked for food prepared with heat. Mature can describe certain foods such as cheese, but does not replace all of these words.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Praise the sensible, responsible way someone handled a disagreement.",
+          "sample": "That was a mature way to handle the disagreement."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a person who can accept criticism calmly.",
+          "sample": "She's mature enough to listen to feedback calmly."
+        }
+      ]
+    },
+    {
+      "id": "different-side",
+      "expression": "A different side to someone",
+      "meaning": "An aspect of someone's personality that is different from what you usually see.",
+      "example": "I'm seeing a different side to you today.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "More natural than a direct translation using contrast alone when talking about an unexpected part of a person's character.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Someone usually quiet is unexpectedly playful. Say you are noticing an unfamiliar aspect of them.",
+          "sample": "I'm seeing a different side to you today."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A normally serious colleague is very warm with animals. Describe what this reveals.",
+          "sample": "It shows a different side to her."
+        }
+      ]
+    },
+    {
+      "id": "tag-someone",
+      "expression": "Tag someone",
+      "meaning": "Link a person's account to a post, photo or comment on a social platform.",
+      "example": "Could you tag me when you post the photo?",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Tagging and giving photo credit are related but different. A tag links an account; a credit acknowledges who made the work.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a friend to link your account when posting a photo of you.",
+          "sample": "Could you tag me when you post the photo?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Say you linked a photographer's account in your post.",
+          "sample": "I tagged the photographer in the post."
+        }
+      ]
+    },
+    {
+      "id": "monologue",
+      "expression": "A monologue",
+      "meaning": "A long speech by one person, especially in a performance.",
+      "example": "The actor delivered a powerful monologue.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "A one-person show is an entire performance with one performer. A monopoly is exclusive control, often of a market.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name a long speech delivered by a single actor in a performance.",
+          "sample": "The actor delivered a powerful monologue."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a scene that consists of one character speaking at length.",
+          "sample": "The scene is a monologue."
+        }
+      ]
+    },
+    {
+      "id": "sober",
+      "expression": "Sober",
+      "meaning": "Not drunk or affected by alcohol.",
+      "example": "The character was completely sober.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Sober can also mean serious or restrained. It is unrelated to absorb, the verb used for taking in information.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a fictional character who is not drunk.",
+          "sample": "The character was completely sober."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Clarify that a surprising remark in a story was made by someone who had not been drinking.",
+          "sample": "He was sober when he said it."
+        }
+      ]
+    },
+    {
+      "id": "stroke-touch",
+      "expression": "Stroke",
+      "meaning": "Move your hand gently along a surface, often repeatedly.",
+      "example": "She stroked the cat's back.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This touch is gentle. Strike usually describes a forceful hit. Stroke has other meanings in sport, writing and medicine; this card focuses on touching.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe moving a hand gently along a cat's back.",
+          "sample": "She stroked the cat's back."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a character gently moving a hand over soft fabric.",
+          "sample": "He stroked the soft fabric."
+        }
+      ]
+    },
+    {
+      "id": "strike-hit",
+      "expression": "Strike",
+      "meaning": "Hit something with force.",
+      "example": "The ball struck the wall.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Past tense: struck. Strike has other meanings, including stopping work in protest. It is not a synonym for gently stroke.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a ball hitting a wall forcefully.",
+          "sample": "The ball struck the wall."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a branch hitting a window during a storm.",
+          "sample": "A branch struck the window."
+        }
+      ]
+    },
+    {
+      "id": "lethal",
+      "expression": "Lethal",
+      "meaning": "Capable of causing death.",
+      "example": "The sign warned of a potentially lethal hazard.",
+      "pronunciation": "LEE-thul: use the unvoiced th sound in thin.",
+      "register": "Conversational",
+      "note": "Deadly has a similar meaning. The th sound in lethal is unvoiced, as in thin, not as in this.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a hazard that could cause death.",
+          "sample": "The sign warned of a potentially lethal hazard."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that a fictional substance can be fatal, using a formal adjective.",
+          "sample": "The fictional substance is lethal."
+        }
+      ]
+    },
+    {
+      "id": "venomous",
+      "expression": "Venomous",
+      "meaning": "Able to inject venom through a bite, sting or similar mechanism.",
+      "example": "Some snakes are venomous.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Poisonous usually describes harm caused by eating, touching or absorbing a toxic substance. An animal can have more than one type of defence.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe an animal that can inject a toxin through its bite.",
+          "sample": "Some snakes are venomous."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a fictional creature with a toxin-injecting sting.",
+          "sample": "The creature is venomous."
+        }
+      ]
+    },
+    {
+      "id": "poisonous",
+      "expression": "Poisonous",
+      "meaning": "Containing a substance that can harm people or animals when eaten, absorbed or otherwise taken into the body.",
+      "example": "Some wild mushrooms are poisonous.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Different from venomous, which focuses on injecting venom. This vocabulary card cannot identify safe plants or animals.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe mushrooms containing harmful substances that can make someone ill if eaten.",
+          "sample": "Some wild mushrooms are poisonous."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a fictional plant that is harmful to eat.",
+          "sample": "The plant is poisonous."
+        }
+      ]
+    },
+    {
+      "id": "deadly",
+      "expression": "Deadly",
+      "meaning": "Likely or able to cause death; sometimes used figuratively for something extremely severe.",
+      "example": "The storm created a deadly situation.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Similar to lethal in its literal sense. Deadly serious is an idiom meaning completely serious, not necessarily physically dangerous.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a storm-related situation that could cause death.",
+          "sample": "The storm created a deadly situation."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that a hazard can be fatal, using a common adjective.",
+          "sample": "That hazard can be deadly."
+        }
+      ]
+    },
+    {
+      "id": "interrogate",
+      "expression": "Interrogate",
+      "meaning": "Question someone closely and persistently, often in a formal investigation.",
+      "example": "In the novel, the detective interrogates a suspect.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Stronger than ask or interview. In casual speech, Don't interrogate me can mean stop asking so many intense questions.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a detective questioning a suspect closely in a novel.",
+          "sample": "In the novel, the detective interrogates a suspect."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "In a playful fictional chat, ask someone to stop questioning every detail of your day.",
+          "sample": "Don't interrogate me; I just went for a walk!"
+        }
+      ]
+    },
+    {
+      "id": "whip-object",
+      "expression": "A whip",
+      "meaning": "A long, flexible implement traditionally used to strike or make a cracking sound.",
+      "example": "The actor carried a prop whip in the adventure scene.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "This card names an object. Whip is also a cooking verb, as in whip cream, which is a different meaning.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the long flexible prop an actor carries in an adventure scene.",
+          "sample": "The actor carried a prop whip in the adventure scene."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a museum display of this traditional flexible implement.",
+          "sample": "The display included an old whip."
+        }
+      ]
+    },
+    {
+      "id": "trickle",
+      "expression": "Trickle",
+      "meaning": "Flow or arrive slowly in a thin stream or small amounts.",
+      "example": "Water trickled down the window.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Trickle is different from trick, meaning deceive someone or perform a clever act. Check the surrounding sentence when distinguishing tricking from trickling.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe water flowing slowly down a window in a thin stream.",
+          "sample": "Water trickled down the window."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe guests arriving gradually in small numbers.",
+          "sample": "Guests trickled in throughout the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "trick-someone",
+      "expression": "Trick someone",
+      "meaning": "Make someone believe or do something by deceiving them.",
+      "example": "He tricked me into believing the story.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Trick someone into doing something. Tricking is about deception; trickling is about slow flow or gradual arrival.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe a fictional person deceiving you into believing a story.",
+          "sample": "He tricked me into believing the story."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend fools you into thinking it is their birthday as a joke. Describe it.",
+          "sample": "She tricked me into thinking it was her birthday."
+        }
+      ]
+    },
+    {
+      "id": "lube",
+      "expression": "Lube",
+      "meaning": "An informal shortened word for lubricant, a substance that reduces friction.",
+      "example": "The product label says water-based lube.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Informal / context-dependent",
+      "note": "Used for mechanical products and personal lubricants. In a personal context, this is intimate vocabulary; lubricant is more neutral or formal.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Read a fictional product label that uses an informal shortened word for a water-based lubricant.",
+          "sample": "The product label says water-based lube."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Expand the shortened word on a product label into its full form.",
+          "sample": "Lube is short for lubricant."
+        }
+      ]
+    },
+    {
+      "id": "douche-noun",
+      "expression": "A douche",
+      "meaning": "A device or stream of water used to rinse a body cavity; also a rude insult in some informal English.",
+      "example": "The dictionary lists both a rinsing-device meaning and an insulting meaning for douche.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Intimate vocabulary / offensive as an insult",
+      "note": "The insulting use describes a person negatively and can be offensive. This is vocabulary recognition, not advice about using a rinsing product.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Name the word that can refer to a body-rinsing device and also appears as a rude insult.",
+          "sample": "The dictionary lists both a rinsing-device meaning and an insulting meaning for douche."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain why the same word directed at a person can sound offensive.",
+          "sample": "Calling someone a douche is a rude insult."
+        }
+      ]
+    },
+    {
+      "id": "tits-register",
+      "expression": "Tits",
+      "meaning": "A vulgar informal word for breasts; also the plural name of a type of small bird.",
+      "example": "In a wildlife book, tits refers to birds; in other contexts it can be a vulgar body word.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Vulgar in the body-related sense",
+      "note": "Use breasts in neutral discussion of the body. This term is useful to recognise, but its body-related use can sound objectifying or offensive.",
+      "theme": "slang",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain a vulgar slang term for breasts and another meaning the word has in wildlife.",
+          "sample": "In a wildlife book, tits refers to birds; in other contexts it can be a vulgar body word."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain why a wildlife caption using the same spelling may not be vulgar.",
+          "sample": "Tits can also refer to small birds, so context matters."
+        }
+      ]
+    },
+    {
+      "id": "costs-per-person",
+      "expression": "It costs … per person",
+      "meaning": "State the price that each individual needs to pay.",
+      "example": "The diving trip costs $275 per person.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "Per person means for each participant. For a solo price, ask Does that price apply if I book on my own? This example is language practice, not a current price quote.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Explain a fictional diving trip price of $275 for each participant.",
+          "sample": "The diving trip costs $275 per person."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Describe a fictional tour priced at $40 for each visitor.",
+          "sample": "The tour costs $40 per person."
+        }
+      ]
+    },
+    {
+      "id": "on-my-own",
+      "expression": "On my own",
+      "meaning": "Alone or without help, depending on context.",
+      "example": "I'm going on the tour on my own.",
+      "pronunciation": "Listen to the phrase, then repeat it without looking.",
+      "register": "Conversational",
+      "note": "For travel bookings, it means you are not travelling with a companion. It does not necessarily mean the activity itself will be unsupervised.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-09",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a tour organiser you are travelling without a companion.",
+          "sample": "I'm going on the tour on my own."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Explain that you completed a task without assistance.",
+          "sample": "I finished it on my own."
+        }
+      ]
+    },
+    {
+      "id": "catch-feelings",
+      "expression": "Catch feelings",
+      "meaning": "Start developing romantic feelings for someone, sometimes unexpectedly.",
+      "example": "I thought we were keeping it casual, but I'm catching feelings.",
+      "pronunciation": "Listen once, then say the whole expression in one smooth chunk.",
+      "register": "Informal",
+      "note": "Usually followed by for someone. It can describe an early attraction and does not necessarily mean being deeply in love.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-10",
+      "sourceMessageId": "eaf4962c-379b-48e2-9269-e051eac68970",
+      "scenarios": [
+        {
+          "setting": "A chat with a friend",
+          "prompt": "You started seeing someone casually, but now you feel romantically attached. Tell a friend what has changed.",
+          "sample": "I think I'm catching feelings for them."
+        },
+        {
+          "setting": "An unexpected connection",
+          "prompt": "You did not expect to become romantically interested in a friend. Describe what happened.",
+          "sample": "I didn't mean to catch feelings, but I really like her now."
+        }
+      ]
+    },
+    {
+      "id": "lead-someone-on",
+      "expression": "Lead someone on",
+      "meaning": "Encourage someone to expect romantic interest or commitment that you do not genuinely intend to offer.",
+      "example": "I don't want to lead him on, so I'll be clear about how I feel.",
+      "pronunciation": "Listen once, then say the whole expression in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Flirting alone does not establish this. The expression suggests creating misleading expectations; talk about clear behaviour rather than assuming hidden intentions.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-10",
+      "sourceMessageId": "eaf4962c-379b-48e2-9269-e051eac68970",
+      "scenarios": [
+        {
+          "setting": "Being honest",
+          "prompt": "Someone wants a relationship with you, but you do not feel the same. Explain why you want to be clear with them.",
+          "sample": "I don't want to lead them on."
+        },
+        {
+          "setting": "Mixed signals",
+          "prompt": "A friend admits promising a future with someone while having no intention of continuing the relationship. Advise them to stop giving false hope.",
+          "sample": "You shouldn't lead them on if you know you don't want a relationship."
+        }
+      ]
+    },
+    {
+      "id": "be-on-the-same-page",
+      "expression": "Be on the same page",
+      "meaning": "Share an understanding of a situation, expectations or plans.",
+      "example": "We talked about what we both want, and we're on the same page now.",
+      "pronunciation": "Listen once, then say the whole expression in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Used in relationships and at work. It does not necessarily mean wanting a serious relationship; the shared understanding depends on the situation.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-10",
+      "sourceMessageId": "eaf4962c-379b-48e2-9269-e051eac68970",
+      "scenarios": [
+        {
+          "setting": "Checking expectations",
+          "prompt": "You and the person you are dating have discussed your expectations and understand each other. Describe the result.",
+          "sample": "We're on the same page about what we want."
+        },
+        {
+          "setting": "A team discussion",
+          "prompt": "Before starting a project, you want everyone to share the same understanding of the deadline and priorities. Explain your aim.",
+          "sample": "Let's make sure we're all on the same page before we start."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "date": "2026-11-02",
+      "theme": "small-talk",
+      "phraseIds": [
+        "not-up-to-much",
+        "can-t-complain",
+        "give-me-a-shout"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "relationships",
+      "phraseIds": [
+        "have-a-soft-spot-for-someone",
+        "play-hard-to-get",
+        "give-someone-butterflies"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "work",
+      "phraseIds": [
+        "get-my-point-across",
+        "touch-base",
+        "run-something-past-someone"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "social",
+      "phraseIds": [
+        "tag-along",
+        "bail-on-someone",
+        "suss-something-out"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "feelings",
+      "phraseIds": [
+        "rub-someone-the-wrong-way",
+        "have-a-short-fuse",
+        "take-something-in-your-stride"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-07",
+      "theme": "travel",
+      "phraseIds": [
+        "have-a-squiz",
+        "set-you-back",
+        "hit-the-spot"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "slang",
+      "phraseIds": [
+        "take-the-piss",
+        "give-someone-stick",
+        "have-a-laugh"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "small-talk",
+      "phraseIds": [
+        "been-flat-out",
+        "can-t-go-wrong-with",
+        "i-m-easy"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-10",
+      "theme": "relationships",
+      "phraseIds": [
+        "catch-feelings",
+        "lead-someone-on",
+        "be-on-the-same-page"
+      ],
+      "origin": "conversation"
+    }
+  ],
+  "pending": [
+    {
+      "id": "4d0e66f0-7a5f-4212-8b71-1ce0fc66727b",
+      "text": "Bet that cool blud",
+      "reason": "The intended sentence is unclear. The surrounding message is needed before this becomes a recall card."
+    },
+    {
+      "id": "unclear-busy-pussy",
+      "text": "Busy pussy",
+      "reason": "This wording may contain a typo or vulgar slang. Its intended meaning cannot be recovered reliably from the saved inventory."
+    },
+    {
+      "id": "unclear-head",
+      "text": "Head",
+      "reason": "This word has several ordinary and slang meanings. The original sentence is needed to choose the intended sense."
+    },
+    {
+      "id": "pronunciation-otaru",
+      "text": "Otaru",
+      "reason": "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card."
+    },
+    {
+      "id": "pronunciation-biei",
+      "text": "Biei",
+      "reason": "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card."
+    },
+    {
+      "id": "pronunciation-fushimi-inari",
+      "text": "Fushimi Inari",
+      "reason": "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card."
+    },
+    {
+      "id": "pronunciation-kiyomizu",
+      "text": "Kiyomizu",
+      "reason": "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card."
+    },
+    {
+      "id": "pronunciation-petrie",
+      "text": "Petrie",
+      "reason": "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card."
+    }
+  ]
+}

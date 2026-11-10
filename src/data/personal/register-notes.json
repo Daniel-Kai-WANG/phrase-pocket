@@ -1,0 +1,35 @@
+[
+  {
+    "id": "lube",
+    "expression": "Lube",
+    "meaning": "An informal shortened word for lubricant, a substance that reduces friction.",
+    "example": "The product label says water-based lube.",
+    "note": "Used for mechanical products and personal lubricants. In a personal context, this is intimate vocabulary; lubricant is more neutral or formal.",
+    "register": "Informal / context-dependent",
+    "prompt": "Read a fictional product label that uses an informal shortened word for a water-based lubricant.",
+    "transfer": "Expand the shortened word on a product label into its full form.",
+    "transferSample": "Lube is short for lubricant."
+  },
+  {
+    "id": "douche-noun",
+    "expression": "A douche",
+    "meaning": "A device or stream of water used to rinse a body cavity; also a rude insult in some informal English.",
+    "example": "The dictionary lists both a rinsing-device meaning and an insulting meaning for douche.",
+    "note": "The insulting use describes a person negatively and can be offensive. This is vocabulary recognition, not advice about using a rinsing product.",
+    "register": "Intimate vocabulary / offensive as an insult",
+    "prompt": "Name the word that can refer to a body-rinsing device and also appears as a rude insult.",
+    "transfer": "Explain why the same word directed at a person can sound offensive.",
+    "transferSample": "Calling someone a douche is a rude insult."
+  },
+  {
+    "id": "tits-register",
+    "expression": "Tits",
+    "meaning": "A vulgar informal word for breasts; also the plural name of a type of small bird.",
+    "example": "In a wildlife book, tits refers to birds; in other contexts it can be a vulgar body word.",
+    "note": "Use breasts in neutral discussion of the body. This term is useful to recognise, but its body-related use can sound objectifying or offensive.",
+    "register": "Vulgar in the body-related sense",
+    "prompt": "Explain a vulgar slang term for breasts and another meaning the word has in wildlife.",
+    "transfer": "Explain why a wildlife caption using the same spelling may not be vulgar.",
+    "transferSample": "Tits can also refer to small birds, so context matters."
+  }
+]

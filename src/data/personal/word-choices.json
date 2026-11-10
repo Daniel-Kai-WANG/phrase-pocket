@@ -1,0 +1,103 @@
+[
+  {
+    "id": "stroke-touch",
+    "expression": "Stroke",
+    "meaning": "Move your hand gently along a surface, often repeatedly.",
+    "example": "She stroked the cat's back.",
+    "note": "This touch is gentle. Strike usually describes a forceful hit. Stroke has other meanings in sport, writing and medicine; this card focuses on touching.",
+    "prompt": "Describe moving a hand gently along a cat's back.",
+    "transfer": "Describe a character gently moving a hand over soft fabric.",
+    "transferSample": "He stroked the soft fabric."
+  },
+  {
+    "id": "strike-hit",
+    "expression": "Strike",
+    "meaning": "Hit something with force.",
+    "example": "The ball struck the wall.",
+    "note": "Past tense: struck. Strike has other meanings, including stopping work in protest. It is not a synonym for gently stroke.",
+    "prompt": "Describe a ball hitting a wall forcefully.",
+    "transfer": "Describe a branch hitting a window during a storm.",
+    "transferSample": "A branch struck the window."
+  },
+  {
+    "id": "lethal",
+    "expression": "Lethal",
+    "meaning": "Capable of causing death.",
+    "example": "The sign warned of a potentially lethal hazard.",
+    "note": "Deadly has a similar meaning. The th sound in lethal is unvoiced, as in thin, not as in this.",
+    "pronunciation": "LEE-thul: use the unvoiced th sound in thin.",
+    "prompt": "Describe a hazard that could cause death.",
+    "transfer": "Explain that a fictional substance can be fatal, using a formal adjective.",
+    "transferSample": "The fictional substance is lethal."
+  },
+  {
+    "id": "venomous",
+    "expression": "Venomous",
+    "meaning": "Able to inject venom through a bite, sting or similar mechanism.",
+    "example": "Some snakes are venomous.",
+    "note": "Poisonous usually describes harm caused by eating, touching or absorbing a toxic substance. An animal can have more than one type of defence.",
+    "prompt": "Describe an animal that can inject a toxin through its bite.",
+    "transfer": "Describe a fictional creature with a toxin-injecting sting.",
+    "transferSample": "The creature is venomous."
+  },
+  {
+    "id": "poisonous",
+    "expression": "Poisonous",
+    "meaning": "Containing a substance that can harm people or animals when eaten, absorbed or otherwise taken into the body.",
+    "example": "Some wild mushrooms are poisonous.",
+    "note": "Different from venomous, which focuses on injecting venom. This vocabulary card cannot identify safe plants or animals.",
+    "prompt": "Describe mushrooms containing harmful substances that can make someone ill if eaten.",
+    "transfer": "Describe a fictional plant that is harmful to eat.",
+    "transferSample": "The plant is poisonous."
+  },
+  {
+    "id": "deadly",
+    "expression": "Deadly",
+    "meaning": "Likely or able to cause death; sometimes used figuratively for something extremely severe.",
+    "example": "The storm created a deadly situation.",
+    "note": "Similar to lethal in its literal sense. Deadly serious is an idiom meaning completely serious, not necessarily physically dangerous.",
+    "prompt": "Describe a storm-related situation that could cause death.",
+    "transfer": "Explain that a hazard can be fatal, using a common adjective.",
+    "transferSample": "That hazard can be deadly."
+  },
+  {
+    "id": "interrogate",
+    "expression": "Interrogate",
+    "meaning": "Question someone closely and persistently, often in a formal investigation.",
+    "example": "In the novel, the detective interrogates a suspect.",
+    "note": "Stronger than ask or interview. In casual speech, Don't interrogate me can mean stop asking so many intense questions.",
+    "prompt": "Describe a detective questioning a suspect closely in a novel.",
+    "transfer": "In a playful fictional chat, ask someone to stop questioning every detail of your day.",
+    "transferSample": "Don't interrogate me; I just went for a walk!"
+  },
+  {
+    "id": "whip-object",
+    "expression": "A whip",
+    "meaning": "A long, flexible implement traditionally used to strike or make a cracking sound.",
+    "example": "The actor carried a prop whip in the adventure scene.",
+    "note": "This card names an object. Whip is also a cooking verb, as in whip cream, which is a different meaning.",
+    "prompt": "Name the long flexible prop an actor carries in an adventure scene.",
+    "transfer": "Describe a museum display of this traditional flexible implement.",
+    "transferSample": "The display included an old whip."
+  },
+  {
+    "id": "trickle",
+    "expression": "Trickle",
+    "meaning": "Flow or arrive slowly in a thin stream or small amounts.",
+    "example": "Water trickled down the window.",
+    "note": "Trickle is different from trick, meaning deceive someone or perform a clever act. Check the surrounding sentence when distinguishing tricking from trickling.",
+    "prompt": "Describe water flowing slowly down a window in a thin stream.",
+    "transfer": "Describe guests arriving gradually in small numbers.",
+    "transferSample": "Guests trickled in throughout the afternoon."
+  },
+  {
+    "id": "trick-someone",
+    "expression": "Trick someone",
+    "meaning": "Make someone believe or do something by deceiving them.",
+    "example": "He tricked me into believing the story.",
+    "note": "Trick someone into doing something. Tricking is about deception; trickling is about slow flow or gradual arrival.",
+    "prompt": "Describe a fictional person deceiving you into believing a story.",
+    "transfer": "A friend fools you into thinking it is their birthday as a joke. Describe it.",
+    "transferSample": "She tricked me into thinking it was her birthday."
+  }
+]

@@ -1,0 +1,666 @@
+{
+  "phrases": [
+    {
+      "id": "not-up-to-much",
+      "expression": "Not up to much",
+      "meaning": "I do not have much planned or happening.",
+      "example": "Not up to much, just having a quiet afternoon.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. Use it to describe your activities, not your ability.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks about your plans this afternoon. You have nothing special planned.",
+          "sample": "Not up to much, just having a quiet afternoon."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A colleague asks what you did over the weekend. It was very quiet.",
+          "sample": "I wasn't up to much, just relaxing at home."
+        }
+      ]
+    },
+    {
+      "id": "can-t-complain",
+      "expression": "Can't complain",
+      "meaning": "Things are going reasonably well.",
+      "example": "Can't complain. Work's been pretty good lately.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "An understated positive answer, not a literal rule about complaining.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "An old friend asks how life is going. Things are fine.",
+          "sample": "Can't complain. Work's been pretty good lately."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your neighbour asks how your new job is going. It is going quite well.",
+          "sample": "Can't complain. Everyone's been really helpful."
+        }
+      ]
+    },
+    {
+      "id": "give-me-a-shout",
+      "expression": "Give me a shout",
+      "meaning": "Contact me or let me know.",
+      "example": "Give me a shout when you're free for coffee.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. It usually does not mean speaking loudly.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-02",
+      "sourceMessageId": "2dc47707-b075-4c8c-8ae5-3e8c054b1d9c",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You want a friend to contact you when they have a free afternoon.",
+          "sample": "Give me a shout when you're free for coffee."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A teammate may need help later. Invite them to contact you.",
+          "sample": "Give me a shout if you need a hand."
+        }
+      ]
+    },
+    {
+      "id": "have-a-soft-spot-for-someone",
+      "expression": "Have a soft spot for someone",
+      "meaning": "Feel especially fond of someone, often despite their faults.",
+      "example": "I've always had a soft spot for my old neighbour.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Can also refer to places or things. It does not always mean romantic attraction.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that you feel especially fond of your old neighbour.",
+          "sample": "I've always had a soft spot for my old neighbour."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You feel fond of the small caf\u00e9 where you first worked. Explain that feeling.",
+          "sample": "I've got a soft spot for that little caf\u00e9."
+        }
+      ]
+    },
+    {
+      "id": "play-hard-to-get",
+      "expression": "Play hard to get",
+      "meaning": "Act less interested than you are to make someone pursue you.",
+      "example": "I think he's playing hard to get.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Usually used in dating. Do not assume that a real lack of interest is a game.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friend thinks their date is deliberately acting uninterested. Describe that behaviour.",
+          "sample": "I think he's playing hard to get."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone delays replying because they want to seem less eager. Describe the strategy.",
+          "sample": "She's playing hard to get by waiting before she replies."
+        }
+      ]
+    },
+    {
+      "id": "give-someone-butterflies",
+      "expression": "Give someone butterflies",
+      "meaning": "Make someone feel fluttery excitement or nervousness.",
+      "example": "Seeing her still gives me butterflies.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Often romantic, but also used for anticipation and nervousness.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-03",
+      "sourceMessageId": "a55b0a5f-b23c-49ad-9733-6d36be155269",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Describe the excited, nervous feeling you get when you see someone you like.",
+          "sample": "Seeing her still gives me butterflies."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You feel nervous excitement before going on stage. Describe how performing affects you.",
+          "sample": "Going on stage gives me butterflies."
+        }
+      ]
+    },
+    {
+      "id": "get-my-point-across",
+      "expression": "Get my point across",
+      "meaning": "Communicate an idea so someone understands it.",
+      "example": "I couldn't get my point across in the meeting.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Use get something across or get a point across. Get across something can have other meanings.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You had a useful idea in a meeting but could not make people understand it.",
+          "sample": "I couldn't get my point across in the meeting."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You want your presentation to make one main idea clear. Explain your goal.",
+          "sample": "I want to get my main point across clearly."
+        }
+      ]
+    },
+    {
+      "id": "touch-base",
+      "expression": "Touch base",
+      "meaning": "Contact someone briefly to exchange news or check progress.",
+      "example": "Let's touch base tomorrow about the proposal.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Common in work conversations. Use touch base with someone about something.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Arrange a brief progress check with a colleague tomorrow.",
+          "sample": "Let's touch base tomorrow about the proposal."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You want to contact a friend briefly after their first week in a new job.",
+          "sample": "I'll touch base with you on Friday and see how it's going."
+        }
+      ]
+    },
+    {
+      "id": "run-something-past-someone",
+      "expression": "Run something past someone",
+      "meaning": "Tell someone an idea to get their opinion or approval.",
+      "example": "Can I run an idea past you?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "Run something by someone is also natural.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-04",
+      "sourceMessageId": "8b1df4a2-896e-49e0-9300-73de73dcf01d",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a colleague if you can share an idea for their opinion.",
+          "sample": "Can I run an idea past you?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Before booking a trip, you want your partner's view on the plan.",
+          "sample": "I'll run the plan past you before I book anything."
+        }
+      ]
+    },
+    {
+      "id": "tag-along",
+      "expression": "Tag along",
+      "meaning": "Join someone else's trip or activity.",
+      "example": "Mind if I tag along to the market?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. It can suggest joining plans that were already made.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friends are going to the market. Ask to join them.",
+          "sample": "Mind if I tag along to the market?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your flatmate is going for a walk. Ask whether you can come too.",
+          "sample": "Can I tag along on your walk?"
+        }
+      ]
+    },
+    {
+      "id": "bail-on-someone",
+      "expression": "Bail on someone",
+      "meaning": "Cancel or leave plans involving someone, often at short notice.",
+      "example": "Sorry I bailed on you last night.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual. Bail can also have legal meanings, which are different.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Apologise for cancelling dinner with your friend at the last minute.",
+          "sample": "Sorry I bailed on you last night."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend cancels your weekend plans again. Explain why you are disappointed.",
+          "sample": "I'm disappointed that you bailed on me again."
+        }
+      ]
+    },
+    {
+      "id": "suss-something-out",
+      "expression": "Suss something out",
+      "meaning": "Investigate or understand something by checking it.",
+      "example": "I'll suss out the parking before we go.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Informal, common in Australian and British English.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-05",
+      "sourceMessageId": "f0359ef6-0d20-44cf-9eae-d24fef5b64a8",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You want to check the parking situation before a visit.",
+          "sample": "I'll suss out the parking before we go."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You are trying to understand how a new booking system works.",
+          "sample": "I'm still sussing out how the booking system works."
+        }
+      ]
+    },
+    {
+      "id": "rub-someone-the-wrong-way",
+      "expression": "Rub someone the wrong way",
+      "meaning": "Annoy someone, often because of your manner or attitude.",
+      "example": "His dismissive tone rubbed me the wrong way.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "American English often uses rub someone the wrong way; British English also uses rub someone up the wrong way.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A colleague's dismissive tone annoyed you. Explain how it affected you.",
+          "sample": "His dismissive tone rubbed me the wrong way."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your joke annoyed a friend even though you meant no harm.",
+          "sample": "I think my joke rubbed her the wrong way."
+        }
+      ]
+    },
+    {
+      "id": "have-a-short-fuse",
+      "expression": "Have a short fuse",
+      "meaning": "Become angry very easily or quickly.",
+      "example": "I've had a short fuse lately because I'm exhausted.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "It describes a tendency to anger, not a single calm disagreement.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You have been getting angry quickly because you are exhausted. Explain it.",
+          "sample": "I've had a short fuse lately because I'm exhausted."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A character in a film gets angry at the smallest problem. Describe them.",
+          "sample": "That character has a very short fuse."
+        }
+      ]
+    },
+    {
+      "id": "take-something-in-your-stride",
+      "expression": "Take something in your stride",
+      "meaning": "Deal calmly with a difficulty or surprise.",
+      "example": "She took the last-minute change in her stride.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Conversational",
+      "note": "In American English, take something in stride is also common.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-06",
+      "sourceMessageId": "e664dc6c-c3aa-4cea-b6c2-e8c8e2f7575b",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Praise a colleague who stayed calm when the plan changed suddenly.",
+          "sample": "She took the last-minute change in her stride."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You had a travel delay but handled it without much stress.",
+          "sample": "I took the delay in my stride and found somewhere to read."
+        }
+      ]
+    },
+    {
+      "id": "have-a-squiz",
+      "expression": "Have a squiz",
+      "meaning": "Have a quick look.",
+      "example": "Let's have a squiz at the menu.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Very informal Australian and New Zealand English. Squiz rhymes with quiz.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Ask a friend to take a quick look at a caf\u00e9 menu with you.",
+          "sample": "Let's have a squiz at the menu."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend has a new camera. Ask to have a look at it.",
+          "sample": "Can I have a squiz at your new camera?"
+        }
+      ]
+    },
+    {
+      "id": "set-you-back",
+      "expression": "Set you back",
+      "meaning": "Cost you an amount of money.",
+      "example": "That jacket will set you back about two hundred dollars.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Informal when discussing cost. Set someone back can also mean delay their progress.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that a jacket costs about two hundred dollars.",
+          "sample": "That jacket will set you back about two hundred dollars."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone asks how much your weekend trip cost.",
+          "sample": "The trip set me back about four hundred dollars."
+        }
+      ]
+    },
+    {
+      "id": "hit-the-spot",
+      "expression": "Hit the spot",
+      "meaning": "Be exactly what you wanted or needed, especially food or drink.",
+      "example": "That cold drink really hit the spot.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Usually expresses satisfaction or relief, not a physical hit.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-07",
+      "sourceMessageId": "7516af9f-bff1-46be-a98d-94619370f1bf",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "You have a cold drink after a long walk. Say how satisfying it is.",
+          "sample": "That cold drink really hit the spot."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You enjoy a bowl of soup on a cold evening.",
+          "sample": "That soup really hit the spot."
+        }
+      ]
+    },
+    {
+      "id": "take-the-piss",
+      "expression": "Take the piss",
+      "meaning": "Make fun of someone, or behave unreasonably.",
+      "example": "Are you taking the piss, or are you serious?",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Very informal and mildly vulgar. Use with people who are comfortable with it.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A mate makes a ridiculous claim. Ask if they are joking.",
+          "sample": "Are you taking the piss, or are you serious?"
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A friend keeps teasing you about your terrible singing. Describe it.",
+          "sample": "He's taking the piss out of my singing."
+        }
+      ]
+    },
+    {
+      "id": "give-someone-stick",
+      "expression": "Give someone stick",
+      "meaning": "Tease or criticise someone.",
+      "example": "My mates gave me stick for missing the goal.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Informal British and Australian English. Tone decides whether it feels playful or harsh.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Your friends tease you because you missed an easy goal. Describe what happened.",
+          "sample": "My mates gave me stick for missing the goal."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "A teammate arrived late and everyone teased them about it.",
+          "sample": "We gave him a bit of stick for being late."
+        }
+      ]
+    },
+    {
+      "id": "have-a-laugh",
+      "expression": "Have a laugh",
+      "meaning": "Enjoy a funny or pleasant time together; sometimes mean to joke.",
+      "example": "We had a laugh over lunch.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Very informal",
+      "note": "Having a laugh can mean joking. Are you having a laugh? can express disbelief.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-08",
+      "sourceMessageId": "2ff72adf-01c9-428a-9238-29d63dd3b88f",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Tell a friend that lunch with your colleagues was funny and enjoyable.",
+          "sample": "We had a laugh over lunch."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Someone asks an absurd price. In casual British English, question whether they are serious.",
+          "sample": "You're having a laugh if you think I'll pay that much."
+        }
+      ]
+    },
+    {
+      "id": "been-flat-out",
+      "expression": "Been flat out",
+      "meaning": "Have been extremely busy.",
+      "example": "I've been flat out with work this week.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Common in Australian English. Flat out can also mean at maximum speed.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks why they have not seen you lately. Work has been extremely busy.",
+          "sample": "I've been flat out with work this week."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "You have been very busy preparing for a move. Explain why you missed a message.",
+          "sample": "Sorry, I've been flat out getting ready to move."
+        }
+      ]
+    },
+    {
+      "id": "can-t-go-wrong-with",
+      "expression": "Can't go wrong with ...",
+      "meaning": "Something is a reliable or safe choice.",
+      "example": "You can't go wrong with a good Thai place.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "An enthusiastic recommendation, not a literal guarantee.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "Recommend Thai food as a reliable dinner choice.",
+          "sample": "You can't go wrong with a good Thai place."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your friend needs a simple picnic snack. Recommend fresh fruit.",
+          "sample": "You can't go wrong with fresh fruit for a picnic."
+        }
+      ]
+    },
+    {
+      "id": "i-m-easy",
+      "expression": "I'm easy",
+      "meaning": "I am happy with any of the options.",
+      "example": "I'm easy. Coffee or lunch both sound good.",
+      "pronunciation": "Listen once, then try saying the whole phrase in one smooth chunk.",
+      "register": "Informal",
+      "note": "Casual, common in Australia and Britain. Use a clear choice context to avoid unintended meanings.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-09",
+      "sourceMessageId": "7577bc30-f2d0-4ee0-9788-f546530f41ad",
+      "scenarios": [
+        {
+          "setting": "First encounter",
+          "prompt": "A friend asks whether you prefer coffee or lunch. You are happy with either.",
+          "sample": "I'm easy. Coffee or lunch both sound good."
+        },
+        {
+          "setting": "A new situation",
+          "prompt": "Your friends ask whether to meet on Saturday or Sunday. Both suit you.",
+          "sample": "I'm easy. Either day works for me."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "date": "2026-11-02",
+      "theme": "small-talk",
+      "phraseIds": ["not-up-to-much", "can-t-complain", "give-me-a-shout"],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "relationships",
+      "phraseIds": [
+        "have-a-soft-spot-for-someone",
+        "play-hard-to-get",
+        "give-someone-butterflies"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "work",
+      "phraseIds": [
+        "get-my-point-across",
+        "touch-base",
+        "run-something-past-someone"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "social",
+      "phraseIds": ["tag-along", "bail-on-someone", "suss-something-out"],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-06",
+      "theme": "feelings",
+      "phraseIds": [
+        "rub-someone-the-wrong-way",
+        "have-a-short-fuse",
+        "take-something-in-your-stride"
+      ],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-07",
+      "theme": "travel",
+      "phraseIds": ["have-a-squiz", "set-you-back", "hit-the-spot"],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "slang",
+      "phraseIds": ["take-the-piss", "give-someone-stick", "have-a-laugh"],
+      "origin": "conversation"
+    },
+    {
+      "date": "2026-11-09",
+      "theme": "small-talk",
+      "phraseIds": ["been-flat-out", "can-t-go-wrong-with", "i-m-easy"],
+      "origin": "conversation"
+    }
+  ]
+}

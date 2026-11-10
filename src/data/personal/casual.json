@@ -1,0 +1,189 @@
+[
+  {
+    "id": "fabulous",
+    "expression": "Fabulous",
+    "meaning": "Extremely good, enjoyable or attractive.",
+    "example": "You look fabulous in that jacket.",
+    "note": "An enthusiastic compliment. Awesome is another informal way to express strong approval.",
+    "prompt": "Give an enthusiastic compliment about a friend's jacket and appearance.",
+    "transfer": "Describe a holiday you enjoyed very much.",
+    "transferSample": "We had a fabulous holiday."
+  },
+  {
+    "id": "awesome",
+    "expression": "Awesome",
+    "meaning": "Very good or impressive, in informal conversation.",
+    "example": "That sounds awesome!",
+    "note": "Often a casual positive reaction. In other contexts, awesome can describe something that inspires awe.",
+    "prompt": "A friend describes an exciting weekend plan. React enthusiastically.",
+    "transfer": "Thank someone for doing an excellent job helping you.",
+    "transferSample": "You've been awesome. Thanks for all your help."
+  },
+  {
+    "id": "tummy",
+    "expression": "Tummy",
+    "meaning": "An informal, often child-friendly word for the stomach or belly.",
+    "example": "My tummy is rumbling.",
+    "note": "Casual or affectionate. Stomach or abdomen is more suitable in formal contexts, depending on meaning.",
+    "prompt": "Say playfully that your belly is making hungry noises.",
+    "transfer": "A character in a children's story says their belly feels full. Write their line.",
+    "transferSample": "My tummy is full."
+  },
+  {
+    "id": "meme",
+    "expression": "A meme",
+    "meaning": "An idea, image, video or joke that people share and adapt, especially online.",
+    "example": "That cat meme made me laugh.",
+    "note": "In everyday internet use, often a recognisable joke format. Pronounce it meem, one syllable.",
+    "pronunciation": "One syllable: meem, rhyming with team.",
+    "prompt": "Describe an online cat joke in a widely shared image format.",
+    "transfer": "Ask a friend to send you a funny shared internet joke again.",
+    "transferSample": "Can you send me that meme again?"
+  },
+  {
+    "id": "aint",
+    "expression": "Ain't",
+    "meaning": "A very informal form used in some varieties of English in place of am not, is not, are not, has not or have not.",
+    "example": "I ain't ready yet.",
+    "note": "Useful to recognise in dialogue and songs. It is not generally appropriate in formal writing. The example means I am not ready yet.",
+    "register": "Very informal / dialectal",
+    "prompt": "In a fictional character's very informal dialogue, say I am not ready yet using the contracted dialect form.",
+    "transfer": "A fictional character says something is not fair in very informal speech. Write the line.",
+    "transferSample": "That ain't fair."
+  },
+  {
+    "id": "nvm",
+    "expression": "Nvm",
+    "meaning": "A text-message abbreviation for never mind.",
+    "example": "Nvm, I found it!",
+    "note": "Used to withdraw a question or say something no longer matters. Spell out never mind in ordinary speech.",
+    "register": "Texting",
+    "prompt": "You asked where something was, but have just found it. Withdraw the question in a short text.",
+    "transfer": "A friend is about to help, but the issue is already resolved. Send a brief informal message.",
+    "transferSample": "Nvm, it's sorted now."
+  },
+  {
+    "id": "hmu",
+    "expression": "HMU",
+    "meaning": "A text-message abbreviation for hit me up, meaning contact me.",
+    "example": "HMU if you're free this weekend.",
+    "note": "Very casual and can sound friendly or flirtatious depending on context. Not suitable for most formal messages.",
+    "register": "Texting / slang",
+    "prompt": "In a casual text, invite a friend to contact you if they are free this weekend.",
+    "transfer": "Ask a friend to message you when they arrive in town, using the abbreviation.",
+    "transferSample": "HMU when you get into town."
+  },
+  {
+    "id": "ngl",
+    "expression": "NGL",
+    "meaning": "A text-message abbreviation for not gonna lie, used before a candid opinion.",
+    "example": "NGL, I really enjoyed that film.",
+    "note": "Informal. It often introduces honesty or mild surprise rather than literally describing a decision about lying.",
+    "register": "Texting / slang",
+    "prompt": "Give a candid positive opinion about a film in a short informal text.",
+    "transfer": "Admit casually that a task was more difficult than expected.",
+    "transferSample": "NGL, that was harder than I expected."
+  },
+  {
+    "id": "pov",
+    "expression": "POV",
+    "meaning": "An abbreviation for point of view, meaning the perspective from which something is seen or told.",
+    "example": "The story is told from the child's POV.",
+    "note": "Social captions often use POV to invite the viewer into a situation, sometimes loosely. Formal writing usually spells it out first.",
+    "register": "Abbreviation",
+    "prompt": "Describe a story told through a child's perspective, using the abbreviation.",
+    "transfer": "Label a video caption that places the viewer in the position of someone arriving late.",
+    "transferSample": "POV: you're the last person to arrive."
+  },
+  {
+    "id": "wanna",
+    "expression": "Wanna",
+    "meaning": "An informal written representation of want to in casual speech.",
+    "example": "Do you wanna grab a coffee?",
+    "note": "Use want to in formal writing. Wanna represents connected speech and is not a replacement for every use of want.",
+    "register": "Very informal",
+    "prompt": "Invite a close friend for coffee using a very casual form of want to.",
+    "transfer": "Say casually that you want to watch a film tonight.",
+    "transferSample": "I wanna watch a film tonight."
+  },
+  {
+    "id": "goofy",
+    "expression": "Goofy",
+    "meaning": "Silly, funny or a little awkward in an endearing way.",
+    "example": "He has a goofy sense of humour.",
+    "note": "Often affectionate, but can also sound dismissive. Goofy with a capital G is also a fictional character's name.",
+    "prompt": "Describe a friend's silly but likeable sense of humour.",
+    "transfer": "Describe a playful photograph where everyone makes silly faces.",
+    "transferSample": "We took a goofy photo together."
+  },
+  {
+    "id": "kick-out",
+    "expression": "Kick someone out",
+    "meaning": "Force someone to leave a place or group.",
+    "example": "They kicked him out of the group chat.",
+    "note": "Often informal and stronger than ask someone to leave. It does not always involve physical kicking.",
+    "prompt": "Describe someone being forced to leave a group chat.",
+    "transfer": "A fictional disruptive guest is made to leave a party. Describe it.",
+    "transferSample": "They kicked the disruptive guest out of the party."
+  },
+  {
+    "id": "tell-off",
+    "expression": "Tell someone off",
+    "meaning": "Speak angrily to someone because they have done something wrong.",
+    "example": "The teacher told us off for talking.",
+    "note": "Tell someone off for doing something. Common in British and Australian English; scold is another word.",
+    "prompt": "Describe a teacher expressing anger because students kept talking.",
+    "transfer": "A fictional manager criticises someone angrily for arriving late.",
+    "transferSample": "The manager told him off for being late."
+  },
+  {
+    "id": "scold",
+    "expression": "Scold",
+    "meaning": "Speak to someone angrily about something they have done wrong.",
+    "example": "She scolded the child for drawing on the wall.",
+    "note": "Often used about adults correcting children. Tell someone off is a conversational alternative.",
+    "prompt": "Describe an adult angrily correcting a child who drew on a wall.",
+    "transfer": "A fictional character criticises a younger sibling for breaking a rule.",
+    "transferSample": "He scolded his younger brother for breaking the rule."
+  },
+  {
+    "id": "swear",
+    "expression": "Swear",
+    "meaning": "Use words considered rude or offensive.",
+    "example": "He swore when he dropped the box.",
+    "note": "Swear at someone directs offensive language towards them. Swear can also mean make a serious promise; that is a different sense.",
+    "prompt": "Describe someone using offensive language after dropping a heavy box.",
+    "transfer": "Ask someone not to direct rude words at you.",
+    "transferSample": "Please don't swear at me."
+  },
+  {
+    "id": "yell",
+    "expression": "Yell",
+    "meaning": "Shout loudly.",
+    "example": "I could hear people yelling outside.",
+    "note": "Yelling describes volume; scolding describes criticism. A person may yell to be heard without being angry.",
+    "prompt": "Describe people shouting loudly outside.",
+    "transfer": "Ask someone to speak more quietly because you are standing nearby.",
+    "transferSample": "You don't need to yell; I'm right here."
+  },
+  {
+    "id": "blame",
+    "expression": "Blame",
+    "meaning": "Say or believe that someone or something is responsible for a problem.",
+    "example": "Don't blame yourself for the delay.",
+    "note": "Blame someone for something, or blame something on someone. Blame is not simply another word for shout.",
+    "prompt": "Reassure someone that they should not hold themselves responsible for a delay.",
+    "transfer": "Say that a character unfairly holds the weather responsible for every problem.",
+    "transferSample": "He blames everything on the weather."
+  },
+  {
+    "id": "bunny-hop",
+    "expression": "Bunny hop",
+    "meaning": "Make a short jump with both feet together; in some sports or games, perform a particular hopping movement.",
+    "example": "The children bunny-hopped across the grass.",
+    "note": "The movement has specialised meanings in cycling and games. This card uses the ordinary two-footed movement.",
+    "prompt": "Describe children moving in little jumps with both feet together.",
+    "transfer": "A fitness instructor asks for small jumps with the feet together. Name the movement.",
+    "transferSample": "Let's do a few bunny hops."
+  }
+]

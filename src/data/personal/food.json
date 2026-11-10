@@ -1,0 +1,143 @@
+[
+  {
+    "id": "soggy",
+    "expression": "Soggy",
+    "meaning": "Unpleasantly wet and soft, especially when something should be crisp.",
+    "example": "The chips went soggy in the closed container.",
+    "note": "Soggy describes texture. Greasy describes excess oil; bland describes weak flavour.",
+    "prompt": "Describe chips that have become wet and soft instead of crisp.",
+    "transfer": "Describe toast softened by too much liquid.",
+    "transferSample": "The toast is soggy now."
+  },
+  {
+    "id": "greasy",
+    "expression": "Greasy",
+    "meaning": "Covered with or containing an unpleasant amount of oil or fat.",
+    "example": "These chips are a bit greasy.",
+    "note": "Oily also describes oiliness. Greasy often suggests an unpleasant feel; neither is usually the best word for charming but insincere speech.",
+    "prompt": "Describe chips that feel unpleasantly coated in oil.",
+    "transfer": "Describe your hands after touching an oily pan.",
+    "transferSample": "My hands feel greasy."
+  },
+  {
+    "id": "bland",
+    "expression": "Bland",
+    "meaning": "Lacking strong or interesting flavour.",
+    "example": "The soup tastes a little bland.",
+    "note": "Bland can also describe something uninteresting. For food, it does not necessarily mean bad or inedible.",
+    "prompt": "Describe soup that does not have much flavour.",
+    "transfer": "Politely explain that a sauce could use more seasoning.",
+    "transferSample": "The sauce is a little bland; it could use more seasoning."
+  },
+  {
+    "id": "season-food",
+    "expression": "Season",
+    "meaning": "Add ingredients such as salt, herbs or spices to improve the flavour of food.",
+    "example": "Season the vegetables to taste.",
+    "note": "As a food verb, this is different from a season of the year. Seasoning is the noun for flavouring ingredients or the act of adding them.",
+    "prompt": "Tell a cook to add flavouring to vegetables according to taste.",
+    "transfer": "Ask whether a sauce has had salt or other flavourings added.",
+    "transferSample": "Have you seasoned the sauce yet?"
+  },
+  {
+    "id": "marinate",
+    "expression": "Marinate",
+    "meaning": "Leave food in a seasoned liquid or mixture so it takes on flavour.",
+    "example": "The recipe says to marinate the vegetables before cooking.",
+    "note": "Marinade is the mixture; marinate is the verb. Dry brining uses salt without a liquid marinade.",
+    "prompt": "Describe leaving vegetables in a seasoned mixture before cooking.",
+    "transfer": "Ask whether a recipe calls for an overnight flavouring step using a liquid mixture.",
+    "transferSample": "Does the recipe say to marinate it overnight?"
+  },
+  {
+    "id": "dry-brine",
+    "expression": "Dry-brine",
+    "meaning": "Salt food in advance without soaking it in a liquid brine.",
+    "example": "This recipe tells you to dry-brine the meat.",
+    "note": "This is cooking vocabulary, not a complete preparation method. Unlike a wet brine, it does not begin with soaking in a salt solution.",
+    "prompt": "Name the preparation method of applying salt in advance without a liquid soak.",
+    "transfer": "A recipe says to salt the food beforehand rather than immerse it in brine. Explain the instruction.",
+    "transferSample": "It asks you to dry-brine the food."
+  },
+  {
+    "id": "overripe",
+    "expression": "Overripe",
+    "meaning": "Riper than is ideal, often becoming too soft.",
+    "example": "That banana is overripe.",
+    "note": "Use ripe or overripe for fruit. Overcooked refers to cooking too long, and mature often describes development or age.",
+    "prompt": "Describe a banana that has become too ripe and very soft.",
+    "transfer": "Explain that peaches are past their best stage of ripeness.",
+    "transferSample": "The peaches are overripe."
+  },
+  {
+    "id": "overcooked",
+    "expression": "Overcooked",
+    "meaning": "Cooked longer than is desirable.",
+    "example": "The pasta is overcooked and too soft.",
+    "note": "Different foods become dry, tough or soft when overcooked. The word refers to cooking, not ripening.",
+    "prompt": "Describe pasta made too soft by being cooked for too long.",
+    "transfer": "Explain that vegetables lost their texture because they were cooked too long.",
+    "transferSample": "The vegetables are overcooked."
+  },
+  {
+    "id": "hotpot",
+    "expression": "Hotpot",
+    "meaning": "A meal in which ingredients are cooked in a pot of hot broth, often at the table.",
+    "example": "Shall we have hotpot tonight?",
+    "note": "In some English contexts hotpot can refer to a baked stew; specify Chinese hotpot when helpful. Broth is the liquid used for cooking.",
+    "prompt": "Suggest a meal where you cook ingredients in a shared pot of broth at the table.",
+    "transfer": "Explain that you are choosing the Chinese table-cooking meal, not a baked stew.",
+    "transferSample": "I mean Chinese hotpot."
+  },
+  {
+    "id": "beef-tallow-broth",
+    "expression": "Beef-tallow broth",
+    "meaning": "A broth made with rendered beef fat, often used as a hotpot base.",
+    "example": "This hotpot has a spicy beef-tallow broth.",
+    "note": "Tallow is rendered animal fat; beef tallow specifically comes from cattle. Broth is the cooking liquid, not the meat slices added to it.",
+    "prompt": "Describe a spicy hotpot base made with rendered beef fat.",
+    "transfer": "Ask whether a hotpot broth contains rendered beef fat.",
+    "transferSample": "Is this a beef-tallow broth?"
+  },
+  {
+    "id": "sago-taro-dessert",
+    "expression": "Sago and taro dessert soup",
+    "meaning": "A sweet dessert containing sago pearls and taro, often served in a sweet liquid.",
+    "example": "I'd like the sago and taro dessert soup.",
+    "note": "Taro is a starchy root. If the taro is mashed, say mashed taro. Menu names vary, so ingredients can communicate more clearly than a fixed dish name.",
+    "prompt": "Order a sweet soup with sago pearls and taro.",
+    "transfer": "Describe a dessert containing sago pearls and mashed taro.",
+    "transferSample": "It's a dessert soup with sago and mashed taro."
+  },
+  {
+    "id": "sukiyaki",
+    "expression": "Sukiyaki",
+    "meaning": "A Japanese hotpot-style dish commonly made with thinly sliced beef, vegetables and a sweet-savoury sauce.",
+    "example": "We had sukiyaki for dinner.",
+    "note": "Sukiyaki is a dish name. It is different from the general term hotpot, which covers many types of meals.",
+    "prompt": "Name the Japanese dish with thinly sliced beef and vegetables in a sweet-savoury cooking mixture.",
+    "transfer": "Tell a friend what you ordered at a Japanese restaurant using this dish name.",
+    "transferSample": "I ordered sukiyaki."
+  },
+  {
+    "id": "burrito",
+    "expression": "A burrito",
+    "meaning": "A tortilla wrapped around a filling such as beans, rice, vegetables or meat.",
+    "example": "I'd like a bean burrito, please.",
+    "note": "The filling varies. In English, the middle syllable is usually stressed: buh-REE-toh.",
+    "pronunciation": "Stress the middle syllable: buh-REE-toh.",
+    "prompt": "Order a filled tortilla wrap with beans, using the dish's name.",
+    "transfer": "Ask whether a menu includes a vegetarian version of this wrapped dish.",
+    "transferSample": "Do you have a vegetarian burrito?"
+  },
+  {
+    "id": "sichuan",
+    "expression": "Sichuan",
+    "meaning": "The name of a Chinese province, also used to describe food associated with that region.",
+    "example": "I enjoy Sichuan food.",
+    "note": "Szechuan and Szechwan are alternative English spellings. Schezwan also appears on some menus, especially for adapted dishes; menu labels do not guarantee the same recipe.",
+    "prompt": "Say you enjoy the Chinese regional cuisine associated with spicy and numbing flavours, naming the region.",
+    "transfer": "Ask a friend whether they would like that regional cuisine for dinner.",
+    "transferSample": "Would you like Sichuan food tonight?"
+  }
+]

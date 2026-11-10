@@ -1,0 +1,192 @@
+[
+  {
+    "id": "on-purpose",
+    "expression": "On purpose",
+    "meaning": "Intentionally, rather than by accident.",
+    "example": "I didn't ignore your message on purpose.",
+    "note": "Deliberately has a similar meaning. On purpose is not the same as for a purpose, which explains a reason or function.",
+    "prompt": "Explain that you did not intentionally ignore someone's message.",
+    "transfer": "A teammate asks whether you changed a setting accidentally. Say the change was intentional.",
+    "transferSample": "I changed it on purpose."
+  },
+  {
+    "id": "proactive",
+    "expression": "Proactive",
+    "meaning": "Taking action early instead of waiting for problems or instructions.",
+    "example": "She's proactive about solving small problems.",
+    "note": "Proactive is about anticipating and acting. Active alone does not necessarily mean anticipating a need.",
+    "prompt": "Describe a colleague who notices potential problems and acts before being asked.",
+    "transfer": "Explain that your team should prevent issues rather than only respond to them.",
+    "transferSample": "We need to be more proactive about maintenance."
+  },
+  {
+    "id": "passive",
+    "expression": "Passive",
+    "meaning": "Allowing things to happen without taking much action or control.",
+    "example": "Don't be too passive in the discussion; share your ideas.",
+    "note": "Passive can describe behaviour. The passive voice is a separate grammar term.",
+    "prompt": "Encourage a colleague to contribute rather than simply let others direct the discussion.",
+    "transfer": "Describe your earlier habit of waiting for instructions instead of taking initiative.",
+    "transferSample": "I used to be quite passive at work."
+  },
+  {
+    "id": "willing-to",
+    "expression": "Be willing to",
+    "meaning": "Be ready or prepared to do something voluntarily.",
+    "example": "I'm willing to learn a new system.",
+    "note": "Use willing to + base verb. Willing is about readiness, not necessarily enjoyment.",
+    "prompt": "Tell a manager you are prepared to learn a different system.",
+    "transfer": "Offer to change your schedule to help a team.",
+    "transferSample": "I'm willing to adjust my schedule."
+  },
+  {
+    "id": "even-though",
+    "expression": "Even though",
+    "meaning": "Despite the fact that; introduces a real situation that contrasts with another fact.",
+    "example": "I went for a walk even though it was raining.",
+    "note": "Even though usually refers to an actual fact. Even if often introduces a hypothetical possibility.",
+    "prompt": "Say you went for a walk despite the rain that was actually falling.",
+    "transfer": "Explain that you enjoyed a difficult project despite how demanding it was.",
+    "transferSample": "I enjoyed the project even though it was difficult."
+  },
+  {
+    "id": "regardless-of",
+    "expression": "Regardless of",
+    "meaning": "Without being affected by a particular factor.",
+    "example": "We'll continue regardless of the weather.",
+    "note": "Follow regardless of with a noun, pronoun or -ing phrase. Regardless of whether can introduce alternatives.",
+    "prompt": "Say the weather will not change your decision to continue.",
+    "transfer": "Explain that everyone should be treated respectfully, whatever their experience level.",
+    "transferSample": "Everyone deserves respect regardless of experience."
+  },
+  {
+    "id": "prerequisite",
+    "expression": "A prerequisite",
+    "meaning": "Something required before another thing can happen or be done.",
+    "example": "Basic computer skills are a prerequisite for this course.",
+    "note": "A prerequisite for something. It is a requirement beforehand, not merely a useful extra.",
+    "prompt": "Say that basic computer skills are required before starting a course.",
+    "transfer": "Explain that completing an introductory module is necessary before the advanced one.",
+    "transferSample": "The introductory module is a prerequisite for the advanced course."
+  },
+  {
+    "id": "absorb-knowledge",
+    "expression": "Absorb information",
+    "meaning": "Take in and gradually understand or remember information.",
+    "example": "I need some time to absorb all this information.",
+    "note": "Absorb can also mean take in liquid. Sober has a different meaning and is not the verb for learning information.",
+    "prompt": "You have received a lot of new information and need time to take it in. Explain.",
+    "transfer": "Describe learning a great deal by listening carefully to experienced colleagues.",
+    "transferSample": "I absorb a lot of information by listening to the team."
+  },
+  {
+    "id": "elaborate-on",
+    "expression": "Elaborate on something",
+    "meaning": "Explain something in more detail.",
+    "example": "Could you elaborate on your idea?",
+    "note": "The verb ends with an ayt sound. Elaborate as an adjective means detailed or complicated and has a different ending.",
+    "prompt": "Ask someone to explain their idea in greater detail.",
+    "transfer": "A speaker mentions an unexpected result. Ask for more explanation.",
+    "transferSample": "Could you elaborate on that result?"
+  },
+  {
+    "id": "expand",
+    "expression": "Expand",
+    "meaning": "Become larger or make something larger.",
+    "example": "The team plans to expand the service.",
+    "note": "Expand on an idea can mean explain it further. Expand alone also describes growth in size, scope or quantity.",
+    "prompt": "Describe a plan to make a service cover more areas.",
+    "transfer": "Say a business wants to increase the range of products it offers.",
+    "transferSample": "The business wants to expand its product range."
+  },
+  {
+    "id": "contract-shrink",
+    "expression": "Contract",
+    "meaning": "Become smaller or draw closer together.",
+    "example": "This material contracts when it cools.",
+    "note": "The verb in this sense usually stresses the second syllable. A contract as a noun is an agreement and usually stresses the first.",
+    "prompt": "Describe a material becoming smaller as it cools.",
+    "transfer": "Explain that a muscle becomes shorter when it tightens.",
+    "transferSample": "The muscle contracts when it tightens."
+  },
+  {
+    "id": "redact",
+    "expression": "Redact",
+    "meaning": "Remove or hide parts of a document before sharing it.",
+    "example": "Please redact the personal details before sharing the report.",
+    "note": "Often used for private or confidential information. Hiding text visually is not always the same as removing it from the file.",
+    "prompt": "Ask a colleague to remove personal details before distributing a report.",
+    "transfer": "Explain that names were removed from a published document.",
+    "transferSample": "The names were redacted from the document."
+  },
+  {
+    "id": "remark",
+    "expression": "A remark",
+    "meaning": "A spoken or written comment about something.",
+    "example": "She made an interesting remark about the design.",
+    "note": "Make a remark is common. Remark can also be a verb: He remarked that the room was quiet.",
+    "prompt": "Describe an interesting comment someone made about a design.",
+    "transfer": "Apologise for a comment that sounded unkind.",
+    "transferSample": "I'm sorry about that remark."
+  },
+  {
+    "id": "assume",
+    "expression": "Assume",
+    "meaning": "Accept something as true without being certain or checking it first.",
+    "example": "I assumed the meeting was online.",
+    "note": "Assume does not mean know. I assume can express a tentative expectation, depending on tone.",
+    "prompt": "Explain that you believed the meeting would be online but had not checked.",
+    "transfer": "Tell someone you mistakenly thought they had already received the file.",
+    "transferSample": "I assumed you already had the file."
+  },
+  {
+    "id": "stand-out",
+    "expression": "Stand out",
+    "meaning": "Be easy to notice because you are different or especially good.",
+    "example": "Her clear examples made the presentation stand out.",
+    "note": "Stand out from the crowd is a common phrase. Standing out is not always positive; context matters.",
+    "prompt": "Explain that clear examples made a presentation especially noticeable.",
+    "transfer": "Describe a bright red bag among several dark bags.",
+    "transferSample": "The red bag really stands out."
+  },
+  {
+    "id": "bills-wont-pay-themselves",
+    "expression": "The bills won't pay themselves",
+    "meaning": "A humorous or resigned way to say you need to earn money to cover expenses.",
+    "example": "I'd love another day off, but the bills won't pay themselves.",
+    "note": "This personifies bills for humour. It usually explains returning to work or being practical about earning money.",
+    "prompt": "You would like another day off, but need to earn money. Say this with mild humour.",
+    "transfer": "A friend asks why you are taking an extra shift. Reply with the familiar expression about expenses.",
+    "transferSample": "Well, the bills won't pay themselves."
+  },
+  {
+    "id": "reasonable-grounds",
+    "expression": "Reasonable grounds",
+    "meaning": "Sensible or credible reasons for a belief or suspicion.",
+    "example": "There are reasonable grounds to question that claim.",
+    "note": "Often formal. Legal uses can have a specific standard; this card teaches the general phrase, not a legal test.",
+    "prompt": "Say that there are credible reasons to question a claim.",
+    "transfer": "Explain that evidence gives people a sensible basis for concern.",
+    "transferSample": "There are reasonable grounds for concern."
+  },
+  {
+    "id": "suspicion",
+    "expression": "Suspicion",
+    "meaning": "A feeling or belief that something may be true, often something wrong, without being certain.",
+    "example": "I had a suspicion that something was missing.",
+    "note": "A suspicion can be a particular hunch. Suspicion of someone suggests distrust; it does not establish proof.",
+    "prompt": "Describe a feeling, short of certainty, that something was missing.",
+    "transfer": "Say you thought a surprise was being planned before anyone confirmed it.",
+    "transferSample": "I had a suspicion that they were planning a surprise."
+  },
+  {
+    "id": "recommendation-feed",
+    "expression": "My feed",
+    "meaning": "The stream of posts, videos or updates shown to me in an app or website.",
+    "example": "My feed is full of cooking videos today.",
+    "note": "Recommendations are suggested items. The algorithm is a system used to select or rank them; feed names what you browse.",
+    "prompt": "Say that the videos shown to you today are mostly about cooking.",
+    "transfer": "Explain that a particular topic keeps appearing in your social app.",
+    "transferSample": "That topic keeps showing up in my feed."
+  }
+]

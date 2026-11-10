@@ -1,0 +1,183 @@
+[
+  {
+    "id": "right-to-be-jealous",
+    "expression": "Do I even have the right to be jealous?",
+    "meaning": "Question whether your relationship gives you any reason to expect exclusivity or feel entitled to jealousy.",
+    "example": "Do I even have the right to be jealous? We haven't said we're exclusive.",
+    "note": "This asks about your position in the relationship, not your personal worth. Who am I to be jealous? is a more self-questioning alternative.",
+    "sourceMessageId": "d0f3b6ec-1309-4780-a408-7a8e482153e8",
+    "prompt": "In a fictional conversation, someone asks whether you are jealous. You are unsure whether you are exclusive, so question whether it is your place to feel that way.",
+    "transfer": "In another fictional dating conversation, explain why you feel hesitant to express jealousy before the relationship is defined.",
+    "transferSample": "I feel a little jealous, but do I even have the right to be jealous?"
+  },
+  {
+    "id": "argue",
+    "expression": "Argue",
+    "meaning": "Speak to someone in disagreement, sometimes angrily.",
+    "example": "I don't want to argue about this tonight.",
+    "note": "Argue with someone about something. Argue can also mean give reasons for a position; this card focuses on disagreement between people.",
+    "prompt": "Tell someone you do not want an angry disagreement about this tonight.",
+    "transfer": "Explain that two friends disagreed about where to eat.",
+    "transferSample": "They argued about where to have dinner."
+  },
+  {
+    "id": "let-someone-go",
+    "expression": "Let someone go",
+    "meaning": "Allow someone to leave or stop trying to keep them in a relationship or situation.",
+    "example": "Sometimes caring about someone means letting them go.",
+    "note": "In a workplace, let someone go can mean dismiss them from their job. Context is essential.",
+    "prompt": "In a fictional relationship discussion, say that caring for someone can involve allowing them to leave.",
+    "transfer": "Explain that you will stop trying to persuade a friend to stay when they want to move away.",
+    "transferSample": "I need to let them go and support their choice."
+  },
+  {
+    "id": "support-your-decision",
+    "expression": "I support your decision",
+    "meaning": "I accept your choice and want to help you pursue it.",
+    "example": "I'll miss you, but I support your decision to move.",
+    "note": "Supporting a decision does not necessarily mean feeling happy about every consequence.",
+    "prompt": "A friend is moving away for a new opportunity. Say you will miss them but back their choice.",
+    "transfer": "Encourage someone who has chosen to change careers.",
+    "transferSample": "I support your decision to try a different career."
+  },
+  {
+    "id": "confess",
+    "expression": "Confess",
+    "meaning": "Admit something you have kept secret, often something you feel embarrassed or guilty about.",
+    "example": "I have to confess: I forgot your birthday.",
+    "note": "For attraction, tell someone how you feel often sounds more natural than confess your love. Confess can sound serious or dramatic.",
+    "prompt": "Admit, a little sheepishly, that you forgot someone's birthday.",
+    "transfer": "Admit you secretly enjoyed a film you had criticised.",
+    "transferSample": "I have to confess, I actually enjoyed that film."
+  },
+  {
+    "id": "get-to-know",
+    "expression": "Get to know someone",
+    "meaning": "Gradually learn about a person's character, interests and life.",
+    "example": "I'd like to get to know you better.",
+    "note": "Know describes familiarity; get to know describes developing it. It does not require a romantic meaning.",
+    "prompt": "Tell someone you would like to learn more about them over time.",
+    "transfer": "Describe becoming familiar with new teammates during your first month.",
+    "transferSample": "I'm getting to know my new teammates."
+  },
+  {
+    "id": "what-do-you-see-in-me",
+    "expression": "What do you see in me?",
+    "meaning": "Ask what qualities make another person like or feel attracted to you.",
+    "example": "I'm curious: what do you see in me?",
+    "note": "Can sound curious, insecure or self-deprecating depending on tone. It is not a question about literal eyesight.",
+    "prompt": "Ask a partner what qualities attract them to you.",
+    "transfer": "In a fictional dialogue, a character is surprised that someone likes them. Write their question.",
+    "transferSample": "What do you see in me?"
+  },
+  {
+    "id": "one-sided-relationship",
+    "expression": "A one-sided relationship",
+    "meaning": "A relationship in which one person puts in much more effort or care than the other.",
+    "example": "It feels like a one-sided relationship when I'm always the one making plans.",
+    "note": "More precise for unequal emotional effort than a monologue or a one-person show.",
+    "prompt": "In a fictional situation, one partner always organises everything and receives little effort back. Describe the relationship.",
+    "transfer": "Describe a friendship where only one person ever reaches out.",
+    "transferSample": "That friendship has started to feel like a one-sided relationship."
+  },
+  {
+    "id": "toxic-behaviour",
+    "expression": "Toxic",
+    "meaning": "Harmful to people's wellbeing or to the atmosphere of a relationship or group.",
+    "example": "Constant insults created a toxic atmosphere.",
+    "note": "This is a strong informal description of harmful patterns, not a diagnosis. Be specific about behaviour rather than relying only on a label.",
+    "prompt": "Describe a group atmosphere damaged by constant insults.",
+    "transfer": "Explain that repeated manipulation has made a fictional relationship harmful.",
+    "transferSample": "The relationship has become toxic."
+  },
+  {
+    "id": "cheeky",
+    "expression": "Cheeky",
+    "meaning": "Playfully bold or slightly rude in a way that may be amusing.",
+    "example": "You're a cheeky little fox, aren't you?",
+    "note": "Often affectionate in British and Australian conversation. It can also mean disrespectful, depending on the relationship and tone.",
+    "prompt": "Tease a close friend affectionately after a bold but harmless joke, using the fox expression.",
+    "transfer": "Describe a child's amusing, slightly bold grin.",
+    "transferSample": "She gave me a cheeky grin."
+  },
+  {
+    "id": "sly",
+    "expression": "Sly",
+    "meaning": "Clever in a secretive or sometimes dishonest way.",
+    "example": "That was a sly little trick.",
+    "note": "Can be playful or critical. A sly smile suggests the person knows something they are not openly saying.",
+    "prompt": "Describe a clever but sneaky trick.",
+    "transfer": "Someone smiles as if they are hiding a secret. Describe the smile.",
+    "transferSample": "He gave me a sly smile."
+  },
+  {
+    "id": "dont-play-dumb",
+    "expression": "Don't play dumb",
+    "meaning": "Do not pretend that you do not know or understand something.",
+    "example": "Don't play dumb; you know what I mean.",
+    "note": "Direct and potentially insulting. If you need a gentler tone, say I think you know what I mean.",
+    "prompt": "In a fictional argument, tell someone to stop pretending not to understand.",
+    "transfer": "A close friend jokingly pretends not to know who ate the cake. Respond teasingly.",
+    "transferSample": "Don't play dumb. I saw you with the last slice."
+  },
+  {
+    "id": "well-behaved",
+    "expression": "Well-behaved",
+    "meaning": "Behaving politely or in a way that is expected and acceptable.",
+    "example": "The children were very well-behaved at dinner.",
+    "note": "Often used about children or animals. Calling an adult obedient or well-behaved can sound patronising unless playful and welcome.",
+    "prompt": "Describe children who behaved politely through dinner.",
+    "transfer": "Describe a dog that stayed calm during a visit.",
+    "transferSample": "Your dog was really well-behaved."
+  },
+  {
+    "id": "disobedient",
+    "expression": "Disobedient",
+    "meaning": "Deliberately not following rules or instructions from someone in authority.",
+    "example": "The story is about a disobedient child.",
+    "note": "Disobedient is standard; unobeyable is not the usual word for a person who does not obey. Avoid applying this label casually to an adult partner.",
+    "prompt": "Describe a child in a story who deliberately ignores rules.",
+    "transfer": "Compare an obedient character with another who refuses instructions.",
+    "transferSample": "The second character is much more disobedient."
+  },
+  {
+    "id": "stubborn",
+    "expression": "Stubborn",
+    "meaning": "Unwilling to change your mind or actions even when others ask you to.",
+    "example": "That stubborn otter refused to move from the path.",
+    "note": "Can be critical or affectionately teasing. Determined is often more positive when persistence is admired.",
+    "prompt": "Describe an otter in a playful story that refuses to move.",
+    "transfer": "Admit you were unwilling to consider someone else's suggestion.",
+    "transferSample": "I was being stubborn about it."
+  },
+  {
+    "id": "empty-words",
+    "expression": "Empty words",
+    "meaning": "Words that sound good but are not supported by sincere feeling or action.",
+    "example": "I can't tell whether he means it or whether it's just empty words.",
+    "note": "This questions sincerity or follow-through. It is stronger than simply saying you are unsure.",
+    "prompt": "You cannot tell whether a promise is sincere or only pleasant talk. Express that uncertainty.",
+    "transfer": "Ask for action instead of more unsupported promises.",
+    "transferSample": "I need more than empty words."
+  },
+  {
+    "id": "exclusive-relationship",
+    "expression": "Be exclusive",
+    "meaning": "Agree to date only each other.",
+    "example": "Have we agreed to be exclusive?",
+    "note": "Relationship expectations should be discussed. You're exclusively mine can sound possessive; Are we exclusive? is clearer when asking about an agreement.",
+    "prompt": "Ask someone you are dating whether you have agreed not to date other people.",
+    "transfer": "Tell a friend that you and your partner have mutually agreed to date only each other.",
+    "transferSample": "We've decided to be exclusive."
+  },
+  {
+    "id": "smooth-talking",
+    "expression": "Smooth-talking",
+    "meaning": "Speaking confidently and charmingly, sometimes to persuade or manipulate.",
+    "example": "He's charming, but he can be a bit smooth-talking.",
+    "note": "Greasy and oily usually describe substances or textures. For a person's excessive charm, smooth-talking or smarmy may fit depending on the intended criticism.",
+    "prompt": "Describe someone who uses polished charm to persuade people.",
+    "transfer": "Describe a fictional salesperson whose polished talk makes you cautious.",
+    "transferSample": "The smooth-talking salesperson promised far too much."
+  }
+]
