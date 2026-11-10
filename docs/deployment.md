@@ -1,6 +1,6 @@
 # Publication runbook
 
-The frontend targets `Daniel-Kai-WANG/phrase-pocket` on GitHub Pages. The coaching backend targets a separate `phrase-pocket-coach` project in Vercel team `daniel-backup-projects`. The GitHub repository and Vercel project have been created. The backend health and credential rejection paths have passed deployment checks; live coaching remains unavailable until the provider key is configured.
+The frontend targets `Daniel-Kai-WANG/phrase-pocket` on GitHub Pages. The coaching backend targets a separate `phrase-pocket-coach` project in Vercel team `daniel-backup-projects`. Both are published. Production health, credential rejection, semantic feedback, plan generation and synthetic-audio requests have passed live checks.
 
 ## Release prerequisites
 
@@ -24,7 +24,9 @@ After publication, open the actual Pages URL in the existing preview tab. Verify
 
 `.github/workflows/daily.yml` is configured for approximately 06:17 Brisbane time each day (20:17 UTC on the preceding date). GitHub scheduled jobs can be delayed; this is not an exact delivery-time guarantee.
 
-Configure `OPENAI_API_KEY` in the `content-publishing` environment, restricted to the reviewed main branch. Run and verify a manual publication before setting repository variable `DAILY_UPDATES_ENABLED=true`; scheduled generation stays disabled until then. An optional `OPENAI_TEXT_MODEL` variable overrides the default. The workflow generates up to seven missing dates per run, preserving existing lesson membership. Completed pages are written atomically. A failed provider call stops the job before any remote publication.
+Configure `OPENAI_API_KEY` in the `content-publishing` environment, restricted to the reviewed main branch. Verify a manual run and a real generation check before setting repository variable `DAILY_UPDATES_ENABLED=true`; scheduled generation stays disabled until then. A no-op run alone is insufficient. An optional `OPENAI_TEXT_MODEL` variable overrides the default. The workflow generates up to seven missing dates per run, preserving existing lesson membership. Completed pages are written atomically. A failed provider call stops the job before any remote publication.
+
+When all existing dates are already supplied, a successful manual run does not exercise the provider. Set the manual `verify_generation` input to test a new lesson in memory through `npm run eval:daily`. The preview is logged but never written to the public feed. On 10 November, this check passed and scheduling was enabled. Verify the first scheduled content commit and Pages release before pausing the original daily reminder.
 
 The publisher commits only `public/content.json`, pushes without forcing, then calls the Pages workflow using that exact revision. A repeated run with no changes creates no commit. A competing source update causes the push to fail rather than overwrite it; rerun from the updated main branch. A gap longer than seven days is published in bounded batches across successive runs.
 
@@ -34,7 +36,7 @@ If the content push succeeds but Pages publication fails, run **Verify and publi
 
 `npm run content:import -- /absolute/path/to/reviewed-batch.json` merges an English-only reviewed source batch into the public feed without changing device progress. Keep raw source and batch files outside the repository. `sourceBatchSchema` defines the batch format and requires an explicit publication review flag.
 
-The desktop source bridge is not active yet. Current source reads expose only five recent turns. `content:check-source` checks overlap with the last published turn and refuses to treat a missing boundary as a successful import. See [the source continuity and recovery procedure](personal-sync.md). The app's **Sync now** fetches the published feed; it does not itself read a private conversation.
+The hourly desktop source bridge was activated on 10 November after reconciling its checkpoint with published revision 2. Its first scheduled publication is still unverified. Current source reads expose only five recent turns. `content:check-source` checks overlap with the last published turn and refuses to treat a missing boundary as a successful import. See [the source continuity and recovery procedure](personal-sync.md). The app's **Sync now** fetches the published feed; it does not itself read a private conversation.
 
 ## Recovery
 
