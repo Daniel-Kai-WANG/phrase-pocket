@@ -1,13 +1,13 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
-import { Download, Upload, Link } from "lucide-react";
+import { Download, Upload } from "lucide-react";
 import { Modal } from "./Modal";
 import {
   downloadBackup,
   downloadRecovery,
   parseBackup,
 } from "../utils/storage";
-import { setCoachToken } from "../api/client";
+import { CoachConnection } from "./CoachConnection";
 import type { LearningStore } from "../types/storage";
 import type { ReminderPreferences } from "../types/dailyTasks";
 import { ReminderSettings } from "./ReminderSettings";
@@ -34,7 +34,6 @@ export function PocketSettings({
   onReminderChange: (preferences: ReminderPreferences) => void;
   phoneReminders: PhoneReminderControls;
 }) {
-  const [code, setCode] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [pending, setPending] = useState<LearningStore | null>(null);
@@ -46,37 +45,7 @@ export function PocketSettings({
           onChange={onReminderChange}
           phone={phoneReminders}
         />
-        <section>
-          <h3>Your online coach</h3>
-          <p className="quiet">
-            Use your private access code to connect on this device. It stays
-            here for this browser session.
-          </p>
-          <form
-            onSubmit={(event) => {
-              event.preventDefault();
-              setCoachToken(code);
-              setMessage(
-                "Access code saved for this session. Your next practice reply will use it.",
-              );
-              setCode("");
-            }}
-          >
-            <label htmlFor="coach-code">Coach access code</label>
-            <div className="input-button-row">
-              <input
-                id="coach-code"
-                type="password"
-                value={code}
-                onChange={(event) => setCode(event.target.value)}
-                autoComplete="off"
-              />
-              <button className="secondary-button" disabled={!code.trim()}>
-                <Link size={17} /> Connect
-              </button>
-            </div>
-          </form>
-        </section>
+        <CoachConnection />
         {contentSync}
         <section>
           <h3>Keep your memories</h3>

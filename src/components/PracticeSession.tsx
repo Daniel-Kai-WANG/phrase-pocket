@@ -5,6 +5,7 @@ import { speak } from "../utils/speech";
 import { Companion } from "./Companion";
 import { SceneJourney } from "./SceneJourney";
 import { Modal } from "./Modal";
+import { CoachConnection } from "./CoachConnection";
 
 export function PracticeSession({
   phrases,
@@ -28,6 +29,7 @@ export function PracticeSession({
     setHint,
     assessment,
     error,
+    connectionRequired,
     setError,
     busy,
     answerRef,
@@ -196,6 +198,9 @@ export function PracticeSession({
             <p role="alert" className="error-message">
               {error}
             </p>
+          )}
+          {connectionRequired && (
+            <CoachConnection onSaved={() => setError("")} />
           )}
         </div>
       )}

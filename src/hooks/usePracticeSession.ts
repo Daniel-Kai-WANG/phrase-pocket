@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { coachRequest } from "../api/client";
+import { CoachAccessError, coachRequest } from "../api/client";
 import type {
   Assessment,
   HintLevel,
@@ -21,6 +21,7 @@ export function usePracticeSession(
   const [tries, setTries] = useState(0);
   const [assessment, setAssessment] = useState<Assessment | null>(null);
   const [error, setError] = useState("");
+  const [connectionRequired, setConnectionRequired] = useState(false);
   const [busy, setBusy] = useState(false);
   const request = useRef<AbortController | null>(null);
   const answerRef = useRef<HTMLTextAreaElement>(null);
@@ -40,12 +41,14 @@ export function usePracticeSession(
     setTries(0);
     setAssessment(null);
     setError("");
+    setConnectionRequired(false);
   }
 
   async function checkAnswer() {
     if (!step || !scenario || !answer.trim() || busy) return;
     setBusy(true);
     setError("");
+    setConnectionRequired(false);
     setAssessment(null);
     const controller = new AbortController();
     request.current = controller;
@@ -76,8 +79,10 @@ export function usePracticeSession(
         setTries(tries + 1);
       }
     } catch (issue) {
-      if (!controller.signal.aborted)
+      if (!controller.signal.aborted) {
         setError(issue instanceof Error ? issue.message : "Please try again.");
+        setConnectionRequired(issue instanceof CoachAccessError);
+      }
     } finally {
       if (!controller.signal.aborted) setBusy(false);
     }
@@ -111,6 +116,7 @@ export function usePracticeSession(
     setHint,
     assessment,
     error,
+    connectionRequired,
     setError,
     busy,
     answerRef,
