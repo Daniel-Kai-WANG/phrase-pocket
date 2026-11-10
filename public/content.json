@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "revision": 5,
-  "publishedAt": "2026-11-10T08:22:32.915Z",
-  "personalCheckedAt": "2026-11-10T08:00:28.517Z",
+  "revision": 6,
+  "publishedAt": "2026-11-10T09:03:44.566Z",
+  "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
   "phrases": [
@@ -4286,6 +4286,56 @@
           "setting": "Making plans",
           "prompt": "You suggest seeing a film tonight, but your friend says there are no tickets left. Drop that suggestion and offer to stay in instead.",
           "sample": "Never mind, then. We could watch something at home instead."
+        }
+      ]
+    },
+    {
+      "id": "personal-comfort-someone",
+      "expression": "Comfort someone",
+      "meaning": "Help someone feel less sad, upset or distressed by showing kindness and support.",
+      "example": "My friend comforted me when I was upset about the disappointing news.",
+      "pronunciation": "",
+      "register": "Neutral",
+      "note": "Focuses on emotional support, such as listening, staying with someone or offering a hug. Comfort can also be a noun: Talking to you gives me comfort. You can support someone without promising that everything will work out.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "offer-emotional-support",
+      "scenarios": [
+        {
+          "setting": "After a match",
+          "prompt": "Your friend is upset after losing an important match. Tell someone how you sat with your friend and helped them feel less sad.",
+          "sample": "I comforted my friend and listened to how they felt."
+        },
+        {
+          "setting": "At home",
+          "prompt": "Your little cousin is crying because their favourite toy broke. Describe how you stayed beside them and helped them feel calmer.",
+          "sample": "I sat beside my cousin and comforted them until they felt calmer."
+        }
+      ]
+    },
+    {
+      "id": "personal-reassure-someone",
+      "expression": "Reassure someone",
+      "meaning": "Help someone feel less worried or doubtful by giving them support, confidence or a clearer understanding of the situation.",
+      "example": "My colleague reassured me that I did not have to handle the whole task alone.",
+      "pronunciation": "",
+      "register": "Neutral",
+      "note": "Use reassure someone that followed by a statement, or reassure someone about something. It usually addresses worry or uncertainty. Comfort focuses more broadly on sadness or distress; both actions can happen together.",
+      "theme": "feelings",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "reduce-worry-or-doubt",
+      "scenarios": [
+        {
+          "setting": "Before a presentation",
+          "prompt": "Your colleague is nervous about presenting alone. Tell someone how you helped by explaining that you would be there to support them.",
+          "sample": "I reassured my colleague that I would be there to help."
+        },
+        {
+          "setting": "Arranging a delivery",
+          "prompt": "A customer is worried that a parcel has been lost. You check the tracking and confirm that it is out for delivery. Describe how you reduced the customer's worry.",
+          "sample": "I reassured the customer that the parcel was out for delivery."
         }
       ]
     }
