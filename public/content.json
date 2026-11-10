@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 6,
-  "publishedAt": "2026-11-10T09:03:44.566Z",
+  "revision": 7,
+  "publishedAt": "2026-11-10T10:28:43.885Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4338,6 +4338,81 @@
           "sample": "I reassured the customer that the parcel was out for delivery."
         }
       ]
+    },
+    {
+      "id": "personal-head-body",
+      "expression": "Head (body part)",
+      "meaning": "The part of your body above your neck that contains your brain, eyes, ears, nose and mouth.",
+      "example": "Wear a helmet to protect your head when you ride.",
+      "pronunciation": "/hed/",
+      "register": "Neutral",
+      "note": "General vocabulary practice added without the original sentence; this does not identify the meaning intended in the earlier conversation.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "head-body-part",
+      "scenarios": [
+        {
+          "setting": "Getting ready for a bike ride",
+          "prompt": "Explain which part of your body a helmet protects.",
+          "sample": "A helmet protects your head."
+        },
+        {
+          "setting": "A low doorway",
+          "prompt": "Warn a tall friend not to hit the part of their body above their neck.",
+          "sample": "Watch your head as you go through the doorway."
+        }
+      ]
+    },
+    {
+      "id": "personal-head-leader",
+      "expression": "Head of a team",
+      "meaning": "The person in charge of a team, department or organisation.",
+      "example": "She is the head of the design team.",
+      "pronunciation": "/hed/",
+      "register": "Neutral",
+      "note": "General vocabulary practice added without the original sentence; this does not identify the meaning intended in the earlier conversation.",
+      "theme": "work",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "head-person-in-charge",
+      "scenarios": [
+        {
+          "setting": "Introducing a colleague",
+          "prompt": "Introduce Maya as the person in charge of the design team. Use head.",
+          "sample": "Maya is the head of the design team."
+        },
+        {
+          "setting": "A decision at work",
+          "prompt": "Say you need to speak to the person in charge of your department. Use head.",
+          "sample": "I need to speak to the head of my department."
+        }
+      ]
+    },
+    {
+      "id": "personal-head-towards",
+      "expression": "Head to / head for",
+      "meaning": "To go or move towards a place.",
+      "example": "We are heading to the station now.",
+      "pronunciation": "/hed/",
+      "register": "Neutral",
+      "note": "General vocabulary practice added without the original sentence; this does not identify the meaning intended in the earlier conversation. Use head to or head for before a destination. Say head home, without to.",
+      "theme": "travel",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "head-go-in-a-direction",
+      "scenarios": [
+        {
+          "setting": "Meeting a friend in town",
+          "prompt": "Tell your friend you are going to the station now. Use heading.",
+          "sample": "I am heading to the station now."
+        },
+        {
+          "setting": "Leaving after dinner",
+          "prompt": "Say you are going home now. Use head or heading.",
+          "sample": "I am heading home now."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4442,11 +4517,6 @@
       "id": "unclear-busy-pussy",
       "text": "Busy pussy",
       "reason": "This wording may contain a typo or vulgar slang. Its intended meaning cannot be recovered reliably from the saved inventory."
-    },
-    {
-      "id": "unclear-head",
-      "text": "Head",
-      "reason": "This word has several ordinary and slang meanings. The original sentence is needed to choose the intended sense."
     }
   ]
 }
