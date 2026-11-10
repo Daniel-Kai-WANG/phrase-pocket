@@ -1,0 +1,77 @@
+[data-scene="small-talk"] {
+  --paper: #faf5ef;
+  --action: #91452d;
+  --action-hover: #71341f;
+  --sun: #f8d4a3;
+  --mint: #f9ecdb;
+  --scene-sky: #f5d8b3;
+  --scene-floor: #d8bb95;
+  --scene-water: #b9d8d5;
+  --scene-pop: #e48c6c;
+}
+[data-scene="relationships"] {
+  --paper: #f8f5f8;
+  --action: #854365;
+  --action-hover: #67324e;
+  --sun: #f0cfde;
+  --mint: #f4e9f0;
+  --scene-sky: #e9d4e5;
+  --scene-floor: #aebfa7;
+  --scene-water: #a4c6d0;
+  --scene-pop: #f3b18b;
+}
+[data-scene="work"] {
+  --paper: #f3f6fa;
+  --action: #345b94;
+  --action-hover: #264572;
+  --sun: #c5daf5;
+  --mint: #e8eef8;
+  --scene-sky: #ccdcf3;
+  --scene-floor: #93b6c9;
+  --scene-water: #9bb3d7;
+  --scene-pop: #f7ce77;
+}
+[data-scene="social"] {
+  --paper: #f7f5fb;
+  --action: #654293;
+  --action-hover: #4d3074;
+  --sun: #dfcef5;
+  --mint: #efe8f7;
+  --scene-sky: #4c4267;
+  --scene-floor: #796b98;
+  --scene-water: #aaa1c4;
+  --scene-pop: #f4c583;
+}
+[data-scene="feelings"] {
+  --paper: #f3f7f5;
+  --action: #326b59;
+  --action-hover: #245241;
+  --sun: #c9e1cd;
+  --mint: #e4f0e9;
+  --scene-sky: #ceded2;
+  --scene-floor: #9bbdb2;
+  --scene-water: #89acb6;
+  --scene-pop: #e6ba82;
+}
+[data-scene="travel"] {
+  --paper: #f3f8f9;
+  --action: #246475;
+  --action-hover: #194c5a;
+  --sun: #bfe4e5;
+  --mint: #e1f0f1;
+  --scene-sky: #c9e8eb;
+  --scene-floor: #8fbbac;
+  --scene-water: #9ac5d6;
+  --scene-pop: #edb074;
+}
+[data-scene="slang"] {
+  --paper: #f6f5fb;
+  --action: #5c4396;
+  --action-hover: #443170;
+  --sun: #dcd3f8;
+  --mint: #ece7f8;
+  --scene-sky: #484364;
+  --scene-floor: #9491bd;
+  --scene-water: #afa5d7;
+  --scene-pop: #d9b5ee;
+}

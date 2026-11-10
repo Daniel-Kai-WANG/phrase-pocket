@@ -1,0 +1,223 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  padding: 40px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 0 32px 32px 0;
+}
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  line-height: 0.98;
+}
+.brand-icon {
+  width: 52px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+}
+.brand-icon svg {
+  width: 66px;
+}
+.brand-second {
+  display: block;
+}
+.brand-dot {
+  color: var(--companion-color);
+}
+.sidebar-caption {
+  font-size: 0.72rem;
+  line-height: 1.7;
+  margin: 23px 0;
+  color: #c9c7d5;
+}
+.sidebar nav {
+  display: grid;
+  gap: 10px;
+  margin-top: 17px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 0.86rem;
+  font-weight: 650;
+  padding: 15px 12px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  min-height: 52px;
+}
+.nav-link small {
+  margin-left: auto;
+  font-size: 0.64rem;
+  opacity: 0.7;
+}
+.nav-link.selected {
+  background: var(--sun);
+  color: var(--ink);
+}
+.nav-link:hover:not(.selected) {
+  background: #393846;
+}
+.sidebar-companion {
+  margin: auto 0 24px;
+  padding-top: 32px;
+  text-align: center;
+}
+.sidebar-companion svg {
+  width: 125px;
+}
+.sidebar-companion p {
+  font-size: 0.59rem;
+  letter-spacing: 0.07em;
+  line-height: 1.9;
+  color: #c9c7d5;
+  margin: 9px 0 20px;
+}
+.sidebar-companion strong {
+  color: #fff;
+  font-size: 0.77rem;
+  letter-spacing: 0;
+}
+.stamp-total {
+  font-size: 0.7rem;
+  padding: 12px 6px;
+  border: 1px solid #5b596c;
+  border-radius: 14px;
+  color: #e3e1ec;
+}
+.sidebar-settings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: 0;
+  font-size: 0.77rem;
+  min-height: 44px;
+}
+.sidebar :focus-visible {
+  outline-color: var(--companion-color);
+}
+.topbar {
+  min-height: 85px;
+  padding: 20px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.breadcrumb {
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  font-weight: 750;
+  color: var(--muted);
+}
+.breadcrumb span {
+  margin: 0 8px;
+  color: var(--line);
+}
+.world-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--action);
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+.world-indicator i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile-button {
+  height: 44px;
+  width: 44px;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+@media (min-width: 1550px) {
+  .sidebar {
+    padding-inline: 28px;
+  }
+}
+@media (max-width: 1200px) {
+  .speaking-shortcut {
+    display: none;
+  }
+  .world-indicator {
+    font-size: 0.67rem;
+  }
+}
+@media (max-width: 1100px) {
+  .sidebar {
+    padding-inline: 14px;
+  }
+  .topbar {
+    padding-inline: 26px;
+  }
+}
+@media (max-width: 760px) {
+  .sidebar {
+    position: fixed;
+    inset: auto 0 0;
+    height: auto;
+    z-index: 10;
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+    border-radius: 22px 22px 0 0;
+    box-shadow: 0 -8px 24px rgb(36 35 49 / 10%);
+  }
+  .sidebar > :not(nav) {
+    display: none;
+  }
+  .sidebar nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    gap: 9px;
+  }
+  .nav-link {
+    flex-direction: column;
+    gap: 5px;
+    padding: 9px 3px;
+    font-size: 0.7rem;
+    min-height: 60px;
+    border-radius: 14px;
+  }
+  .nav-link small {
+    display: none;
+  }
+  .topbar {
+    min-height: 74px;
+    padding: calc(10px + env(safe-area-inset-top)) 20px 10px;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .breadcrumb {
+    font-size: 0.59rem;
+    flex: 1;
+  }
+  .world-indicator {
+    order: 3;
+    width: 100%;
+    font-size: 0.65rem;
+    margin-top: -4px;
+  }
+}

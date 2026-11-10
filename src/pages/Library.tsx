@@ -1,6 +1,7 @@
 import { ArrowRight, Search, Sparkles } from "lucide-react";
 import { useState } from "react";
-import { Fox } from "../components/Fox";
+import { SceneStage } from "../components/SceneStage";
+import { SCENES } from "../constants/scenes";
 import { MemoryTrail } from "../components/MemoryTrail";
 import { PhraseCard } from "../components/PhraseCard";
 import { MEMORY_LABELS, THEMES } from "../constants/learning";
@@ -15,6 +16,7 @@ import { filterPhrases } from "../utils/catalog";
 import { getDuePhrases, getPracticeQueue } from "../utils/review";
 
 export function Library({
+  sceneTheme,
   phrases,
   pendingPhrases,
   progress,
@@ -23,6 +25,7 @@ export function Library({
   onPractise,
   onSpeak,
 }: {
+  sceneTheme: Theme;
   phrases: Phrase[];
   pendingPhrases: PendingPhrase[];
   progress: ProgressMap;
@@ -46,17 +49,18 @@ export function Library({
       <section className="welcome-scene paper">
         <div className="scene-copy">
           <p className="eyebrow">
-            <Sparkles size={15} /> SMALL MOMENTS. REAL CONVERSATIONS.
+            <Sparkles size={15} /> TODAY’S WORLD ·{" "}
+            {SCENES[sceneTheme].name.toUpperCase()}
           </p>
           <h1>
-            Make it yours.
+            Little words.
             <br />
-            <span>Then make it stick.</span>
+            <span>Big adventures.</span>
           </h1>
           <p>
-            A few useful words. A little courage.
+            Meet Dot, your conversation sidekick.
             <br />
-            Your next conversation starts here.
+            Step into a scene. See what you can say.
           </p>
           <button
             className="primary-button"
@@ -71,11 +75,7 @@ export function Library({
               : "All caught up. Explore a card or come back for review."}
           </span>
         </div>
-        <div className="fox-scene">
-          <span className="scene-sticker">a pocketful of possibilities</span>
-          <Fox />
-          <span className="scene-ground">Pip’s conversation corner</span>
-        </div>
+        <SceneStage key={sceneTheme} theme={sceneTheme} />
       </section>
       <MemoryTrail
         phrases={phrases}

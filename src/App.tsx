@@ -18,8 +18,10 @@ import { PocketSettings } from "./components/PocketSettings";
 import { SpeakingStudio } from "./components/SpeakingStudio";
 import { useLearningStore } from "./hooks/useLearningStore";
 import { speak } from "./utils/speech";
-import { learningDay } from "./utils/dates";
-import { Fox } from "./components/Fox";
+import { learningDay, themeForDay } from "./utils/dates";
+import { Companion } from "./components/Companion";
+import { SCENES } from "./constants/scenes";
+import { getAvailableLessons } from "./utils/catalog";
 import { useMinuteClock } from "./hooks/useMinuteClock";
 import { useOfflinePocket } from "./hooks/useOfflinePocket";
 import { PocketUpdate } from "./components/PocketUpdate";
@@ -50,6 +52,7 @@ export default function App() {
   const [detail, setDetail] = useState<Phrase | null>(null);
   const [session, setSession] = useState<ActiveSession | null>(null);
   const [speaking, setSpeaking] = useState<Phrase | null>(null);
+  const [selectedDate, setSelectedDate] = useState<string>();
   const [settings, setSettings] = useState(false);
   const [notice, setNotice] = useState("");
   const [online, setOnline] = useState(navigator.onLine);
@@ -62,6 +65,17 @@ export default function App() {
   ];
   const personal = phrases.filter((phrase) => phrase.source === "personal");
   const today = learningDay(useMinuteClock());
+  const availableLessons = getAvailableLessons(content.feed.lessons, today);
+  const selectedLesson =
+    availableLessons.find((lesson) => lesson.date === selectedDate) ??
+    availableLessons[0];
+  const dailyTheme = tab === "daily" ? selectedLesson?.theme : undefined;
+  const sceneTheme =
+    session?.phrases[0]?.theme ??
+    detail?.theme ??
+    speaking?.theme ??
+    dailyTheme ??
+    themeForDay(today);
 
   useEffect(() => {
     const navigate = () => setTab(currentDestination());
@@ -101,14 +115,14 @@ export default function App() {
   }
 
   return (
-    <div className="app-shell">
+    <div className="app-shell" data-scene={sceneTheme}>
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>
       <aside className="sidebar">
         <a className="brand" href="#phrases" aria-label="Phrase Pocket home">
           <span className="brand-icon">
-            <BookOpen size={25} />
+            <Companion />
           </span>
           <span>
             phrase
@@ -117,7 +131,7 @@ export default function App() {
             </span>
           </span>
         </a>
-        <p className="sidebar-caption">A little English, carried with you.</p>
+        <p className="sidebar-caption">Your everyday English adventure.</p>
         <nav aria-label="Main navigation">
           {destinations.map(({ id, label, icon: Icon, number }) => (
             <a
@@ -133,11 +147,11 @@ export default function App() {
           ))}
         </nav>
         <div className="sidebar-companion">
-          <Fox />
+          <Companion />
           <p>
-            Little by little
+            YOUR CONVERSATION SIDEKICK
             <br />
-            <strong>becomes second nature.</strong>
+            <strong>A little braver, every day.</strong>
           </p>
           <div className="stamp-total">
             {learning.data.stamps.length} scene{" "}
@@ -151,8 +165,12 @@ export default function App() {
       <div className="workspace">
         <header className="topbar">
           <span className="breadcrumb">
-            MY LITTLE LANGUAGE JOURNAL <span>/</span>{" "}
+            PHRASE POCKET <span>/</span>{" "}
             {destinations.find((item) => item.id === tab)?.label}
+          </span>
+          <span className="world-indicator">
+            <i />
+            {SCENES[sceneTheme].name}
           </span>
           <div className="topbar-actions">
             <button
@@ -201,6 +219,7 @@ export default function App() {
           )}
           {tab === "phrases" && (
             <Library
+              sceneTheme={sceneTheme}
               phrases={phrases}
               pendingPhrases={content.feed.pending}
               progress={learning.data.progress}
@@ -214,6 +233,9 @@ export default function App() {
           )}
           {tab === "daily" && (
             <DailyThree
+              selectedDate={selectedDate}
+              onSelectDate={setSelectedDate}
+              today={today}
               lessons={content.feed.lessons}
               phrases={phrases}
               progress={learning.data.progress}
@@ -236,8 +258,8 @@ export default function App() {
             />
           )}
           <footer className="page-footer">
-            <span>Collected words. Real-life confidence.</span>
-            <span>Made for your everyday.</span>
+            <span>Small adventures. Real conversations.</span>
+            <span>One little world at a time.</span>
           </footer>
         </main>
       </div>

@@ -1,0 +1,198 @@
+@media (max-width: 760px) {
+  .daily-intro {
+    padding: 3px 0 8px;
+  }
+  .daily-intro .eyebrow {
+    margin-bottom: 7px;
+  }
+  .daily-intro h1 {
+    font-size: 1.8rem;
+    margin-bottom: 7px;
+    max-width: 340px;
+  }
+  .daily-intro > p:last-child {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .daily-layout {
+    gap: 14px;
+  }
+  .lesson-calendar {
+    order: -1;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+  .lesson-calendar > h2,
+  .lesson-calendar > p {
+    display: none;
+  }
+  .lesson-list {
+    display: flex;
+    gap: 8px;
+    padding: 5px 3px;
+    max-height: none;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+  .lesson-list button {
+    flex: 0 0 155px;
+    padding: 10px 12px;
+    min-height: 66px;
+    background: var(--surface);
+    border-color: var(--line);
+    scroll-snap-align: start;
+  }
+  .lesson-list .selected {
+    background: var(--sun);
+    border-color: var(--action);
+  }
+  .lesson-list small {
+    font-size: 0.7rem;
+  }
+  .lesson-count {
+    display: none;
+  }
+  .daily-feature {
+    grid-template-areas: "mission" "scene" "phrases";
+    padding: 8px;
+  }
+  .daily-mission {
+    padding: 12px 12px 20px;
+  }
+  .daily-topline {
+    margin-bottom: 10px;
+  }
+  .date-stamp {
+    font-size: 0.75rem;
+    padding: 6px 9px;
+    border: 0;
+    background: var(--mint);
+  }
+  .daily-mission .eyebrow {
+    display: none;
+  }
+  .daily-mission h2 {
+    font-size: 1.55rem;
+    margin-bottom: 13px;
+  }
+  .daily-mission > p:not(.eyebrow) {
+    display: none;
+  }
+  .daily-mission > .primary-button {
+    width: 100%;
+    min-height: 50px;
+  }
+  .daily-feature > .daily-preview {
+    padding-inline: 12px;
+    margin: 10px 0;
+  }
+  .daily-preview button {
+    min-height: 58px;
+    font-size: 0.88rem;
+  }
+  .scene-backdrop {
+    height: 180px;
+    padding-top: 12px;
+  }
+  .scene-companion {
+    width: 110px;
+    left: 53%;
+    bottom: 0;
+  }
+  .scene-dialogue {
+    min-height: 67px;
+    padding: 10px 14px;
+  }
+  .scene-dialogue p {
+    font-size: 0.76rem;
+  }
+  .scene-dialogue strong {
+    font-size: 0.53rem;
+  }
+  .scene-stage-label {
+    top: 6px;
+  }
+  .scene-stage-label > span {
+    font-size: 0.5rem;
+    padding: 5px 8px;
+  }
+  .scene-copy {
+    padding: 15px 15px 20px;
+  }
+  .scene-copy h1 {
+    font-size: 2.15rem;
+    margin-bottom: 12px;
+  }
+  .scene-copy > p:not(.eyebrow) {
+    margin-bottom: 16px;
+  }
+  .scene-caption {
+    margin-top: 11px;
+  }
+  .welcome-scene .scene-backdrop {
+    height: 140px;
+  }
+  .welcome-scene .scene-companion {
+    width: 95px;
+  }
+  .welcome-scene .scene-dialogue {
+    min-height: 60px;
+  }
+  .memory-trail {
+    margin-top: 18px;
+  }
+  .trail-stop > span:last-child > span {
+    font-size: 0.72rem;
+  }
+  .trail-note {
+    font-size: 0.72rem;
+  }
+  .phrase-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .phrase-card {
+    min-height: 172px;
+    padding: 18px 18px 9px;
+  }
+  .card-meta {
+    flex-direction: row;
+    align-items: center;
+  }
+  .phrase-title h3 {
+    font-size: 1.2rem;
+  }
+  .phrase-card > p {
+    font-size: 0.87rem;
+  }
+  .card-meta,
+  .status,
+  .card-footer .quiet {
+    font-size: 0.73rem;
+  }
+  input,
+  textarea,
+  select,
+  .search-field input,
+  .library-tools select,
+  .plan-options select {
+    font-size: 16px;
+  }
+  .modal {
+    width: calc(100% - 16px);
+    max-height: calc(
+      100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+    );
+    border-radius: 22px;
+  }
+  .modal .primary-button,
+  .modal .secondary-button {
+    min-height: 48px;
+  }
+  .practice-body .step-label {
+    font-size: 0.72rem;
+  }
+  .source-tabs button {
+    font-size: 0.8rem;
+  }
+}

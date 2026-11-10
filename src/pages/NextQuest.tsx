@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Compass, Check, Sparkles } from "lucide-react";
+import { Companion } from "../components/Companion";
 import { coachRequest } from "../api/client";
 import type { Phrase } from "../types/learning";
 import type { QuestPlan, SavedQuest } from "../types/quest";
@@ -53,17 +54,23 @@ export function NextQuest({
 
   return (
     <>
-      <header className="page-intro">
-        <p className="eyebrow">YOUR ENGLISH, YOUR NEXT CHAPTER</p>
-        <h1>
-          Where shall we
-          <br />
-          <span>take your words?</span>
-        </h1>
-        <p>
-          A job interview, a trip, a first date. Build a little plan around the
-          conversations you want to have.
-        </p>
+      <header className="page-intro quest-intro">
+        <div>
+          <p className="eyebrow">NEXT QUEST / CHOOSE YOUR OWN ADVENTURE</p>
+          <h1>
+            Where shall we
+            <br />
+            <span>take your words?</span>
+          </h1>
+          <p>
+            A job interview, a trip, a first date. Build a little plan around
+            the conversations you want to have.
+          </p>
+        </div>
+        <div className="quest-companion" aria-hidden="true">
+          <Companion />
+          <span>WHERE TO NEXT?</span>
+        </div>
       </header>
       <div className="quest-builder paper">
         <div className="builder-title">

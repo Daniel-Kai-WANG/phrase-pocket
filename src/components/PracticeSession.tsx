@@ -2,7 +2,8 @@ import { ArrowRight, Lightbulb, Volume2 } from "lucide-react";
 import type { HintLevel, Phrase, RecallAttempt } from "../types/learning";
 import { usePracticeSession } from "../hooks/usePracticeSession";
 import { speak } from "../utils/speech";
-import { Fox } from "./Fox";
+import { Companion } from "./Companion";
+import { SceneJourney } from "./SceneJourney";
 import { Modal } from "./Modal";
 
 export function PracticeSession({
@@ -51,7 +52,7 @@ export function PracticeSession({
     >
       {done ? (
         <div className="session-finish">
-          <Fox />
+          <Companion celebrate />
           <p className="eyebrow">SCENE VISITED</p>
           <h3>Good practice. Let it settle.</h3>
           <p>
@@ -64,6 +65,7 @@ export function PracticeSession({
         </div>
       ) : (
         <div className="practice-body">
+          <SceneJourney phase={step.phase} />
           <div className="step-label">
             <span>
               {step.phase === "learn"

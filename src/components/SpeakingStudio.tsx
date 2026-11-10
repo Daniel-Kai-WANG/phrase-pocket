@@ -131,7 +131,7 @@ export function SpeakingStudio({
             <h3>{phrase.scenarios[1].prompt}</h3>
             <p className="quiet">
               {mode === "conversation"
-                ? "Start the conversation. Pip will reply after each take."
+                ? "Start the conversation. Dot will reply after each take."
                 : "Respond naturally, using the expression you have been practising."}
             </p>
           </div>
@@ -140,12 +140,12 @@ export function SpeakingStudio({
           <div className="conversation-log" aria-label="Conversation">
             {turns.map((turn, index) => (
               <div key={index} className={`speech-bubble ${turn.role}`}>
-                <strong>{turn.role === "user" ? "You" : "Pip"}</strong>
+                <strong>{turn.role === "user" ? "You" : "Dot"}</strong>
                 <p>{turn.text}</p>
                 {turn.role === "assistant" && (
                   <button
                     className="icon-button"
-                    aria-label="Listen to Pip’s reply"
+                    aria-label="Listen to Dot’s reply"
                     onClick={() => setError(speak(turn.text) ?? "")}
                   >
                     <Volume2 size={17} />

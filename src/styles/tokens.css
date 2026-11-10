@@ -1,22 +1,26 @@
 :root {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
-  color: #243d46;
-  background: #f3f8fa;
+  color: #242331;
+  background: #f6f5f8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --paper: #f3f8fa;
+  --paper: #f6f5f8;
   --surface: #fff;
-  --ink: #243d46;
-  --muted: #526a72;
-  --action: #25636a;
-  --action-hover: #1d5056;
-  --sun: #f5d67c;
-  --mint: #e7f1e9;
-  --line: #c7d6d9;
+  --ink: #242331;
+  --muted: #62616e;
+  --action: #4c4588;
+  --action-hover: #393264;
+  --sun: #deedb3;
+  --mint: #ecf2e5;
+  --line: #dcdbe3;
   --error: #8c3532;
   --error-bg: #fff1ed;
-  --radius: 14px;
-  --shadow: 3px 4px 0 #243d46;
+  --radius: 24px;
+  --shadow: 0 8px 28px rgb(36 35 49 / 6%);
+  --scene-ink: #292638;
+  --scene-cream: #fffaf0;
+  --companion-color: #d7ef91;
+  --scene-pop: #ef9b89;
 }
 * {
   box-sizing: border-box;
@@ -108,7 +112,7 @@ svg {
 }
 .paper {
   background: var(--surface);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
 }
 .sr-only {
@@ -147,19 +151,27 @@ svg {
   gap: 12px;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
-  padding: 11px 19px;
+  border-radius: 16px;
+  padding: 13px 22px;
   font-size: 0.88rem;
   font-weight: 650;
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--line);
 }
 .primary-button {
   color: white;
   background: var(--action);
-  box-shadow: 2px 3px 0 var(--ink);
+  box-shadow: 0 4px 0 var(--action-hover);
+  border-color: var(--action);
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease;
 }
 .primary-button:hover:not(:disabled) {
   background: var(--action-hover);
+}
+.primary-button:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--action-hover);
 }
 .secondary-button {
   background: white;
@@ -234,7 +246,7 @@ select {
   line-height: 1.6;
 }
 .notice {
-  background: #e7f1f2;
+  background: var(--mint);
   border: 1px solid var(--line);
   display: flex;
   align-items: center;
