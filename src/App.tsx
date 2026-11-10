@@ -78,6 +78,10 @@ export default function App() {
     themeForDay(today);
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [tab]);
+
+  useEffect(() => {
     const navigate = () => setTab(currentDestination());
     const connection = () => setOnline(navigator.onLine);
     window.addEventListener("hashchange", navigate);

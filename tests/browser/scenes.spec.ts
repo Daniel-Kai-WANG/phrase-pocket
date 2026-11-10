@@ -4,6 +4,20 @@ import { readLearning, startRecall, test } from "./pocket";
 
 const knownDay = new Date("2026-11-10T02:00:00Z");
 
+test("switching phone tabs starts the new page at the top", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const destination of [/Daily Three/, /Next Quest/, /My Phrases/]) {
+    await page.evaluate(() => window.scrollTo(0, 300));
+    await expect
+      .poll(() => page.evaluate(() => window.scrollY))
+      .toBeGreaterThan(100);
+    await page.getByRole("link", { name: destination }).click();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+  }
+});
+
 for (const [theme, scene] of Object.entries(SCENES)) {
   test(`${scene.name} restores its lesson and keeps learning progress unchanged`, async ({
     page,
