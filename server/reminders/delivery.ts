@@ -1,7 +1,7 @@
 import * as webPush from "web-push";
 import { contentFeedSchema } from "../../src/types/contentFeed.js";
 import { learningDay } from "../../src/utils/dates.js";
-import { reminderMessage } from "../../src/utils/reminders.js";
+import { reminderMessage } from "../../src/utils/reminderMessage.js";
 import type { ReminderConfig } from "./config.js";
 import type { ReminderDevice } from "./schema.js";
 import type { ReminderStore } from "./store.js";

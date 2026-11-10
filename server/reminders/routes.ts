@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { bodyLimit } from "hono/body-limit";
 import { isAuthorized } from "../auth.js";
 import { learningDay } from "../../src/utils/dates.js";
-import { reminderMessage } from "../../src/utils/reminders.js";
+import { reminderMessage } from "../../src/utils/reminderMessage.js";
 import {
   readReminderConfig,
   remindersConfigured,

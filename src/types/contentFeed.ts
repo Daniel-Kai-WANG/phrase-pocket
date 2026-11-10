@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { phraseSchema, themeSchema } from "./contentSchema";
+import { phraseSchema, themeSchema } from "./contentSchema.js";
 
 export const contentFeedSchema = z.object({
   version: z.literal(1),

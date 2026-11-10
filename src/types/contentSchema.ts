@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { soundWordSchema } from "./phoneticsSchema";
+import { soundWordSchema } from "./phoneticsSchema.js";
 
 export const themeSchema = z.enum([
   "small-talk",
