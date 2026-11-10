@@ -19,7 +19,7 @@ test("plays all three sound games on a personal expression without changing mean
   await page.getByRole("button", { name: "Check answer", exact: true }).click();
   await expect(
     page.getByRole("region", { name: "Meaning hints" }),
-  ).toContainText("You tried, but did not get the result you wanted.");
+  ).toContainText("Trying to achieve something without succeeding.");
   await page.getByRole("button", { name: "Word → IPA", exact: true }).click();
   for (const token of ["v", "eɪ", "n"])
     await page
@@ -67,7 +67,9 @@ test("shows reviewed coverage honestly and keeps sound controls within the viewp
     scroll: element.scrollWidth,
   }));
   expect(widths.scroll).toBeLessThanOrEqual(widths.width);
-  for (const button of await page.locator(".sound-tiles button").all()) {
+  for (const button of await page
+    .locator(".sound-tiles:visible button")
+    .all()) {
     const box = await button.boundingBox();
     expect(box?.width).toBeGreaterThanOrEqual(44);
     expect(box?.height).toBeGreaterThanOrEqual(44);
@@ -114,7 +116,7 @@ test("assembles a longer personal word with both stress marks on a phone", async
   expect(widths.scroll).toBeLessThanOrEqual(widths.width);
   await page.getByRole("button", { name: "Check answer", exact: true }).click();
   await expect(dialog.getByRole("status")).toContainText("Sound unlocked!");
-  await expect(page.locator(".sound-tiles")).toHaveCount(0);
+  await expect(page.locator(".sound-tiles:visible")).toHaveCount(0);
   await expect(dialog.getByRole("status")).toContainText(
     "Your answer: /ˌpriːˈrekwɪzɪt/",
   );

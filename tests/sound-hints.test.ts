@@ -10,7 +10,12 @@ const vain = SOUND_WORDS[0];
 it("provides distinct clues without giving away the target and keeps examples in its reviewed sense", () => {
   for (const word of SOUND_WORDS) {
     const help = getSoundHelp(word, phrase);
-    expect(help.clues.length).toBeGreaterThanOrEqual(5);
+    expect(help.clues).toHaveLength(7);
+    expect(help.clues[6]).toMatch(/^Spelling clue:/);
+    for (const clue of help.clues.slice(0, 6))
+      expect(clue).not.toMatch(
+        /____|Picture this:|Spelling clue:|Use this word after/i,
+      );
     expect(new Set(help.clues).size).toBe(help.clues.length);
     expect(help.examples.length).toBeGreaterThanOrEqual(2);
     for (const clue of help.clues)

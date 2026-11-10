@@ -39,8 +39,21 @@ export function SoundPractice({
     ),
   );
   const [mode, setMode] = useState<SoundMode>(initialTask?.mode ?? "decode");
-  const [round, setRound] = useState(0);
+  const [rounds, setRounds] = useState<Record<string, number>>({});
   const word = targets[wordIndex];
+
+  function nextChallenge() {
+    const nextModeIndex = SOUND_MODES.indexOf(mode) + 1;
+    const nextMode = SOUND_MODES[nextModeIndex % SOUND_MODES.length];
+    const nextWordIndex =
+      nextModeIndex === SOUND_MODES.length
+        ? (wordIndex + 1) % targets.length
+        : wordIndex;
+    const key = `${targets[nextWordIndex].word}-${nextMode}`;
+    setRounds((current) => ({ ...current, [key]: (current[key] ?? 0) + 1 }));
+    setMode(nextMode);
+    setWordIndex(nextWordIndex);
+  }
   return (
     <Modal title="Sound adventure" onClose={onClose}>
       <div className="practice-body">
@@ -49,10 +62,7 @@ export function SoundPractice({
             <button
               key={item}
               aria-pressed={item === mode}
-              onClick={() => {
-                setMode(item);
-                setRound((value) => value + 1);
-              }}
+              onClick={() => setMode(item)}
             >
               {LABELS[item]}
             </button>
@@ -73,44 +83,48 @@ export function SoundPractice({
                     key={item.word}
                     className="secondary-button"
                     aria-pressed={index === wordIndex}
-                    onClick={() => {
-                      setWordIndex(index);
-                      setRound((value) => value + 1);
-                    }}
+                    onClick={() => setWordIndex(index)}
                   >
                     Target {index + 1}
                   </button>
                 ))}
               </div>
             )}
-            <SoundChallenge
-              key={`${word.word}-${mode}-${round}`}
-              phrase={phrase}
-              word={word}
-              mode={mode}
-              transfer={round > 0}
-              previousMistakes={getRecentSoundMistakes(
-                attempts,
-                phrase.id,
-                word.word,
-              )}
-              independent={
-                !attempts.some(
-                  (attempt) =>
-                    attempt.word === word.word &&
-                    attempt.mode === mode &&
-                    learningDay(attempt.at) === learningDay(),
-                )
-              }
-              onAttempt={onAttempt}
-              onNext={() => {
-                const nextMode = SOUND_MODES.indexOf(mode) + 1;
-                setMode(SOUND_MODES[nextMode % SOUND_MODES.length]);
-                if (nextMode === SOUND_MODES.length)
-                  setWordIndex((wordIndex + 1) % targets.length);
-                setRound((value) => value + 1);
-              }}
-            />
+            {targets.map((target, index) =>
+              SOUND_MODES.map((challengeMode) => {
+                const key = `${target.word}-${challengeMode}`;
+                const round = rounds[key] ?? 0;
+                return (
+                  <div
+                    key={key}
+                    hidden={index !== wordIndex || challengeMode !== mode}
+                  >
+                    <SoundChallenge
+                      key={round}
+                      phrase={phrase}
+                      word={target}
+                      mode={challengeMode}
+                      transfer={round > 0}
+                      previousMistakes={getRecentSoundMistakes(
+                        attempts,
+                        phrase.id,
+                        target.word,
+                      )}
+                      independent={
+                        !attempts.some(
+                          (attempt) =>
+                            attempt.word === target.word &&
+                            attempt.mode === challengeMode &&
+                            learningDay(attempt.at) === learningDay(),
+                        )
+                      }
+                      onAttempt={onAttempt}
+                      onNext={nextChallenge}
+                    />
+                  </div>
+                );
+              }),
+            )}
             <details className="speaking-history">
               <summary>Your sound trail</summary>
               {getSoundSummary(attempts, word.word).map((item) => (

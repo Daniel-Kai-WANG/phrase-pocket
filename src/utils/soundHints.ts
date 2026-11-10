@@ -9,24 +9,16 @@ export function getSoundHelp(word: SoundWord, phrase: Phrase) {
     reference?.hint === word.hint && reference.context === word.context
       ? SOUND_HELP[word.word]
       : undefined;
-  const pattern = new RegExp(
-    `\\b${word.word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`,
-    "gi",
-  );
   const examples = [
     ...new Set(help?.examples ?? [word.context, phrase.example]),
   ].filter((example) => example.toLowerCase().includes(word.word));
   const clues = [
     ...new Set([
-      word.hint,
-      ...(help?.hints ?? []),
-      ...examples.map(
-        (example) => `Picture this: ${example.replace(pattern, "____")}`,
-      ),
+      ...(help?.hints ?? [word.hint]),
       `Spelling clue: ${word.word.length} letters, starting with ‘${word.word[0]}’.`,
     ]),
   ];
-  return { clues, examples, meaning: help?.hints[0] ?? word.hint };
+  return { clues, examples, meaning: help?.hints[5] ?? word.hint };
 }
 
 export function getRecentSoundMistakes(

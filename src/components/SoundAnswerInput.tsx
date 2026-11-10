@@ -1,4 +1,4 @@
-import type { Dispatch, SetStateAction } from "react";
+import { useId, type Dispatch, type SetStateAction } from "react";
 import type { SoundMode } from "../types/phonetics";
 
 export function SoundAnswerInput({
@@ -22,13 +22,15 @@ export function SoundAnswerInput({
   setSelected: (value: number | null) => void;
   finished: boolean;
 }) {
+  const answerId = useId();
+  const instructionsId = useId();
   return (
     <>
       {mode === "decode" ? (
         <>
-          <label htmlFor="sound-answer">Which word fits?</label>
+          <label htmlFor={answerId}>Which word fits?</label>
           <input
-            id="sound-answer"
+            id={answerId}
             value={answer}
             onChange={(event) => setAnswer(event.target.value)}
             autoComplete="off"
@@ -39,7 +41,7 @@ export function SoundAnswerInput({
         </>
       ) : (
         <>
-          <p id="sound-instructions">
+          <p id={instructionsId}>
             {mode === "repair"
               ? "Tap the changed sound, then choose its replacement."
               : "Tap sounds in order. You can use a tile more than once."}
@@ -47,7 +49,7 @@ export function SoundAnswerInput({
           <div
             className="sound-answer"
             aria-label="Your transcription"
-            aria-describedby="sound-instructions"
+            aria-describedby={instructionsId}
           >
             <span>/</span>
             {tokens.length ? (

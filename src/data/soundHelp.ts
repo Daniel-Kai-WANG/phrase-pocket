@@ -1,14 +1,16 @@
-export interface SoundHelp {
-  hints: string[];
-  examples: string[];
-}
+import type { SoundHelp } from "../types/phonetics";
+import { SOCIAL_SOUND_HELP } from "./socialSoundHelp";
+import { ADVANCED_SOUND_HELP } from "./advancedSoundHelp";
 
 export const SOUND_HELP: Record<string, SoundHelp> = {
   vain: {
     hints: [
-      "You tried, but did not get the result you wanted.",
-      "You looked everywhere for your keys, but still could not find them. Your search did not work.",
-      "Your effort did not work. Use this word after ‘in’.",
+      "An effort that fails to produce the hoped-for result.",
+      "Trying to achieve something without succeeding.",
+      "Putting in effort but not reaching your goal.",
+      "Spending time or energy without getting a useful result.",
+      "You tried, but did not get what you wanted.",
+      "You tried, but it did not work.",
     ],
     examples: [
       "I waited in vain for the bus. It never came.",
@@ -17,8 +19,12 @@ export const SOUND_HELP: Record<string, SoundHelp> = {
   },
   versatile: {
     hints: [
-      "Useful for many different things.",
-      "One person can cook, paint and repair bikes. They have many different skills.",
+      "Able to adapt to a wide range of tasks or situations.",
+      "Capable of doing several different kinds of work well.",
+      "Useful for more than one purpose.",
+      "A person with many skills, or a thing with many uses.",
+      "Good at different things, rather than just one.",
+      "Able to do lots of different things.",
     ],
     examples: [
       "This versatile jacket works for both hiking and everyday wear.",
@@ -27,8 +33,12 @@ export const SOUND_HELP: Record<string, SoundHelp> = {
   },
   head: {
     hints: [
-      "Your eyes and ears are on this body part. The same word can also mean a leader or ‘go towards’.",
-      "In ‘Let's ___ home’, it means ‘go’. In ‘the ___ of the team’, it means ‘leader’.",
+      "The upper part of the body; also a leader, or the act of going towards a place.",
+      "The part above the neck; also the person in charge, or movement towards a destination.",
+      "The body part containing your brain; also someone who leads, or going somewhere.",
+      "The part with your eyes and ears; also a boss, or travelling in a chosen direction.",
+      "Your face is on this body part. It can also mean a leader or going towards somewhere.",
+      "The part above your neck; a boss; or going somewhere.",
     ],
     examples: [
       "Body part: Put a hat on your head.",
@@ -38,8 +48,12 @@ export const SOUND_HELP: Record<string, SoundHelp> = {
   },
   comfort: {
     hints: [
-      "Help someone feel better when they are sad.",
-      "Your friend is crying. You sit with them and listen so they feel less alone.",
+      "To ease the emotional distress of another person.",
+      "To offer care that reduces sadness or fear.",
+      "To help someone feel supported when they are upset.",
+      "To make a sad person feel less alone.",
+      "To help someone feel better after something upsetting.",
+      "To help a sad person feel better.",
     ],
     examples: [
       "A hug can comfort a child who is upset.",
@@ -48,152 +62,18 @@ export const SOUND_HELP: Record<string, SoundHelp> = {
   },
   reassure: {
     hints: [
-      "Help someone worry less.",
-      "Your friend is nervous. You say, ‘We have enough time. We won't be late.’",
+      "To restore confidence by reducing doubt or anxiety.",
+      "To help someone feel confident that things will be all right.",
+      "To reduce a worry by offering support or a helpful explanation.",
+      "To help someone believe there is less reason to worry.",
+      "To make a worried person feel calmer and more sure.",
+      "To help someone worry less.",
     ],
     examples: [
       "Please reassure him that his dog is safe.",
       "The teacher tried to reassure us before the exam.",
     ],
   },
-  genuine: {
-    hints: [
-      "Real, not fake.",
-      "Someone smiles because they really feel happy. They are not pretending.",
-    ],
-    examples: [
-      "Her smile was genuine; she was pleased to see us.",
-      "Is this a genuine painting or a copy?",
-    ],
-  },
-  sincere: {
-    hints: [
-      "You really mean what you say.",
-      "You say sorry because you truly feel sorry, not just to end an argument.",
-    ],
-    examples: [
-      "He offered a sincere apology for being late.",
-      "My thanks are sincere. Your help meant a lot.",
-    ],
-  },
-  jealous: {
-    hints: [
-      "You wish you had something another person has.",
-      "Your friend has a month off. You wish you had that much time off too.",
-    ],
-    examples: [
-      "I'm jealous of your lovely garden.",
-      "He felt jealous when his partner flirted with someone else.",
-    ],
-  },
-  exclusive: {
-    hints: [
-      "Only for certain people, not everyone.",
-      "In dating, two people agree that they will not date anyone else.",
-    ],
-    examples: [
-      "They are exclusive now; neither is dating anyone else.",
-      "Members get exclusive access to the pool.",
-    ],
-  },
-  cheeky: {
-    hints: [
-      "A little rude or bold, but sometimes funny.",
-      "A child asks for your cake with a big grin, even though they have already eaten theirs.",
-    ],
-    examples: [
-      "He gave me a cheeky grin and took the last chip.",
-      "That was a cheeky question to ask your boss!",
-    ],
-  },
-  stubborn: {
-    hints: [
-      "You will not change your mind.",
-      "Everyone shows you a shorter route, but you still insist on going your way.",
-    ],
-    examples: [
-      "Don't be stubborn; let someone help you.",
-      "She was too stubborn to admit she was wrong.",
-    ],
-  },
-  sarcastic: {
-    hints: [
-      "Saying something you do not really mean to show annoyance or make fun of someone.",
-      "Someone arrives very late. You say ‘Perfect timing!’ but you actually mean the timing was bad.",
-    ],
-    examples: [
-      "‘Lovely weather,’ he said in a sarcastic voice as rain soaked his shoes.",
-      "Her sarcastic ‘Well done’ showed that she was annoyed by the mistake.",
-    ],
-  },
-  pessimistic: {
-    hints: [
-      "You think things will probably go badly.",
-      "Before the match starts, you already think your team will lose.",
-    ],
-    examples: [
-      "He is pessimistic about finding his lost phone.",
-      "Don't be so pessimistic; we still have a chance.",
-    ],
-  },
-  prerequisite: {
-    hints: [
-      "Something you must have or do first.",
-      "Before joining an advanced class, you must pass the beginner class. Passing it is required first.",
-    ],
-    examples: [
-      "A driving licence is a prerequisite for this job.",
-      "Passing the first course is a prerequisite for joining the next one.",
-    ],
-  },
-  monologue: {
-    hints: [
-      "One person talks for a long time.",
-      "An actor stands on stage alone and gives a speech. Nobody else speaks.",
-    ],
-    examples: [
-      "The play begins with a short monologue.",
-      "His story became a long monologue; nobody else could get a word in.",
-    ],
-  },
-  suspicion: {
-    hints: [
-      "You think something might be true, but you are not sure.",
-      "The room is very quiet. You think someone may be hiding there, but you have no proof.",
-    ],
-    examples: [
-      "I have a suspicion that we took the wrong train.",
-      "Her suspicion was right: the shop had already closed.",
-    ],
-  },
-  lethal: {
-    hints: [
-      "Dangerous enough to kill.",
-      "This is stronger than ‘harmful’: it can cause someone to die.",
-    ],
-    examples: [
-      "The container was marked as holding a lethal substance.",
-      "The report described the gas as potentially lethal.",
-    ],
-  },
-  venomous: {
-    hints: [
-      "An animal can put poison into you by biting or stinging.",
-      "Think of a snake that injects a toxic substance through its teeth.",
-    ],
-    examples: [
-      "The guide warned us about venomous snakes in the area.",
-      "A venomous animal can deliver venom through a bite or sting.",
-    ],
-  },
-  poisonous: {
-    hints: [
-      "It contains something harmful that can make you ill if it enters your body.",
-      "A berry looks tasty, but eating it could make you very sick.",
-    ],
-    examples: [
-      "The sign warned that these berries were poisonous.",
-      "Some mushrooms are poisonous, even though they look like edible ones.",
-    ],
-  },
+  ...SOCIAL_SOUND_HELP,
+  ...ADVANCED_SOUND_HELP,
 };

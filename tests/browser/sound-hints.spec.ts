@@ -21,22 +21,24 @@ test("gives simpler clues after mistakes and retains meaning and examples after 
   const hints = page.getByRole("region", { name: "Meaning hints" });
   await answer(page, "vein");
   await expect(hints).toContainText(
-    "You tried, but did not get the result you wanted.",
+    "Trying to achieve something without succeeding.",
   );
   await expect(page.getByLabel("Which word fits?")).toBeEnabled();
   await expect(page.getByRole("region", { name: "More examples" })).toHaveCount(
     0,
   );
   await answer(page, "vane");
-  await expect(hints).toContainText("You looked everywhere for your keys");
+  await expect(hints).toContainText(
+    "Putting in effort but not reaching your goal.",
+  );
   await page.getByRole("button", { name: "Another hint", exact: true }).click();
-  await expect(hints).toContainText("Your effort did not work.");
+  await expect(hints).toContainText(
+    "Spending time or energy without getting a useful result.",
+  );
   await page.screenshot({ path: testInfo.outputPath("simpler-hint.png") });
   await answer(page, "vain");
   await expect(hints).toContainText("Meaning");
-  await expect(hints).toContainText(
-    "You tried, but did not get the result you wanted.",
-  );
+  await expect(hints).toContainText("You tried, but it did not work.");
   const examples = page.getByRole("region", { name: "More examples" });
   await expect(examples.getByRole("listitem")).toHaveCount(2);
   await expect(examples).toContainText("It never came.");

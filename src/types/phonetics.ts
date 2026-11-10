@@ -1,5 +1,10 @@
 export type SoundMode = "decode" | "build" | "repair";
 
+export interface SoundHelp {
+  hints: [string, string, string, string, string, string];
+  examples: string[];
+}
+
 export interface SoundWord {
   word: string;
   tokens: string[];
