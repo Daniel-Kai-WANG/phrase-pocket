@@ -11,12 +11,14 @@ export function PhraseDetail({
   onClose,
   onPractise,
   onSpeak,
+  onSound,
 }: {
   phrase: Phrase;
   progress?: PhraseProgress;
   onClose: () => void;
   onPractise: () => void;
   onSpeak: () => void;
+  onSound: () => void;
 }) {
   const [error, setError] = useState("");
   return (
@@ -53,6 +55,9 @@ export function PhraseDetail({
           </button>
           <button className="secondary-button" onClick={onSpeak}>
             Say it aloud
+          </button>
+          <button className="secondary-button" onClick={onSound}>
+            Sound challenge
           </button>
         </div>
         {error && (

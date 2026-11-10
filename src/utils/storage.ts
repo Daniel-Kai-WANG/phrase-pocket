@@ -33,6 +33,41 @@ const storeSchema = z.object({
   completedLessons: z.array(z.iso.date()),
   stamps: z.array(z.string()),
   quests: z.array(savedQuestSchema).default([]),
+  reminderDismissedDate: z.iso.date().optional(),
+  dailyTaskPlan: z
+    .object({
+      date: z.iso.date(),
+      newPhraseIds: z.array(z.string()),
+      reviewPhraseIds: z.array(z.string()),
+      sounds: z.array(
+        z.object({
+          phraseId: z.string(),
+          word: z.string(),
+          mode: z.enum(["decode", "build", "repair"]),
+        }),
+      ),
+    })
+    .optional(),
+  reminderPreferences: z
+    .object({
+      enabled: z.boolean(),
+      time: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
+      timeZone: z.literal("Australia/Brisbane"),
+    })
+    .optional(),
+  soundAttempts: z
+    .array(
+      z.object({
+        id: z.string(),
+        phraseId: z.string(),
+        word: z.string(),
+        mode: z.enum(["decode", "build", "repair"]),
+        at: z.iso.datetime(),
+        correct: z.boolean(),
+        independent: z.boolean(),
+      }),
+    )
+    .default([]),
   speaking: z
     .array(
       z.object({
@@ -61,6 +96,7 @@ export function emptyStore(): LearningStore {
     stamps: [],
     quests: [],
     speaking: [],
+    soundAttempts: [],
   };
 }
 

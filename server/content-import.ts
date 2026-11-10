@@ -29,13 +29,22 @@ export function importSourceBatch(
   if (batch.source === "personal" && batch.lessons.length)
     throw new Error("Personal updates cannot replace daily pages.");
   const learningCopy = batch.phrases.map(
-    ({ expression, meaning, example, note, pronunciation, scenarios }) => ({
+    ({
       expression,
       meaning,
       example,
       note,
       pronunciation,
       scenarios,
+      soundTargets,
+    }) => ({
+      expression,
+      meaning,
+      example,
+      note,
+      pronunciation,
+      scenarios,
+      soundTargets,
     }),
   );
   const publicText = JSON.stringify([learningCopy, batch.pending]);

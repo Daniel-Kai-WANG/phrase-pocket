@@ -1,6 +1,8 @@
 import { expect, it } from "vitest";
 import { importSourceBatch } from "../server/content-import";
 import { initialFeed } from "../src/data/initialFeed";
+import { SOUND_WORDS } from "../src/data/soundWords";
+import { getSoundTargets } from "../src/utils/phonetics";
 
 const checkedAt = "2026-11-09T14:05:07.000Z";
 function batch() {
@@ -19,6 +21,48 @@ function batch() {
     resolvedPendingIds: [],
   };
 }
+
+it("publishes reviewed sound targets with their source and preserves the expression identity", () => {
+  const phrase = {
+    ...batch().phrases[0],
+    expression: "In vain",
+    example: "We tried in vain.",
+    soundTargets: [SOUND_WORDS[0]],
+  };
+  const next = importSourceBatch(initialFeed, {
+    ...batch(),
+    phrases: [phrase],
+  });
+  expect(next.phrases[0].id).toBe(phrase.id);
+  expect(next.phrases[0].soundTargets).toEqual(phrase.soundTargets);
+  expect(getSoundTargets(next.phrases[0])[0].word).toBe("vain");
+  expect(next.lessons).toEqual(initialFeed.lessons);
+});
+
+it("rejects inconsistent or untranslated imported sound exercises", () => {
+  const withTarget = (target: (typeof SOUND_WORDS)[number]) => ({
+    ...batch(),
+    phrases: [{ ...batch().phrases[0], soundTargets: [target] }],
+  });
+  expect(() =>
+    importSourceBatch(
+      initialFeed,
+      withTarget({ ...SOUND_WORDS[0], accepted: ["wrong"] }),
+    ),
+  ).toThrow();
+  expect(() =>
+    importSourceBatch(
+      initialFeed,
+      withTarget({ ...SOUND_WORDS[0], hint: "中文解释" }),
+    ),
+  ).toThrow("English");
+  expect(() =>
+    importSourceBatch(
+      initialFeed,
+      withTarget({ ...SOUND_WORDS[0], sourceUrl: "javascript:alert(1)" }),
+    ),
+  ).toThrow();
+});
 
 it("imports a reviewed correction under the original memory id and preserves daily history", () => {
   const next = importSourceBatch(initialFeed, batch());

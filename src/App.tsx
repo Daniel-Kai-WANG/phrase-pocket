@@ -27,6 +27,9 @@ import { useOfflinePocket } from "./hooks/useOfflinePocket";
 import { PocketUpdate } from "./components/PocketUpdate";
 import { useContentFeed } from "./hooks/useContentFeed";
 import { ContentSync } from "./components/ContentSync";
+import { SoundPractice } from "./components/SoundPractice";
+import { DailyTaskCard } from "./components/DailyTaskCard";
+import type { DailySoundTask } from "./types/dailyTasks";
 
 type Destination = "phrases" | "daily" | "quest";
 interface ActiveSession {
@@ -52,6 +55,8 @@ export default function App() {
   const [detail, setDetail] = useState<Phrase | null>(null);
   const [session, setSession] = useState<ActiveSession | null>(null);
   const [speaking, setSpeaking] = useState<Phrase | null>(null);
+  const [sound, setSound] = useState<Phrase | null>(null);
+  const [soundTask, setSoundTask] = useState<DailySoundTask>();
   const [selectedDate, setSelectedDate] = useState<string>();
   const [settings, setSettings] = useState(false);
   const [notice, setNotice] = useState("");
@@ -74,6 +79,7 @@ export default function App() {
     session?.phrases[0]?.theme ??
     detail?.theme ??
     speaking?.theme ??
+    sound?.theme ??
     dailyTheme ??
     themeForDay(today);
 
@@ -195,7 +201,7 @@ export default function App() {
         <main id="main-content" tabIndex={-1}>
           {offline.updateAvailable && (
             <PocketUpdate
-              busy={Boolean(session || speaking)}
+              busy={Boolean(session || speaking || sound)}
               onReload={offline.applyUpdate}
             />
           )}
@@ -220,6 +226,23 @@ export default function App() {
                 Dismiss
               </button>
             </div>
+          )}
+          {tab === "phrases" && (
+            <DailyTaskCard
+              phrases={phrases}
+              lessons={content.feed.lessons}
+              data={learning.data}
+              today={today}
+              onPlan={learning.saveDailyTaskPlan}
+              onDismiss={learning.dismissReminder}
+              onPractice={(items, reviewOnly) =>
+                startSession({ phrases: items, reviewOnly })
+              }
+              onSound={(phrase, task) => {
+                setSound(phrase);
+                setSoundTask(task);
+              }}
+            />
           )}
           {tab === "phrases" && (
             <Library
@@ -282,6 +305,11 @@ export default function App() {
             setSpeaking(detail);
             setDetail(null);
           }}
+          onSound={() => {
+            setSoundTask(undefined);
+            setSound(detail);
+            setDetail(null);
+          }}
         />
       )}
       {session && (
@@ -291,6 +319,15 @@ export default function App() {
           onAttempt={learning.saveAttempt}
           onFinish={finishSession}
           onClose={() => setSession(null)}
+        />
+      )}
+      {sound && (
+        <SoundPractice
+          phrase={sound}
+          initialTask={soundTask}
+          attempts={learning.data.soundAttempts ?? []}
+          onAttempt={learning.saveSoundAttempt}
+          onClose={() => setSound(null)}
         />
       )}
       {speaking && (
@@ -311,6 +348,7 @@ export default function App() {
           recoveryText={learning.recoveryText}
           contentSync={<ContentSync {...content} onSync={content.sync} />}
           onRestore={learning.restore}
+          onReminderChange={learning.saveReminderPreferences}
           onClose={() => setSettings(false)}
         />
       )}

@@ -1,0 +1,123 @@
+.sound-guide {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.sound-guide .companion {
+  width: 72px;
+  flex: 0 0 72px;
+}
+.sound-guide p {
+  font-weight: 600;
+}
+.sound-answer,
+.sound-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0;
+}
+.sound-answer {
+  min-height: 70px;
+  padding: 12px;
+  background: var(--paper);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+.sound-tile {
+  min-width: 44px;
+  min-height: 48px;
+  padding: 8px 12px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+}
+.sound-tile[aria-pressed="true"] {
+  background: var(--sun);
+  outline: 2px solid var(--action);
+  outline-offset: 2px;
+}
+.sound-answer .sound-tile:disabled {
+  opacity: 1;
+}
+.sound-challenge input {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.sound-challenge .feedback a {
+  color: var(--action);
+}
+.daily-task-card {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.daily-task-card h2 {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+.daily-task-card p {
+  font-size: 0.8rem;
+}
+.daily-task-card progress {
+  width: 100%;
+  accent-color: var(--action);
+}
+.reminder-toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+}
+.reminder-toggle input {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 760px) {
+  .sound-guide {
+    gap: 10px;
+  }
+  .sound-guide .companion {
+    width: 52px;
+    flex-basis: 52px;
+  }
+  .sound-guide p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .sound-challenge .study-expression {
+    margin: 8px 0;
+  }
+  .sound-challenge > .quiet {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  .sound-challenge #sound-instructions {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .sound-answer {
+    min-height: 54px;
+    padding: 8px;
+    margin: 12px 0;
+  }
+  .sound-challenge form > .button-row {
+    position: sticky;
+    bottom: 0;
+    padding: 12px 0;
+    background: var(--surface);
+  }
+}

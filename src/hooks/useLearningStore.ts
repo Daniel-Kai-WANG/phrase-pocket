@@ -5,6 +5,8 @@ import { loadStore, saveStore } from "../utils/storage";
 import { recordRecall } from "../utils/review";
 import type { QuestPlan } from "../types/quest";
 import type { SpeakingRecord } from "../types/speaking";
+import type { SoundAttempt } from "../types/phonetics";
+import type { DailyTaskPlan, ReminderPreferences } from "../types/dailyTasks";
 
 export function useLearningStore() {
   const [initial] = useState(() => loadStore(localStorage));
@@ -83,6 +85,12 @@ export function useLearningStore() {
     });
   }
 
+  function saveSoundAttempt(attempt: SoundAttempt) {
+    const attempts = current.current.soundAttempts ?? [];
+    if (attempts.some((item) => item.id === attempt.id)) return;
+    persist({ ...current.current, soundAttempts: [...attempts, attempt] });
+  }
+
   return {
     data,
     error,
@@ -92,6 +100,17 @@ export function useLearningStore() {
     startQuest,
     completeQuestDay,
     saveSpeaking,
+    saveSoundAttempt,
+    saveReminderPreferences: (preferences: ReminderPreferences) =>
+      persist({ ...current.current, reminderPreferences: preferences }),
+    dismissReminder: (date: string) =>
+      persist({ ...current.current, reminderDismissedDate: date }),
+    saveDailyTaskPlan: (plan: DailyTaskPlan) => {
+      if (
+        JSON.stringify(current.current.dailyTaskPlan) !== JSON.stringify(plan)
+      )
+        persist({ ...current.current, dailyTaskPlan: plan });
+    },
     restore: (backup: LearningStore) => persist(backup, true),
   };
 }

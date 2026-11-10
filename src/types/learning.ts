@@ -1,3 +1,5 @@
+import type { SoundWord } from "./phonetics";
+
 export type Theme =
   | "small-talk"
   | "relationships"
@@ -28,6 +30,7 @@ export interface Phrase {
   sourceDate: string;
   sourceMessageId?: string;
   senseId?: string;
+  soundTargets?: SoundWord[];
   scenarios: [Scenario, Scenario];
 }
 

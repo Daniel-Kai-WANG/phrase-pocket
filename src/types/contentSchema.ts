@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { soundWordSchema } from "./phoneticsSchema";
 
 export const themeSchema = z.enum([
   "small-talk",
@@ -27,6 +28,7 @@ export const phraseSchema = z.object({
   sourceDate: z.iso.date(),
   sourceMessageId: z.string().optional(),
   senseId: z.string().min(1).optional(),
+  soundTargets: z.array(soundWordSchema).max(3).optional(),
   scenarios: z.tuple([scenarioSchema, scenarioSchema]),
 });
 export const questSchema = z.object({

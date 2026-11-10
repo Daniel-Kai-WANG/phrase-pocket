@@ -37,6 +37,16 @@ Use the actual newest reviewed turn and served feed revision. The file is ignore
 
 Only switch public `sourceSyncMode` to `scheduled` after a real scheduled cycle has successfully published and been verified. A paused task or a manual feed refresh must remain labelled as not automatically connected.
 
+## Personal sound targets
+
+For every newly reviewed expression, select up to three useful target words and supply `soundTargets` when their pronunciations can be verified. A direct word/pronunciation question takes priority over incidental words in the example. Use the UK dictionary reference consistently in this release; it is a teaching reference, not a claim that Australian pronunciation is identical.
+
+Each target contains a lowercase `word`, phoneme/stress `tokens`, accepted IPA strings without slashes or syllable dots, an English `hint`, a distinct neutral example `context`, a usage or sound `note`, and a public HTTPS `sourceUrl`. The reference formed by joining tokens must be an accepted answer. Keep diphthongs and affricates together. Place stress marks according to the consulted dictionary. The source must actually have been inspected; do not attach a plausible URL to an invented transcription.
+
+Use a dictionary's appropriate sense and accent variants, not arbitrary alternatives. If a homograph's intended reading cannot be resolved, keep that sound target out of scored practice until reviewed. Unknown names and slang should not receive guessed IPA. Definitions and contexts must not expose private source narrative. The importer checks English-only copy and preserves stable phrase IDs and daily lessons.
+
+Source continuity still applies: missing history must never be bypassed to add pronunciation data. Changes to these instructions do not prove that a scheduled target import has run successfully; verify the real served feed before claiming that.
+
 ## Limits and recovery
 
 The current reader exposes only five recent turns with no older-page cursor. Up to four new turns can retain overlap with a one-turn checkpoint; five or more new turns between checks can remove it entirely. A longer outage can therefore require manual recovery. Existing-turn edits and deleted branches are not tracked by this additions-only checkpoint.

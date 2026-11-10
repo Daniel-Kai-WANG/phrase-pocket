@@ -9,6 +9,8 @@ import {
 } from "../utils/storage";
 import { setCoachToken } from "../api/client";
 import type { LearningStore } from "../types/storage";
+import type { ReminderPreferences } from "../types/dailyTasks";
+import { ReminderSettings } from "./ReminderSettings";
 
 export function PocketSettings({
   data,
@@ -18,6 +20,7 @@ export function PocketSettings({
   contentSync,
   onRestore,
   onClose,
+  onReminderChange,
 }: {
   data: LearningStore;
   offlineReady: boolean;
@@ -26,6 +29,7 @@ export function PocketSettings({
   contentSync: ReactNode;
   onRestore: (data: LearningStore) => string | null | undefined;
   onClose: () => void;
+  onReminderChange: (preferences: ReminderPreferences) => void;
 }) {
   const [code, setCode] = useState("");
   const [message, setMessage] = useState("");
@@ -35,6 +39,10 @@ export function PocketSettings({
     <Modal title="Pocket settings" onClose={onClose}>
       <div className="settings-body">
         {contentSync}
+        <ReminderSettings
+          preferences={data.reminderPreferences}
+          onChange={onReminderChange}
+        />
         <section>
           <h3>Your online coach</h3>
           <p className="quiet">

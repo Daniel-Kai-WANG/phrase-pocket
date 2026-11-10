@@ -8,6 +8,7 @@ import "./styles/scene-palettes.css";
 import "./styles/scenes.css";
 import "./styles/components.css";
 import "./styles/practice.css";
+import "./styles/phonetics.css";
 import "./styles/mobile.css";
 
 createRoot(document.getElementById("root")!).render(
