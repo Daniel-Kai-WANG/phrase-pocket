@@ -7,7 +7,13 @@ const home = new URL("index.html", scope).href;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(cacheName).then((cache) => cache.addAll([...assetUrls])),
+    caches
+      .open(cacheName)
+      .then((cache) =>
+        cache.addAll(
+          [...assetUrls].map((url) => new Request(url, { cache: "reload" })),
+        ),
+      ),
   );
 });
 

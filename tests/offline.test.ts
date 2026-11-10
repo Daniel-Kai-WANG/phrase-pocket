@@ -6,8 +6,10 @@ function worker(scope = "https://example.com/phrase-pocket/") {
   const listeners = new Map<string, (event: unknown) => void>();
   const stored = new Map<string, Response>();
   const cache = {
-    addAll: vi.fn(async (urls: string[]) => {
-      urls.forEach((url) => stored.set(url, new Response(`cached:${url}`)));
+    addAll: vi.fn(async (requests: Request[]) => {
+      requests.forEach(({ url }) =>
+        stored.set(url, new Response(`cached:${url}`)),
+      );
     }),
     match: vi.fn(
       async (request: string | Request, options?: CacheQueryOptions) => {
@@ -52,6 +54,7 @@ function worker(scope = "https://example.com/phrase-pocket/") {
     },
     caches,
     URL,
+    Request,
     Set,
     fetch,
   });
