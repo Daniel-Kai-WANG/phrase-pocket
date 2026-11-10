@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 20 * * *"
   workflow_dispatch:
+    inputs:
+      verify_generation:
+        description: "Test a new lesson without publishing the test lesson"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -33,6 +38,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test
+      - name: Verify real generation without publishing the test lesson
+        if: inputs.verify_generation == true
+        run: npm run eval:daily
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TEXT_MODEL: ${{ vars.OPENAI_TEXT_MODEL }}
       - name: Prepare missing Brisbane daily pages
         run: npm run content:daily
         env:

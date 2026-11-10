@@ -10,6 +10,7 @@
     "content:import": "tsx scripts/import-content.ts",
     "content:check-source": "tsx scripts/check-source-window.ts",
     "eval:coach": "tsx --env-file-if-exists=.env.local scripts/evaluate-coach.ts",
+    "eval:daily": "tsx --env-file-if-exists=.env.local scripts/evaluate-daily.ts",
     "build": "tsc -b && vite build && node scripts/build-worker.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
