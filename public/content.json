@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "revision": 3,
-  "publishedAt": "2026-11-10T07:46:24.117Z",
-  "personalCheckedAt": "2026-11-09T14:05:07.000Z",
+  "revision": 4,
+  "publishedAt": "2026-11-10T08:02:11.186Z",
+  "personalCheckedAt": "2026-11-10T08:00:28.517Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "manual",
   "phrases": [
@@ -4261,6 +4261,31 @@
           "setting": "A new situation",
           "prompt": "Tell a friend you will meet them at that suburb's station at ten.",
           "sample": "I'll meet you at Petrie Station at ten."
+        }
+      ]
+    },
+    {
+      "id": "personal-never-mind-then",
+      "expression": "Never mind, then.",
+      "meaning": "Drop a request, suggestion or topic because there is no longer a reason to continue with it.",
+      "example": "If the cafe is closing now, never mind, then. We can get coffee somewhere else.",
+      "pronunciation": "Say mind clearly. A gentle tone makes the response less abrupt.",
+      "register": "Conversational",
+      "note": "Often sounds accepting or slightly disappointed. A sharp tone can sound annoyed or dismissive. Use it to withdraw your own request or suggestion; avoid brushing aside someone else's feelings.",
+      "theme": "small-talk",
+      "source": "personal",
+      "sourceDate": "2026-11-10",
+      "senseId": "withdraw-request-or-suggestion",
+      "scenarios": [
+        {
+          "setting": "At a shop",
+          "prompt": "You ask whether a jacket comes in another size, but the assistant says it is sold out. Politely drop your request and say you will look elsewhere.",
+          "sample": "Never mind, then. I'll try another shop. Thanks for checking."
+        },
+        {
+          "setting": "Making plans",
+          "prompt": "You suggest seeing a film tonight, but your friend says there are no tickets left. Drop that suggestion and offer to stay in instead.",
+          "sample": "Never mind, then. We could watch something at home instead."
         }
       ]
     }
