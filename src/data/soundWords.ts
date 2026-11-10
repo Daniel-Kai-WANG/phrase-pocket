@@ -1,4 +1,6 @@
 import type { SoundWord } from "../types/phonetics";
+import { SOCIAL_SOUND_WORDS } from "./socialSoundWords";
+import { ADVANCED_SOUND_WORDS } from "./advancedSoundWords";
 
 export const SOUND_WORDS: SoundWord[] = [
   {
@@ -50,4 +52,6 @@ export const SOUND_WORDS: SoundWord[] = [
     sourceUrl:
       "https://dictionary.cambridge.org/us/pronunciation/english/reassure",
   },
+  ...SOCIAL_SOUND_WORDS,
+  ...ADVANCED_SOUND_WORDS,
 ];

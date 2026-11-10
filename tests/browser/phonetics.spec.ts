@@ -77,3 +77,55 @@ test("shows reviewed coverage honestly and keeps sound controls within the viewp
   await page.getByRole("button", { name: "Show me", exact: true }).click();
   expect((await readLearning(page)).soundAttempts?.[0].independent).toBe(false);
 });
+
+test("assembles a longer personal word with both stress marks on a phone", async ({
+  page,
+}, testInfo) => {
+  await page.getByLabel("Search expressions").fill("prerequisite");
+  await page
+    .getByRole("button", { name: "A prerequisite", exact: true })
+    .click();
+  await page
+    .getByRole("button", { name: "Sound challenge", exact: true })
+    .click();
+  await page.getByRole("button", { name: "Word → IPA", exact: true }).click();
+  for (const token of [
+    "ˌ",
+    "p",
+    "r",
+    "iː",
+    "ˈ",
+    "r",
+    "e",
+    "k",
+    "w",
+    "ɪ",
+    "z",
+    "ɪ",
+    "t",
+  ])
+    await page
+      .locator(".sound-tiles")
+      .getByRole("button", { name: token, exact: true })
+      .click();
+  const dialog = page.getByRole("dialog");
+  const widths = await dialog.evaluate((element) => ({
+    width: element.clientWidth,
+    scroll: element.scrollWidth,
+  }));
+  expect(widths.scroll).toBeLessThanOrEqual(widths.width);
+  await page.getByRole("button", { name: "Check answer", exact: true }).click();
+  await expect(dialog.getByRole("status")).toContainText("Sound unlocked!");
+  await expect(page.locator(".sound-tiles")).toHaveCount(0);
+  await expect(dialog.getByRole("status")).toContainText(
+    "Your answer: /ˌpriːˈrekwɪzɪt/",
+  );
+  await page.screenshot({
+    path: testInfo.outputPath("sound-prerequisite.png"),
+  });
+  expect((await readLearning(page)).soundAttempts?.[0]).toMatchObject({
+    word: "prerequisite",
+    mode: "build",
+    correct: true,
+  });
+});

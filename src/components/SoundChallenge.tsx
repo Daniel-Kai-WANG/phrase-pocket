@@ -88,24 +88,24 @@ export function SoundChallenge({
           ? "Use the meaning to choose the spelling."
           : "Include stress marks. Syllable dots are optional."}
       </p>
-      <form
-        onSubmit={(event) => {
-          event.preventDefault();
-          submit();
-        }}
-      >
-        <SoundAnswerInput
-          mode={mode}
-          answer={answer}
-          setAnswer={setAnswer}
-          tokens={tokens}
-          setTokens={setTokens}
-          tiles={tiles}
-          selected={selected}
-          setSelected={setSelected}
-          finished={finished}
-        />
-        {!finished && (
+      {!finished && (
+        <form
+          onSubmit={(event) => {
+            event.preventDefault();
+            submit();
+          }}
+        >
+          <SoundAnswerInput
+            mode={mode}
+            answer={answer}
+            setAnswer={setAnswer}
+            tokens={tokens}
+            setTokens={setTokens}
+            tiles={tiles}
+            selected={selected}
+            setSelected={setSelected}
+            finished={finished}
+          />
           <div className="button-row">
             <button
               className="primary-button"
@@ -121,8 +121,8 @@ export function SoundChallenge({
               Show me
             </button>
           </div>
-        )}
-      </form>
+        </form>
+      )}
       {finished && (
         <div role="status" className={`feedback ${result ? "positive" : ""}`}>
           <strong>
@@ -135,6 +135,11 @@ export function SoundChallenge({
           <p>
             {word.word} — /{word.tokens.join("")}/
           </p>
+          {!revealed && (
+            <p className="quiet">
+              Your answer: {mode === "decode" ? answer : `/${tokens.join("")}/`}
+            </p>
+          )}
           <p>{word.note}</p>
           <p className="quiet">
             {result

@@ -49,6 +49,15 @@ describe("personal sound challenges", () => {
       }),
     ).toEqual([]);
   });
+  it("keeps the expression's focus word ahead of incidental example words", () => {
+    const targets = getSoundTargets({
+      ...phrase,
+      expression: "A prerequisite",
+      example: "Being versatile could comfort a jealous colleague.",
+    });
+    expect(targets[0].word).toBe("prerequisite");
+    expect(targets).toHaveLength(3);
+  });
   it("conceals every target occurrence and supports a different transfer context", () => {
     expect(getSoundContext(phrase, vain, false)).toBe("I searched in /veɪn/.");
     expect(getSoundContext(phrase, vain, true)).not.toContain("vain");

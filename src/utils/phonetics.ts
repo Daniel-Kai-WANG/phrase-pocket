@@ -40,7 +40,10 @@ export function getSoundTargets(phrase: Phrase): SoundWord[] {
   const words = new Map(
     (phrase.soundTargets ?? []).map((item) => [item.word, item]),
   );
-  for (const item of SOUND_WORDS)
+  const expressionWords = SOUND_WORDS.filter((item) =>
+    wordPattern(item.word).test(phrase.expression),
+  );
+  for (const item of [...expressionWords, ...SOUND_WORDS])
     if (!words.has(item.word)) words.set(item.word, item);
   return [...words.values()]
     .filter(
