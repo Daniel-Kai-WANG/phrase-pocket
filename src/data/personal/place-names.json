@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pronunciation-otaru",
+    "expression": "Otaru",
+    "meaning": "A port city in Hokkaido, Japan, northwest of Sapporo.",
+    "example": "Could I have a ticket to Otaru, please?",
+    "pronunciation": "Approximate English sound guide: oh-tah-roo. Say three light beats: o-ta-ru. This is a practical approximation, not a Japanese pitch-accent guide.",
+    "register": "Place name",
+    "note": "Use the name directly in an English sentence: to Otaru, in Otaru. The app's English voice is a practice aid, not a native Japanese pronunciation reference.",
+    "prompt": "At a station, ask for a ticket to the Hokkaido port city northwest of Sapporo whose name you practised.",
+    "transfer": "Tell a friend you want to spend an afternoon in that Hokkaido canal city.",
+    "transferSample": "I'd like to spend an afternoon in Otaru."
+  },
+  {
+    "id": "pronunciation-biei",
+    "expression": "Biei",
+    "meaning": "A town in Hokkaido known for its hills and nearby Blue Pond.",
+    "example": "We're planning to visit Biei tomorrow.",
+    "pronunciation": "Approximate English sound guide: bee-eh-ee. Practise the three light beats bi-e-i; do not read the first part as the English word buy.",
+    "register": "Place name",
+    "note": "Use the place name without translating it when speaking English. The sound guide and English voice are approximations of the Japanese name.",
+    "prompt": "Tell a friend you plan to visit the Hokkaido town near the Blue Pond tomorrow. Use the name you practised.",
+    "transfer": "Ask whether a train goes to that town known for its patchwork hills.",
+    "transferSample": "Does this train go to Biei?"
+  },
+  {
+    "id": "pronunciation-fushimi-inari",
+    "expression": "Fushimi Inari",
+    "meaning": "A name commonly used for the shrine in Kyoto known for its many torii gates; it is also a nearby station name.",
+    "example": "How do we get to Fushimi Inari from here?",
+    "pronunciation": "Approximate English sound guide: foo-shee-mee ee-nah-ree. Practise fu-shi-mi, then i-na-ri. Keep the two parts clear; the Japanese sounds are not exact matches for English sounds.",
+    "register": "Place name",
+    "note": "Fushimi Inari Taisha is the shrine's full name. Say shrine or station if the destination could be unclear. English voice playback is an approximation.",
+    "prompt": "Ask for directions to the Kyoto shrine famous for its many torii gates. Use the name you practised.",
+    "transfer": "Suggest meeting a friend outside the station that shares that shrine's name.",
+    "transferSample": "Let's meet outside Fushimi Inari Station."
+  },
+  {
+    "id": "pronunciation-kiyomizu",
+    "expression": "Kiyomizu",
+    "meaning": "A name used for an area in Kyoto and as part of Kiyomizu-dera, the temple's name.",
+    "example": "I'd like to visit Kiyomizu-dera while we're in Kyoto.",
+    "pronunciation": "Approximate English sound guide: kee-yo-mee-zoo. Practise four light beats: ki-yo-mi-zu. For the temple name, add deh-rah: Kiyomizu-dera.",
+    "register": "Place name",
+    "note": "When you mean the temple, Kiyomizu-dera is more specific than the shortened name. The English sound guide does not represent Japanese pitch accent.",
+    "prompt": "Tell a friend you want to visit the Kyoto temple whose name you practised. Use its full name ending in -dera.",
+    "transfer": "Ask a local person for the way to that Kyoto temple, using its full name.",
+    "transferSample": "Could you tell me the way to Kiyomizu-dera?"
+  },
+  {
+    "id": "pronunciation-petrie",
+    "expression": "Petrie",
+    "meaning": "A place name in Queensland, including a suburb in Moreton Bay north of Brisbane.",
+    "example": "Does this train stop at Petrie?",
+    "pronunciation": "PEE-tree, /ˈpiː.tri/. Stress the first syllable. The first vowel is like the vowel in see, not pet.",
+    "register": "Place name",
+    "note": "This card uses the Queensland place-name context. The name is also a surname; it does not mean a laboratory petri dish.",
+    "prompt": "Ask whether a train stops at the Moreton Bay suburb whose name you practised.",
+    "transfer": "Tell a friend you will meet them at that suburb's station at ten.",
+    "transferSample": "I'll meet you at Petrie Station at ten."
+  }
+]

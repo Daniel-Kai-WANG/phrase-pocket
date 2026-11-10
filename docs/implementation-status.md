@@ -4,7 +4,7 @@ Checked 10 November 2026 (Brisbane).
 
 ## Published application
 
-- Public feed revision 2 contains 144 personal expressions and nine Daily Three lessons (27 expressions), including 10 November. Eight uncertain source items remain outside the recall queue.
+- Public feed revision 3 contains 149 personal expressions and nine Daily Three lessons (27 expressions), including 10 November. Five place-name readings were reviewed against dictionary and official place references; three unclear source items remain outside the recall queue.
 - GitHub repository: `Daniel-Kai-WANG/phrase-pocket`. Frontend publication uses GitHub Pages Actions and uploads only the static build.
 - Backend: `daniel-backup-projects/phrase-pocket-coach`. The verified staged deployment returns health 200 and rejects unauthenticated assessment requests with 401.
 - Production credentials, provider key and the Pages allowed origin are configured. Health reports `coachConfigured: true`; authenticated live requests have succeeded.
@@ -35,7 +35,7 @@ Checked 10 November 2026 (Brisbane).
 
 - Verify the first scheduled daily content commit and dependent Pages release. The original daily conversation schedule remains active until that succeeds; a temporary hourly verification task will then request and verify its pause.
 - Verify a new personal source turn through scheduled publication. Current conversation reads expose only five recent turns; they do not prove a complete fresh history export.
-- Complete pending source-context/pronunciation review. The app fetches the published feed; it cannot read a private conversation itself.
+- Resolve the three remaining ambiguous source entries when their intended context is supplied. The app fetches the published feed; it cannot read a private conversation itself.
 - Finish the installed iPhone's private coach connection and verify microphone, playback, offline launch and the latest tab-scroll fix. The request limiter is per process, not a durable global spending cap.
 
 ## Browser handling

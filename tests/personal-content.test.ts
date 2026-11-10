@@ -58,7 +58,7 @@ it("does not print the target expression directly in a recall prompt", () => {
   expect(leaks).toEqual([]);
 });
 
-it("holds unclear source wording and unverified place pronunciations outside the practice catalog", () => {
+it("holds unclear source wording outside the practice catalog", () => {
   const activeIds = new Set(personalPhrases.map((phrase) => phrase.id));
   expect(
     pendingPhrases.some((item) => item.text === "Bet that cool blud"),

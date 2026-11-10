@@ -10,6 +10,7 @@ import everyday from "./personal/everyday.json";
 import wordChoices from "./personal/word-choices.json";
 import registerNotes from "./personal/register-notes.json";
 import travel from "./personal/travel.json";
+import placeNames from "./personal/place-names.json";
 
 interface PhraseSeed {
   id: string;
@@ -56,6 +57,7 @@ export const personalPhrases: Phrase[] = [
   ...preparePhrases(wordChoices, "work"),
   ...preparePhrases(registerNotes, "slang"),
   ...preparePhrases(travel, "travel"),
+  ...preparePhrases(placeNames, "travel"),
 ];
 
 export const pendingPhrases: PendingPhrase[] = [
@@ -77,10 +79,4 @@ export const pendingPhrases: PendingPhrase[] = [
     reason:
       "This word has several ordinary and slang meanings. The original sentence is needed to choose the intended sense.",
   },
-  ...["Otaru", "Biei", "Fushimi Inari", "Kiyomizu", "Petrie"].map((name) => ({
-    id: `pronunciation-${name.toLowerCase().replaceAll(" ", "-")}`,
-    text: name,
-    reason:
-      "A place-name pronunciation question was saved. It needs a checked pronunciation reference before becoming a speaking card.",
-  })),
 ];
