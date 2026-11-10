@@ -4,7 +4,9 @@ The personal source is conversation `6acb92fd-f508-83ec-9666-b034b69d466a`. The 
 
 ## First activation
 
-Keep the schedule paused until the repository, Pages feed and published baseline have been verified. The current initial content has been reviewed locally but has not been published. Do not write a published checkpoint yet.
+The initial repository, Pages feed and revision 2 baseline were verified on 10 November 2026. The private checkpoint was saved and the hourly desktop bridge activated. A check of the available source window found no new turns; the first scheduled import and publication remains unverified.
+
+For a fresh installation or recovery without a trustworthy checkpoint, keep the schedule paused until the repository, served feed and source boundary have been reconciled. Do not invent a published checkpoint from unpublished local content.
 
 After the first verified publication, save `data/private/personal-source-checkpoint.json` using this shape:
 
