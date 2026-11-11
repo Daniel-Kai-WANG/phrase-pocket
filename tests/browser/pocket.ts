@@ -2,6 +2,7 @@ import { expect, test as base, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import type { LearningStore } from "../../src/types/storage";
 import type { Phrase } from "../../src/types/learning";
+import { buildGuidedPhrase } from "../../src/utils/guidedPhrase";
 import { emptyStore, STORAGE_KEY } from "../../src/utils/storage";
 
 export const phrase: Phrase = JSON.parse(
@@ -39,7 +40,7 @@ export async function startRecall(page: Page) {
     .getByRole("button", { name: phrase.expression, exact: true })
     .click();
   await page.getByRole("button", { name: "Try a scene" }).click();
-  await page.getByRole("button", { name: "Got the idea" }).click();
+  await finishWarmup(page, phrase);
   await expect(page.getByLabel("What would you say?")).toBeVisible();
 }
 
@@ -49,4 +50,14 @@ export async function readLearning(page: Page): Promise<LearningStore> {
     STORAGE_KEY,
   );
   return saved ? JSON.parse(saved) : emptyStore();
+}
+
+export async function finishWarmup(page: Page, item: Phrase) {
+  await page.getByRole("button", { name: "Show me what to say" }).click();
+  await page.getByRole("button", { name: "Try one missing word" }).click();
+  await page.getByLabel("The missing word").fill(buildGuidedPhrase(item)!.word);
+  await page.getByRole("button", { name: "Check the word" }).click();
+  await page
+    .getByRole("button", { name: /Next little scene|Try a new situation/ })
+    .click();
 }

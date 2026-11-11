@@ -31,7 +31,7 @@ test("hints reveal progressively without recording a successful recall", async (
   await expect(
     page
       .getByRole("dialog")
-      .getByText(phrase.scenarios[0].sample, { exact: true }),
+      .getByText(phrase.scenarios[1].sample, { exact: true }),
   ).toBeVisible();
   expect((await readLearning(page)).progress).toEqual({});
 });

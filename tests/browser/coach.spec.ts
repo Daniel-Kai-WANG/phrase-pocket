@@ -4,6 +4,7 @@ import type { QuestPlan } from "../../src/types/quest";
 import {
   accessCode,
   connectCoach,
+  finishWarmup,
   phrase,
   readLearning,
   startRecall,
@@ -125,10 +126,7 @@ test("a plan preview is saved only when started and its scene completion persist
   await page.getByRole("button", { name: "Start this plan" }).click();
   await page.reload();
   await page.getByRole("button", { name: "Day 1", exact: true }).click();
-  await page.getByRole("button", { name: "Got the idea" }).click();
-  await page
-    .getByRole("button", { name: "Keep this one for another try" })
-    .click();
+  await finishWarmup(page, plan.phrases[0]);
   await page
     .getByRole("button", { name: "Keep this one for another try" })
     .click();

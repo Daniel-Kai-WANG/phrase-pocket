@@ -1,0 +1,214 @@
+.mini-practice {
+  padding: 16px 20px 22px;
+  background: var(--surface);
+}
+.mini-practice:focus {
+  outline: none;
+}
+.mini-progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.mini-progress span:first-child {
+  color: var(--action);
+  font-weight: 750;
+}
+.practice-picture {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--scene-sky);
+  margin-bottom: 20px;
+}
+.practice-picture .scene-backdrop {
+  width: 100%;
+  height: 180px;
+  padding: 0;
+}
+.picture-dot,
+.picture-friend {
+  position: absolute;
+  bottom: 0;
+  width: 105px;
+  transition: transform 350ms ease;
+}
+.picture-dot {
+  left: calc(50% - 28px);
+}
+.picture-friend {
+  left: calc(50% - 138px);
+  transform: scale(0.85) rotate(-8deg);
+  --companion-color: var(--scene-pop);
+}
+.practice-picture .companion {
+  display: block;
+  width: 100%;
+}
+.picture-reaction {
+  position: absolute;
+  left: calc(50% + 42px);
+  top: 22px;
+  width: 48px;
+  height: 42px;
+  border-radius: 16px 16px 16px 3px;
+  display: grid;
+  place-items: center;
+  color: var(--scene-ink);
+  background: var(--scene-cream);
+  transform: rotate(8deg);
+}
+.practice-picture > .scene-motion {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.practice-picture[data-success="true"] .picture-dot {
+  transform: translateX(-12px);
+}
+.practice-picture[data-success="true"] .picture-friend {
+  transform: translateX(12px) scale(0.85) rotate(6deg);
+}
+.practice-picture .companion-hand {
+  transform-origin: 138px 100px;
+  animation: dot-wave 2s ease-in-out 2;
+}
+.practice-picture .scene-backdrop * {
+  animation-iteration-count: 2;
+}
+.practice-picture[data-paused="true"] * {
+  animation-play-state: paused;
+}
+.mini-caption {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  color: var(--action);
+  margin: 0 0 8px;
+}
+.mini-heading {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0 0 14px;
+}
+.scene-question,
+.mini-meaning,
+.mini-example {
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 18px;
+}
+.mini-reassurance {
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin: 12px 0 18px;
+}
+.mini-listen {
+  margin: 0 0 12px;
+}
+.mini-more {
+  margin: 0 0 18px;
+  font-size: 0.85rem;
+}
+.mini-more summary {
+  min-height: 44px;
+  padding: 12px 0;
+  cursor: pointer;
+  color: var(--action);
+  font-weight: 650;
+}
+.mini-more p {
+  line-height: 1.6;
+  margin: 8px 0;
+}
+.mini-more[open] {
+  border-top: 1px solid var(--line);
+}
+.phrase-puzzle {
+  font-size: 1.4rem;
+  font-weight: 750;
+  line-height: 1.7;
+  margin: 12px 0 18px;
+}
+.phrase-puzzle span {
+  display: inline-block;
+  min-width: 54px;
+  padding: 0 12px;
+  border-bottom: 2px dashed var(--action);
+  color: var(--action);
+  background: var(--mint);
+  border-radius: 6px;
+  margin: 0 4px;
+}
+.mini-hint {
+  margin: 8px 0;
+  min-height: 44px;
+}
+.mini-feedback {
+  padding: 12px 14px;
+  background: var(--mint);
+  border-radius: 12px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.mini-practice .hint-box p {
+  margin: 0 0 8px;
+}
+.mini-practice .scenario {
+  margin: 0 0 16px;
+}
+.mini-practice .scenario h3 {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+.mini-practice .full-width {
+  min-height: 50px;
+}
+.mini-practice input {
+  font-size: 16px;
+}
+@media (max-width: 440px) {
+  .mini-practice {
+    padding: 14px 16px 20px;
+  }
+  .practice-picture .scene-backdrop {
+    height: 155px;
+  }
+  .picture-dot,
+  .picture-friend {
+    width: 94px;
+  }
+  .picture-friend {
+    left: calc(50% - 120px);
+  }
+  .mini-heading {
+    font-size: 1.35rem;
+  }
+  .scene-question,
+  .mini-meaning,
+  .mini-example {
+    font-size: 0.95rem;
+  }
+}
+@media (max-height: 600px) {
+  .practice-picture .scene-backdrop {
+    height: 110px;
+  }
+  .picture-dot,
+  .picture-friend {
+    width: 75px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .practice-picture *,
+  .practice-picture .companion-hand {
+    animation: none !important;
+    transition: none;
+  }
+}

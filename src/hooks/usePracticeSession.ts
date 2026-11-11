@@ -26,9 +26,6 @@ export function usePracticeSession(
   const request = useRef<AbortController | null>(null);
   const answerRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => () => request.current?.abort(), []);
-  useEffect(() => {
-    answerRef.current?.focus();
-  }, [index]);
   const step = steps[index];
   const done = index >= steps.length;
   const scenario = step?.phrase.scenarios[step.phase === "transfer" ? 1 : 0];
@@ -45,7 +42,14 @@ export function usePracticeSession(
   }
 
   async function checkAnswer() {
-    if (!step || !scenario || !answer.trim() || busy) return;
+    if (
+      !step ||
+      !scenario ||
+      !answer.trim() ||
+      busy ||
+      assessment?.meaning === "correct"
+    )
+      return;
     setBusy(true);
     setError("");
     setConnectionRequired(false);

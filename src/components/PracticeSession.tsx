@@ -1,9 +1,11 @@
-import { ArrowRight, Lightbulb, Volume2 } from "lucide-react";
+import { ArrowRight, Lightbulb } from "lucide-react";
+import { useEffect, useRef } from "react";
 import type { HintLevel, Phrase, RecallAttempt } from "../types/learning";
 import { usePracticeSession } from "../hooks/usePracticeSession";
-import { speak } from "../utils/speech";
 import { Companion } from "./Companion";
-import { SceneJourney } from "./SceneJourney";
+import { DiscoverPhrase } from "./DiscoverPhrase";
+import { GuidedPhrase } from "./GuidedPhrase";
+import { PracticePicture } from "./PracticePicture";
 import { Modal } from "./Modal";
 import { CoachConnection } from "./CoachConnection";
 
@@ -21,7 +23,6 @@ export function PracticeSession({
   onClose: () => void;
 }) {
   const {
-    steps,
     index,
     answer,
     setAnswer,
@@ -41,14 +42,23 @@ export function PracticeSession({
     revisitLater,
   } = usePracticeSession(phrases, reviewOnly, onAttempt, onFinish);
 
+  const bodyRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    bodyRef.current?.closest("dialog")?.scrollTo({ top: 0 });
+    bodyRef.current?.focus({ preventScroll: true });
+  }, [index]);
+  const phraseNumber = done
+    ? phrases.length
+    : phrases.findIndex((phrase) => phrase.id === step.phrase.id) + 1;
+
   return (
     <Modal
       title={
         done
           ? "A little more in your pocket."
           : reviewOnly
-            ? "The recall trail"
-            : "A conversation quest"
+            ? "A quick revisit"
+            : "One little scene at a time"
       }
       onClose={onClose}
     >
@@ -66,49 +76,46 @@ export function PracticeSession({
           </button>
         </div>
       ) : (
-        <div className="practice-body">
-          <SceneJourney phase={step.phase} />
-          <div className="step-label">
+        <div
+          className="practice-body mini-practice"
+          data-scene={step.phrase.theme}
+          ref={bodyRef}
+          tabIndex={-1}
+          aria-label={`Expression ${phraseNumber} of ${phrases.length}`}
+        >
+          <div className="mini-progress">
             <span>
-              {step.phase === "learn"
-                ? "01 · Meet the expression"
-                : step.phase === "recall"
-                  ? "02 · Find it from memory"
-                  : "03 · Try it somewhere new"}
+              {step.phase === "learn" || step.phase === "guided"
+                ? "Learn a little"
+                : "Your turn"}
             </span>
             <span>
-              {index + 1} / {steps.length}
+              Expression {phraseNumber} of {phrases.length}
             </span>
           </div>
-          <progress
-            value={index}
-            max={steps.length}
-            aria-label="Quest progress"
-          />
           {step.phase === "learn" ? (
-            <>
-              <h3 className="study-expression">{step.phrase.expression}</h3>
-              <p className="study-meaning">{step.phrase.meaning}</p>
-              <blockquote>{step.phrase.example}</blockquote>
-              <p className="quiet">{step.phrase.note}</p>
-              <button
-                className="secondary-button"
-                onClick={() => setError(speak(step.phrase.example) ?? "")}
-              >
-                <Volume2 size={18} /> Hear it
-              </button>
-              <div className="session-tip">
-                Picture a time you could use this. Say your own example aloud
-                before moving on.
-              </div>
-              <button className="primary-button full-width" onClick={next}>
-                Got the idea <ArrowRight size={18} />
-              </button>
-            </>
+            <DiscoverPhrase
+              key={index}
+              phrase={step.phrase}
+              onNext={next}
+              onError={setError}
+            />
+          ) : step.phase === "guided" ? (
+            <GuidedPhrase
+              key={index}
+              phrase={step.phrase}
+              onNext={next}
+              onError={setError}
+              isLast={phraseNumber === phrases.length}
+            />
           ) : (
             <>
+              <PracticePicture
+                theme={step.phrase.theme}
+                success={assessment?.meaning === "correct"}
+              />
               <div className="scenario">
-                <span className="eyebrow">{scenario.setting}</span>
+                <span className="mini-caption">A NEW SITUATION</span>
                 <h3>{scenario.prompt}</h3>
               </div>
               <label htmlFor="recall-answer">What would you say?</label>
@@ -118,14 +125,16 @@ export function PracticeSession({
                 value={answer}
                 onChange={(event) => setAnswer(event.target.value)}
                 placeholder="Your words, in English…"
-                rows={3}
+                rows={2}
                 maxLength={1200}
-                disabled={busy}
+                disabled={busy || assessment?.meaning === "correct"}
               />
               <div className="answer-tools">
                 <button
                   className="text-button"
-                  disabled={busy || hint === 3}
+                  disabled={
+                    busy || hint === 3 || assessment?.meaning === "correct"
+                  }
                   onClick={() => setHint(Math.min(3, hint + 1) as HintLevel)}
                 >
                   <Lightbulb size={17} />{" "}
@@ -185,13 +194,15 @@ export function PracticeSession({
                   <ArrowRight size={18} />
                 </button>
               )}
-              <button
-                className="text-button revisit-button"
-                disabled={busy}
-                onClick={revisitLater}
-              >
-                Keep this one for another try
-              </button>
+              {assessment?.meaning !== "correct" && (
+                <button
+                  className="text-button revisit-button"
+                  disabled={busy}
+                  onClick={revisitLater}
+                >
+                  Keep this one for another try
+                </button>
+              )}
             </>
           )}
           {error && (

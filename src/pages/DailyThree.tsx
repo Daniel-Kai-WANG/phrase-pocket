@@ -68,8 +68,8 @@ export function DailyThree({
                 <p className="eyebrow">{THEMES[selected.theme].label}</p>
                 <h2>{SCENES[selected.theme].name}</h2>
                 <p>
-                  Meet your three expressions, recall them without peeking, then
-                  put them into a new conversation.
+                  One illustrated scene at a time. Get a little help, then try
+                  the words yourself.
                 </p>
                 <button
                   className="primary-button"
