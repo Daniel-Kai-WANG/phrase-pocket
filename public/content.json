@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 7,
-  "publishedAt": "2026-11-10T10:28:43.885Z",
+  "revision": 8,
+  "publishedAt": "2026-11-11T00:42:46.831Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4413,6 +4413,78 @@
           "sample": "I am heading home now."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-11-1",
+      "expression": "Keep me in the loop",
+      "meaning": "Keep me informed about updates or decisions that affect me.",
+      "example": "Please keep me in the loop if the delivery date changes.",
+      "pronunciation": "Keep me in the loop. Stress “loop”; link “in the” smoothly: /kiːp mi ɪn ðə luːp/.",
+      "register": "Neutral and common in everyday workplace conversation; also suitable for emails.",
+      "note": "Use it when you need ongoing updates. It can sound friendly, but in a formal email, “Please keep me updated” is a little more polished.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-11",
+      "scenarios": [
+        {
+          "setting": "A project meeting",
+          "prompt": "Your colleague is coordinating a project that depends on your work. What would you ask them to do if the schedule changes?",
+          "sample": "Please keep me in the loop if the schedule changes, so I can adjust my part."
+        },
+        {
+          "setting": "A workplace email",
+          "prompt": "A manager is discussing a decision that could affect your team. How can you politely ask to hear about any developments?",
+          "sample": "Could you keep me in the loop as the decision develops?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-11-2",
+      "expression": "Get the ball rolling",
+      "meaning": "Start an activity, process, or discussion so that progress can begin.",
+      "example": "We’ve agreed on the budget, so I’ll get the ball rolling and contact the suppliers.",
+      "pronunciation": "Get the ball rolling. Stress “ball” and “roll”; the final consonant in “get” often links into “the”: /ɡet ðə bɔːl ˈrəʊlɪŋ/.",
+      "register": "Informal to neutral; natural in conversation and less formal workplace messages.",
+      "note": "Use it when you are ready to take the first step. It often suggests that other people or further steps will follow.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-11",
+      "scenarios": [
+        {
+          "setting": "Planning a staff training session",
+          "prompt": "Your team has chosen a date and topic for training. What could you say as you volunteer to begin organising it?",
+          "sample": "Great, we’ve settled on a date. I’ll get the ball rolling by booking a room."
+        },
+        {
+          "setting": "Starting a team discussion",
+          "prompt": "Everyone is waiting to begin a meeting about improving the handover process. What could you say to start the conversation?",
+          "sample": "Let’s get the ball rolling. What’s the main problem with the current handover?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-11-3",
+      "expression": "Flag a problem early",
+      "meaning": "Point out a possible issue as soon as you notice it, so people have time to respond.",
+      "example": "I wanted to flag a problem early: the new software may not be ready by Friday.",
+      "pronunciation": "Flag a problem early. Stress “flag” and “ear-”; keep the phrase steady and clear: /flæɡ ə ˈprɒbləm ˈɜːli/.",
+      "register": "Neutral and professional; suitable for meetings, chats, and emails.",
+      "note": "This is a practical way to raise a concern without sounding alarmist. Briefly explain the issue and, if possible, suggest a next step.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-11",
+      "scenarios": [
+        {
+          "setting": "A project update",
+          "prompt": "You realise a supplier may deliver materials late, which could affect the project schedule. What would you say to your team?",
+          "sample": "I’d like to flag a problem early: the supplier may deliver late, so we might need a backup."
+        },
+        {
+          "setting": "Reviewing a report",
+          "prompt": "You notice that a figure in a report may be incorrect before it goes to a client. How would you bring this to your manager’s attention?",
+          "sample": "Can I flag a problem early? One figure in the report looks incorrect, and I’d like to check it before we send it."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4505,6 +4577,16 @@
         "be-on-the-same-page"
       ],
       "origin": "conversation"
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "work",
+      "phraseIds": [
+        "daily-2026-11-11-1",
+        "daily-2026-11-11-2",
+        "daily-2026-11-11-3"
+      ],
+      "origin": "generated"
     }
   ],
   "pending": [
