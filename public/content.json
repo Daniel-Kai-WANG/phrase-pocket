@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 8,
-  "publishedAt": "2026-11-11T00:42:46.831Z",
+  "revision": 9,
+  "publishedAt": "2026-11-12T01:57:22.886Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4485,6 +4485,78 @@
           "sample": "Can I flag a problem early? One figure in the report looks incorrect, and I’d like to check it before we send it."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-12-1",
+      "expression": "I should make a move",
+      "meaning": "A polite, informal way to say that you need to leave.",
+      "example": "Thanks for dinner — I should make a move before it gets too late.",
+      "pronunciation": "Say it smoothly: “I should MAKE a MOVE.” The main stress falls on “make” and “move.”",
+      "register": "Informal; natural in everyday Australian English.",
+      "note": "Use it when you want to signal that you are leaving without sounding abrupt. You can add a reason, but you do not need to.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-12",
+      "scenarios": [
+        {
+          "setting": "At a friend's place after dinner",
+          "prompt": "You have enjoyed the evening but need to get home. What could you say?",
+          "sample": "Thanks for having me — I should make a move. It’s been a lovely night."
+        },
+        {
+          "setting": "At a weekend barbecue",
+          "prompt": "You need to leave early to catch a bus. How could you let your host know?",
+          "sample": "I should make a move if I’m going to catch that bus. Thanks for inviting me!"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-12-2",
+      "expression": "Make yourself at home",
+      "meaning": "A friendly invitation to relax and feel comfortable in someone’s home.",
+      "example": "Come in and make yourself at home — there’s tea in the kitchen.",
+      "pronunciation": "Link the words together: “make yourself at HOME.” Put the strongest stress on “home.”",
+      "register": "Warm and informal; suitable with friends, family, or welcome guests.",
+      "note": "Say this when someone arrives at your home. It is usually followed by a practical offer, such as showing them where to sit or get a drink.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-12",
+      "scenarios": [
+        {
+          "setting": "A friend visits your home for the first time",
+          "prompt": "Your guest seems unsure where to sit. What could you say to help them relax?",
+          "sample": "Make yourself at home — you can sit wherever you like."
+        },
+        {
+          "setting": "A guest arrives early while you finish preparing snacks",
+          "prompt": "You want your guest to feel welcome while they wait. What could you tell them?",
+          "sample": "Make yourself at home while I get the snacks ready. There’s water in the fridge."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-12-3",
+      "expression": "It's been a while",
+      "meaning": "A friendly way to say that you have not seen someone for quite some time.",
+      "example": "It’s been a while! How have things been with you?",
+      "pronunciation": "In natural speech, “been a” often runs together. Stress “while” for emphasis.",
+      "register": "Informal and friendly; suitable for catching up with someone you already know.",
+      "note": "Use it as a greeting when you meet again after a gap. It works well before asking what has been happening in their life.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-12",
+      "scenarios": [
+        {
+          "setting": "You run into an old friend at a local market",
+          "prompt": "You recognise someone you have not seen for ages. What could you say?",
+          "sample": "Hey, it’s been a while! How have you been?"
+        },
+        {
+          "setting": "You see a former colleague at a community event",
+          "prompt": "You want to greet them warmly and start a conversation. What could you say?",
+          "sample": "It’s been a while! Are you still working in the city?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4585,6 +4657,16 @@
         "daily-2026-11-11-1",
         "daily-2026-11-11-2",
         "daily-2026-11-11-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-12",
+      "theme": "social",
+      "phraseIds": [
+        "daily-2026-11-12-1",
+        "daily-2026-11-12-2",
+        "daily-2026-11-12-3"
       ],
       "origin": "generated"
     }
