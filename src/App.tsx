@@ -33,6 +33,7 @@ import type { DailySoundTask } from "./types/dailyTasks";
 import { usePhoneReminders } from "./hooks/usePhoneReminders";
 import { createReminderSnapshot } from "./utils/reminderSnapshot";
 import { DEFAULT_REMINDER_PREFERENCES } from "./utils/reminders";
+import { LearningInbox } from "./components/inbox/LearningInbox";
 
 type Destination = "phrases" | "daily" | "quest";
 interface ActiveSession {
@@ -62,6 +63,7 @@ export default function App() {
   const [soundTask, setSoundTask] = useState<DailySoundTask>();
   const [selectedDate, setSelectedDate] = useState<string>();
   const [settings, setSettings] = useState(false);
+  const [inbox, setInbox] = useState(false);
   const [notice, setNotice] = useState("");
   const [online, setOnline] = useState(navigator.onLine);
   const learning = useLearningStore();
@@ -69,6 +71,7 @@ export default function App() {
   const content = useContentFeed();
   const phrases = [
     ...content.feed.phrases,
+    ...(learning.data.learningInbox?.phrases ?? []),
     ...learning.data.quests.flatMap((quest) => quest.phrases),
   ];
   const personal = phrases.filter((phrase) => phrase.source === "personal");
@@ -277,6 +280,7 @@ export default function App() {
                 startSession({ phrases: items, reviewOnly })
               }
               onSpeak={() => setSpeaking(personal[0])}
+              onInbox={() => setInbox(true)}
             />
           )}
           {tab === "daily" && (
@@ -359,6 +363,16 @@ export default function App() {
           )}
           onReviewed={learning.saveSpeaking}
           onClose={() => setSpeaking(null)}
+        />
+      )}
+      {inbox && (
+        <LearningInbox
+          data={learning.data.learningInbox}
+          phrases={phrases}
+          onSave={learning.saveInboxEntry}
+          onComplete={learning.completeInboxEntry}
+          onImport={learning.importInboxReply}
+          onClose={() => setInbox(false)}
         />
       )}
       {settings && (

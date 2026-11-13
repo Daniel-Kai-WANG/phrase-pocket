@@ -51,7 +51,8 @@ export function PocketSettings({
           <h3>Keep your memories</h3>
           <p className="quiet">
             Progress is saved on this device. A backup lets you move it to
-            another browser or phone.
+            another browser or phone. Backups also include private inbox
+            questions and imported cards; keep your backup private.
           </p>
           <div className="button-row">
             <button

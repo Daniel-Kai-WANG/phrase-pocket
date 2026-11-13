@@ -41,7 +41,8 @@ export function ContentSync({
           ? "Conversation updates arrive through your desktop sync."
           : "Automatic conversation updates are not connected yet."}{" "}
         Sync now checks published pages; it does not read your private chat
-        directly.
+        directly. If a chat update is missing, use Learning inbox in My Phrases
+        to save the question or import learning cards on this device.
       </p>
       <button className="secondary-button" disabled={busy} onClick={onSync}>
         <RefreshCw size={17} /> {busy ? "Checking for new pages…" : "Sync now"}

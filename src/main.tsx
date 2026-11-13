@@ -11,6 +11,7 @@ import "./styles/practice.css";
 import "./styles/phonetics.css";
 import "./styles/mobile.css";
 import "./styles/mini-scenes.css";
+import "./styles/learning-inbox.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -8,6 +8,14 @@ import type { SpeakingRecord } from "../types/speaking";
 import type { SoundAttempt } from "../types/phonetics";
 import type { DailyTaskPlan, ReminderPreferences } from "../types/dailyTasks";
 
+import type {
+  InboxEntry,
+  InboxReply,
+  LearningInbox,
+} from "../types/learningInbox";
+import type { Phrase } from "../types/learning";
+import { completeInboxEntry, EMPTY_INBOX } from "../utils/learningInbox";
+
 export function useLearningStore() {
   const [initial] = useState(() => loadStore(localStorage));
   const [data, setData] = useState(initial.data);
@@ -39,6 +47,19 @@ export function useLearningStore() {
         ...current.current,
         progress: { ...current.current.progress, [attempt.phraseId]: next },
       });
+  }
+
+  function persistInbox(learningInbox: LearningInbox) {
+    if (damaged.current)
+      return "Restore or export your damaged storage before saving new questions.";
+    const next = { ...current.current, learningInbox };
+    const issue = saveStore(localStorage, next);
+    setError(issue);
+    if (!issue) {
+      current.current = next;
+      setData(next);
+    }
+    return issue;
   }
 
   function completeScene(stamp: string, lessonDate?: string) {
@@ -95,6 +116,53 @@ export function useLearningStore() {
     data,
     error,
     recoveryText,
+    saveInboxEntry: (entry: InboxEntry) => {
+      if (damaged.current)
+        return "Restore or export your damaged storage before saving new questions.";
+      const inbox = current.current.learningInbox ?? EMPTY_INBOX;
+      if (inbox.entries.some((item) => item.id === entry.id)) return null;
+      return persistInbox({
+        ...inbox,
+        entries: [...inbox.entries, entry],
+      });
+    },
+    completeInboxEntry: (
+      entryId: string,
+      reply: InboxReply,
+      published: Phrase[],
+    ) => {
+      if (damaged.current)
+        return "Restore or export your damaged storage before adding cards.";
+      if (
+        !current.current.learningInbox?.entries.some(
+          (entry) => entry.id === entryId,
+        )
+      )
+        return "This question is no longer in the current backup. Save it again before preparing cards.";
+      return persistInbox(
+        completeInboxEntry(
+          current.current.learningInbox ?? EMPTY_INBOX,
+          entryId,
+          reply,
+          published,
+        ),
+      );
+    },
+    importInboxReply: (
+      entry: InboxEntry,
+      reply: InboxReply,
+      published: Phrase[],
+    ) => {
+      const inbox = current.current.learningInbox ?? EMPTY_INBOX;
+      return persistInbox(
+        completeInboxEntry(
+          { ...inbox, entries: [...inbox.entries, entry] },
+          entry.id,
+          reply,
+          published,
+        ),
+      );
+    },
     saveAttempt,
     completeScene,
     startQuest,

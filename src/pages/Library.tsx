@@ -24,6 +24,7 @@ export function Library({
   onListen,
   onPractise,
   onSpeak,
+  onInbox,
 }: {
   sceneTheme: Theme;
   phrases: Phrase[];
@@ -33,6 +34,7 @@ export function Library({
   onListen: (text: string) => void;
   onPractise: (phrases: Phrase[], reviewOnly?: boolean) => void;
   onSpeak: () => void;
+  onInbox: () => void;
 }) {
   const [query, setQuery] = useState("");
   const [memory, setMemory] = useState<MemoryState | "all">("all");
@@ -101,9 +103,14 @@ export function Library({
             <span className="count-bubble">{selectedSource.length}</span>
           </h2>
         </div>
-        <button className="text-button" onClick={onSpeak}>
-          Warm up your voice <ArrowRight size={16} />
-        </button>
+        <div className="button-row">
+          <button className="secondary-button" onClick={onInbox}>
+            Learning inbox
+          </button>
+          <button className="text-button" onClick={onSpeak}>
+            Warm up your voice <ArrowRight size={16} />
+          </button>
+        </div>
       </div>
       <div className="source-tabs" role="group" aria-label="Phrase source">
         {(

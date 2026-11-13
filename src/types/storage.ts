@@ -4,7 +4,10 @@ import type { SpeakingRecord } from "./speaking";
 import type { SoundAttempt } from "./phonetics";
 import type { DailyTaskPlan, ReminderPreferences } from "./dailyTasks";
 
+import type { LearningInbox } from "./learningInbox";
+
 export interface LearningStore {
+  learningInbox?: LearningInbox;
   version: 1;
   progress: ProgressMap;
   completedLessons: string[];

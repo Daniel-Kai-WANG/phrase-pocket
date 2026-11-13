@@ -2,6 +2,8 @@ import { z } from "zod";
 import type { LearningStore } from "../types/storage";
 import { savedQuestSchema } from "../types/contentSchema";
 
+import { learningInboxSchema } from "../types/learningInbox";
+
 export const STORAGE_KEY = "phrase-pocket.learning.v1";
 const assessment = z.object({
   meaning: z.enum(["correct", "partly-correct", "incorrect", "uncertain"]),
@@ -28,6 +30,7 @@ const progress = z.object({
   attempts: z.array(attempt),
 });
 const storeSchema = z.object({
+  learningInbox: learningInboxSchema.optional(),
   version: z.literal(1),
   progress: z.record(z.string(), progress),
   completedLessons: z.array(z.iso.date()),

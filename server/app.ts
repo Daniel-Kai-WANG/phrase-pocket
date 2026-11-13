@@ -8,6 +8,8 @@ import { ProviderError } from "./provider.js";
 import { readConfig, type ServerConfig } from "./config.js";
 import { isAuthorized } from "./auth.js";
 import { createReminderRoutes } from "./reminders/routes.js";
+import { prepareInboxReply } from "./learning-inbox.js";
+import { inboxRequestSchema } from "../src/types/learningInbox.js";
 
 const MAX_REQUEST_BYTES = 2_100_000;
 const REQUESTS_PER_MINUTE = 12;
@@ -85,6 +87,14 @@ export function createApp(
           413,
         ),
     }),
+  );
+  app.post("/api/learning-inbox", async (c) =>
+    c.json(
+      await prepareInboxReply(
+        config,
+        inboxRequestSchema.parse(await c.req.json()),
+      ),
+    ),
   );
   app.post("/api/assess", async (c) =>
     c.json(
