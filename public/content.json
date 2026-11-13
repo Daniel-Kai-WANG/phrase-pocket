@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 9,
-  "publishedAt": "2026-11-12T01:57:22.886Z",
+  "revision": 10,
+  "publishedAt": "2026-11-13T01:09:29.511Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4557,6 +4557,78 @@
           "sample": "It’s been a while! Are you still working in the city?"
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-13-1",
+      "expression": "I’m gutted",
+      "meaning": "I’m very disappointed or upset, usually because something didn’t go the way I hoped.",
+      "example": "I was gutted when the concert was cancelled at the last minute.",
+      "pronunciation": "Say “GUT-id”, with the stress on the first syllable.",
+      "register": "Informal; common in everyday Australian English.",
+      "note": "Use it for a strong reaction to disappointing news or an unwanted outcome. It can sound quite emotional.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-13",
+      "scenarios": [
+        {
+          "setting": "Plans",
+          "prompt": "Your friends have to cancel a weekend trip you were really looking forward to. How do you feel?",
+          "sample": "I’m gutted about the trip, but hopefully we can go another time."
+        },
+        {
+          "setting": "Work or study",
+          "prompt": "You find out that you didn’t get a role or place you had hoped for. What would you say to a friend?",
+          "sample": "I’m gutted I didn’t get it, but I’ll keep looking."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-13-2",
+      "expression": "I’m feeling a bit fragile",
+      "meaning": "I’m feeling emotionally sensitive or easily upset, often after a stressful or tiring time.",
+      "example": "I’m feeling a bit fragile today, so I might have a quiet night in.",
+      "pronunciation": "Say “FRAJ-uhl”, with the stress on the first syllable. Keep “a bit” light and unstressed.",
+      "register": "Informal and gentle; suitable for everyday conversation.",
+      "note": "It can be a tactful way to explain that you need a little care or space. The context makes clear that you mean emotionally, not physically fragile.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-13",
+      "scenarios": [
+        {
+          "setting": "Making plans",
+          "prompt": "A friend invites you out, but you’ve had a draining week and would rather rest. What could you say?",
+          "sample": "Thanks for asking. I’m feeling a bit fragile, so I think I’ll stay home tonight."
+        },
+        {
+          "setting": "Talking with a friend",
+          "prompt": "Someone asks why you seem quieter than usual after a difficult day. How might you explain?",
+          "sample": "I’m feeling a bit fragile after today, but I’ll be okay."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-13-3",
+      "expression": "I’m in two minds about it",
+      "meaning": "I feel uncertain because I can see reasons both for and against something.",
+      "example": "I’m in two minds about moving closer to work; the shorter commute sounds great, but I’d miss my neighbourhood.",
+      "pronunciation": "Say “in too MYNDZ uh-bout it”, stressing “minds”.",
+      "register": "Neutral and conversational; common in Australian English.",
+      "note": "Use it when you haven’t decided yet. It’s often followed by “about” and the choice you’re considering.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-13",
+      "scenarios": [
+        {
+          "setting": "Buying something",
+          "prompt": "You like a jacket, but you’re unsure whether it’s worth the price. What could you tell a friend?",
+          "sample": "I’m in two minds about it. I like the jacket, but it’s more than I planned to spend."
+        },
+        {
+          "setting": "Accepting an invitation",
+          "prompt": "You’re not sure whether to attend an event because you have an early start the next day. How would you describe your decision?",
+          "sample": "I’m in two minds about going. I’d like to see everyone, but I need an early night."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4667,6 +4739,16 @@
         "daily-2026-11-12-1",
         "daily-2026-11-12-2",
         "daily-2026-11-12-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-13",
+      "theme": "feelings",
+      "phraseIds": [
+        "daily-2026-11-13-1",
+        "daily-2026-11-13-2",
+        "daily-2026-11-13-3"
       ],
       "origin": "generated"
     }
