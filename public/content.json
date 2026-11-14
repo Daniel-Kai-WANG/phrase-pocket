@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 11,
-  "publishedAt": "2026-11-14T00:55:44.619Z",
+  "revision": 12,
+  "publishedAt": "2026-11-14T23:58:39.197Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4701,6 +4701,78 @@
           "sample": "Excuse me, where do I pick up my luggage?"
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-15-1",
+      "expression": "arvo",
+      "meaning": "An informal Australian word for afternoon.",
+      "example": "I’ll give you a call this arvo when I finish work.",
+      "pronunciation": "Say it as two quick syllables: AR-voh.",
+      "register": "Casual and common in everyday Australian speech and messages.",
+      "note": "Use it with friends or colleagues you know well; use “afternoon” in formal writing.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-15",
+      "scenarios": [
+        {
+          "setting": "Making plans with a friend",
+          "prompt": "Suggest a time to meet later today.",
+          "sample": "Want to grab a coffee this arvo?"
+        },
+        {
+          "setting": "A work message",
+          "prompt": "Tell a colleague when you’ll send the file.",
+          "sample": "I’ll send it through this arvo."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-15-2",
+      "expression": "brekkie",
+      "meaning": "An informal Australian word for breakfast.",
+      "example": "We stopped for brekkie on the way to the beach.",
+      "pronunciation": "Say it as two syllables: BREK-ee, with the stress on the first.",
+      "register": "Casual and widely used in Australia.",
+      "note": "It works well in conversation and informal messages. In formal contexts, say “breakfast.”",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-15",
+      "scenarios": [
+        {
+          "setting": "Planning a weekend outing",
+          "prompt": "Suggest eating before you start the day’s activities.",
+          "sample": "Let’s get brekkie before we head out."
+        },
+        {
+          "setting": "Chatting with a housemate",
+          "prompt": "Say you’ve already eaten this morning.",
+          "sample": "I’ve had brekkie, thanks."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-15-3",
+      "expression": "servo",
+      "meaning": "An informal Australian word for a service station, where you can buy fuel and often snacks.",
+      "example": "I need to stop at the servo and fill up before we leave.",
+      "pronunciation": "Say it as two syllables: SER-voh, stressing the first.",
+      "register": "Casual and very common in Australian English.",
+      "note": "It usually means a petrol station, not just a repair garage. Use “service station” in formal contexts.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-15",
+      "scenarios": [
+        {
+          "setting": "Driving to visit someone",
+          "prompt": "Suggest stopping to buy fuel before the trip.",
+          "sample": "Let’s pull into the servo and fill up."
+        },
+        {
+          "setting": "Getting snacks on a road trip",
+          "prompt": "Tell your passenger where you’ll stop to buy a drink.",
+          "sample": "There’s a servo up ahead; we can grab a drink there."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4831,6 +4903,16 @@
         "daily-2026-11-14-1",
         "daily-2026-11-14-2",
         "daily-2026-11-14-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-15",
+      "theme": "slang",
+      "phraseIds": [
+        "daily-2026-11-15-1",
+        "daily-2026-11-15-2",
+        "daily-2026-11-15-3"
       ],
       "origin": "generated"
     }
