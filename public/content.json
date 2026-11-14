@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 10,
-  "publishedAt": "2026-11-13T01:09:29.511Z",
+  "revision": 11,
+  "publishedAt": "2026-11-14T00:55:44.619Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4629,6 +4629,78 @@
           "sample": "I’m in two minds about going. I’d like to see everyone, but I need an early night."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-14-1",
+      "expression": "Could you drop me off at ...?",
+      "meaning": "A polite way to ask a driver to let you out at a particular place.",
+      "example": "Could you drop me off at the entrance to the hotel, please?",
+      "pronunciation": "In relaxed speech, could you often sounds like “couldja.” Stress “drop off” and the destination.",
+      "register": "Polite and conversational.",
+      "note": "Useful with taxi and rideshare drivers. Name a clear location, such as a street corner or entrance.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-14",
+      "scenarios": [
+        {
+          "setting": "In a rideshare on the way to a hotel",
+          "prompt": "Ask the driver politely to let you out by the hotel entrance.",
+          "sample": "Could you drop me off at the entrance to the hotel, please?"
+        },
+        {
+          "setting": "In a taxi near a busy station",
+          "prompt": "Ask the driver to let you out beside the main entrance.",
+          "sample": "Could you drop me off at the main entrance?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-14-2",
+      "expression": "Is there a direct flight to ...?",
+      "meaning": "A question asking whether a flight reaches a destination without a stop or change of plane.",
+      "example": "Is there a direct flight to Cairns from here?",
+      "pronunciation": "Give “direct” two clear syllables, and make your voice rise slightly at the end of the question.",
+      "register": "Neutral and suitable for travel enquiries.",
+      "note": "Use this when comparing flight options. A direct flight may still make a brief stop without changing planes, so check the details if that matters.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-14",
+      "scenarios": [
+        {
+          "setting": "At an airline service desk",
+          "prompt": "Ask whether you can fly to Perth without changing planes.",
+          "sample": "Is there a direct flight to Perth?"
+        },
+        {
+          "setting": "Planning a trip with a travel agent",
+          "prompt": "Find out whether a nonstop option is available for your trip to Darwin.",
+          "sample": "Is there a direct flight to Darwin?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-14-3",
+      "expression": "Where do I pick up my luggage?",
+      "meaning": "A question asking where to collect your bags after a flight.",
+      "example": "Where do I pick up my luggage after the flight?",
+      "pronunciation": "Connect “pick up” smoothly, and stress “where” and “luggage.”",
+      "register": "Neutral and polite.",
+      "note": "At an airport, staff may also use the word “baggage.” You can ask this after you arrive or if you are unsure which carousel to use.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-14",
+      "scenarios": [
+        {
+          "setting": "At an airport after landing",
+          "prompt": "Ask airport staff where to collect your checked bag.",
+          "sample": "Where do I pick up my luggage?"
+        },
+        {
+          "setting": "Near the arrival gates",
+          "prompt": "Ask someone where to go to collect your suitcase.",
+          "sample": "Excuse me, where do I pick up my luggage?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -4749,6 +4821,16 @@
         "daily-2026-11-13-1",
         "daily-2026-11-13-2",
         "daily-2026-11-13-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-14",
+      "theme": "travel",
+      "phraseIds": [
+        "daily-2026-11-14-1",
+        "daily-2026-11-14-2",
+        "daily-2026-11-14-3"
       ],
       "origin": "generated"
     }
