@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 12,
-  "publishedAt": "2026-11-14T23:58:39.197Z",
+  "revision": 13,
+  "publishedAt": "2026-11-15T00:06:43.455Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4771,6 +4771,136 @@
           "setting": "Getting snacks on a road trip",
           "prompt": "Tell your passenger where you’ll stop to buy a drink.",
           "sample": "There’s a servo up ahead; we can grab a drink there."
+        }
+      ]
+    },
+    {
+      "id": "no-worries-agreement",
+      "expression": "No worries",
+      "meaning": "A relaxed way to agree to a request or say that something is not a problem.",
+      "example": "No worries, we can sort out a time next week.",
+      "pronunciation": "Listen to the whole reply and practise its rhythm.",
+      "register": "Informal, conversational",
+      "note": "Useful in casual conversation. It can also respond to thanks or a small apology; the context tells you which meaning is intended.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-15",
+      "sourceMessageId": "aa59d051-569c-40f6-a2c5-1bdc74d4b3fd",
+      "senseId": "no-worries-agreement",
+      "scenarios": [
+        {
+          "setting": "Changing a meeting time",
+          "prompt": "A friend asks to move your coffee catch-up to next week. You are happy with the change. How do you reply?",
+          "sample": "No worries, next week is fine. What day suits you?"
+        },
+        {
+          "setting": "A small favour",
+          "prompt": "A colleague asks if you can bring an extra notebook to tomorrow's workshop. You can easily do that. What do you say?",
+          "sample": "No worries, I'll bring one for you."
+        }
+      ]
+    },
+    {
+      "id": "check-it-out-inspect",
+      "expression": "Check it out",
+      "meaning": "Look at something to find out more about it or decide whether it is suitable.",
+      "example": "I'd like to check it out before I decide.",
+      "pronunciation": "Listen to the whole reply and practise its rhythm.",
+      "register": "Informal, conversational",
+      "note": "With a pronoun, say 'check it out', not 'check out it'. This sense is different from leaving a hotel or paying at a checkout.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-15",
+      "sourceMessageId": "aa59d051-569c-40f6-a2c5-1bdc74d4b3fd",
+      "senseId": "check-it-out-inspect",
+      "scenarios": [
+        {
+          "setting": "Trying a second-hand camera",
+          "prompt": "Someone is selling a camera. You want to examine it before deciding to buy it. Ask to see it.",
+          "sample": "Could I come and check it out before I decide?"
+        },
+        {
+          "setting": "A new community space",
+          "prompt": "A friend tells you about a new community workshop. Suggest visiting together to see what it is like.",
+          "sample": "Let's check it out this weekend."
+        }
+      ]
+    },
+    {
+      "id": "does-friday-work-for-you",
+      "expression": "Does Friday work for you?",
+      "meaning": "Ask whether Friday is a convenient time for someone.",
+      "example": "I can meet next week. Does Friday work for you?",
+      "pronunciation": "Listen to the whole reply and practise its rhythm.",
+      "register": "Informal, conversational",
+      "note": "Here, 'work for you' means be suitable, not have a job. Change the day or time: 'Would Tuesday afternoon work for you?' sounds a little softer.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-15",
+      "sourceMessageId": "aa59d051-569c-40f6-a2c5-1bdc74d4b3fd",
+      "senseId": "does-friday-work-for-you",
+      "scenarios": [
+        {
+          "setting": "Arranging a visit",
+          "prompt": "Someone wants to visit your workshop next week. You are available on Friday. Suggest that day and check whether it suits them.",
+          "sample": "No worries. Does Friday work for you?"
+        },
+        {
+          "setting": "Scheduling a call",
+          "prompt": "A colleague wants a short call. You are free on Tuesday afternoon. Suggest that time and ask if it is convenient.",
+          "sample": "Would Tuesday afternoon work for you?"
+        }
+      ]
+    },
+    {
+      "id": "come-and-have-a-look",
+      "expression": "Come and have a look",
+      "meaning": "Visit a place to see or examine something in person.",
+      "example": "You can come and have a look next week if you like.",
+      "pronunciation": "Listen to the whole reply and practise its rhythm.",
+      "register": "Informal, conversational",
+      "note": "A relaxed invitation. 'You're welcome to come' is also grammatical and friendly; this version makes the purpose of the visit clear. 'Have a quick look' suggests a brief visit.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-15",
+      "sourceMessageId": "f437953f-7806-4dc6-bb92-1431cb162996",
+      "senseId": "come-and-have-a-look",
+      "scenarios": [
+        {
+          "setting": "Viewing a table",
+          "prompt": "Someone is interested in a table you are selling. Invite them to see it before they decide.",
+          "sample": "You can come and have a look before you decide."
+        },
+        {
+          "setting": "Showing a shared studio",
+          "prompt": "A friend is considering joining your shared studio. Invite them for a short visit to see the space.",
+          "sample": "Come and have a quick look when you're nearby."
+        }
+      ]
+    },
+    {
+      "id": "whenever-suits-you",
+      "expression": "Whenever suits you",
+      "meaning": "At any time that is convenient for the other person.",
+      "example": "We can meet next week, whenever suits you.",
+      "pronunciation": "Listen to the whole reply and practise its rhythm.",
+      "register": "Informal, conversational",
+      "note": "Use it only when you can genuinely be flexible. Set boundaries if needed: 'Any afternoon next week, whenever suits you.' 'Whenever works for you' is another conversational option.",
+      "theme": "social",
+      "source": "personal",
+      "sourceDate": "2026-11-15",
+      "sourceMessageId": "f437953f-7806-4dc6-bb92-1431cb162996",
+      "senseId": "whenever-suits-you",
+      "scenarios": [
+        {
+          "setting": "A flexible catch-up",
+          "prompt": "A friend asks when you can meet next week. Your afternoons are free. Let them choose within that time window.",
+          "sample": "Any afternoon next week, whenever suits you."
+        },
+        {
+          "setting": "Returning a borrowed book",
+          "prompt": "A neighbour wants to return a book, but there is no hurry. Tell them to choose a convenient time to drop it off.",
+          "sample": "You can drop it off whenever suits you. There's no rush."
         }
       ]
     }
