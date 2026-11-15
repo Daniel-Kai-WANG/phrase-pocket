@@ -14,6 +14,7 @@ import { DailyThree } from "./pages/DailyThree";
 import { NextQuest } from "./pages/NextQuest";
 import { PhraseDetail } from "./components/PhraseDetail";
 import { PracticeSession } from "./components/PracticeSession";
+import { DailyScenarioQuiz } from "./components/DailyScenarioQuiz";
 import { PocketSettings } from "./components/PocketSettings";
 import { SpeakingStudio } from "./components/SpeakingStudio";
 import { useLearningStore } from "./hooks/useLearningStore";
@@ -337,14 +338,25 @@ export default function App() {
           }}
         />
       )}
-      {session && (
-        <PracticeSession
+      {session &&
+      (session.date ||
+        session.phrases.every((phrase) => phrase.source === "daily")) ? (
+        <DailyScenarioQuiz
           phrases={session.phrases}
-          reviewOnly={session.reviewOnly}
           onAttempt={learning.saveAttempt}
           onFinish={finishSession}
           onClose={() => setSession(null)}
         />
+      ) : (
+        session && (
+          <PracticeSession
+            phrases={session.phrases}
+            reviewOnly={session.reviewOnly}
+            onAttempt={learning.saveAttempt}
+            onFinish={finishSession}
+            onClose={() => setSession(null)}
+          />
+        )
       )}
       {sound && (
         <SoundPractice

@@ -38,7 +38,7 @@ for (const [theme, scene] of Object.entries(SCENES)) {
     await expect(page.locator(".daily-feature h2")).toHaveText(scene.name);
     await expect(page.locator(".daily-preview button")).toHaveCount(3);
     const start = await page
-      .getByRole("button", { name: "Start this daily quest" })
+      .getByRole("button", { name: "Start scenario quiz" })
       .boundingBox();
     expect(start!.height).toBeGreaterThanOrEqual(44);
     await page.getByRole("button", { name: "Talk to Dot" }).click();
@@ -116,7 +116,7 @@ test("phone users can start from the first screen and type above a shortened vie
     { width: 390, height: 844 },
   ]) {
     await page.setViewportSize(viewport);
-    const start = page.getByRole("button", { name: "Start this daily quest" });
+    const start = page.getByRole("button", { name: "Start scenario quiz" });
     const button = await start.boundingBox();
     const navigation = await page.locator(".sidebar").boundingBox();
     expect(button!.y).toBeGreaterThan(0);

@@ -44,7 +44,7 @@ export function DailyThree({
         <h1>
           A little world. <span>Three ways in.</span>
         </h1>
-        <p>Three expressions. One real-life adventure.</p>
+        <p>Three expressions. Nine replies. Different situations.</p>
       </header>
       <div className="daily-layout">
         <section className="daily-feature paper">
@@ -68,16 +68,17 @@ export function DailyThree({
                 <p className="eyebrow">{THEMES[selected.theme].label}</p>
                 <h2>{SCENES[selected.theme].name}</h2>
                 <p>
-                  One illustrated scene at a time. Get a little help, then try
-                  the words yourself.
+                  Respond without seeing the answer first. Then switch
+                  situations and extend the conversation. Feedback focuses on
+                  meaning and naturalness.
                 </p>
                 <button
                   className="primary-button"
                   onClick={() => onPractise(selectedPhrases, selected.date)}
                 >
                   {completed.includes(selected.date)
-                    ? "Visit this scene again"
-                    : "Start this daily quest"}{" "}
+                    ? "Try the scenario quiz again"
+                    : "Start scenario quiz"}{" "}
                   <ArrowRight size={18} />
                 </button>
               </>

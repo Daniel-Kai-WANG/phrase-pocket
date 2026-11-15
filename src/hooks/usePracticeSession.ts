@@ -6,18 +6,21 @@ import type {
   Phrase,
   RecallAttempt,
 } from "../types/learning";
-import { buildSession } from "../utils/session";
+import { buildSession, type PracticeStep } from "../utils/session";
 
 export function usePracticeSession(
   phrases: Phrase[],
   reviewOnly: boolean | undefined,
   onAttempt: (attempt: RecallAttempt) => void,
   onFinish: () => void,
+  customSteps?: PracticeStep[],
 ) {
-  const [steps] = useState(() => buildSession(phrases, reviewOnly));
+  const [steps] = useState(
+    () => customSteps ?? buildSession(phrases, reviewOnly),
+  );
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
-  const [hint, setHint] = useState<HintLevel>(0);
+  const [hint, setHint] = useState<HintLevel>(steps[0]?.hintLevel ?? 0);
   const [tries, setTries] = useState(0);
   const [assessment, setAssessment] = useState<Assessment | null>(null);
   const [error, setError] = useState("");
@@ -28,13 +31,14 @@ export function usePracticeSession(
   useEffect(() => () => request.current?.abort(), []);
   const step = steps[index];
   const done = index >= steps.length;
-  const scenario = step?.phrase.scenarios[step.phase === "transfer" ? 1 : 0];
+  const scenario =
+    step?.scenario ?? step?.phrase.scenarios[step.phase === "transfer" ? 1 : 0];
 
   function next() {
     if (index === steps.length - 1) onFinish();
     setIndex(index + 1);
     setAnswer("");
-    setHint(0);
+    setHint(steps[index + 1]?.hintLevel ?? 0);
     setTries(0);
     setAssessment(null);
     setError("");

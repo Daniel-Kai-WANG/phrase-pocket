@@ -1,43 +1,6 @@
 import { expect } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { buildGuidedPhrase } from "../../src/utils/guidedPhrase";
-import type { Phrase } from "../../src/types/learning";
-import { finishWarmup, phrase, readLearning, test } from "./pocket";
-
-const feed = JSON.parse(readFileSync("public/content.json", "utf8"));
-const lesson = feed.lessons.find(
-  (item: { date: string }) => item.date === "2026-11-11",
-);
-const daily: Phrase[] = lesson.phraseIds.map((id: string) =>
-  feed.phrases.find((item: Phrase) => item.id === id),
-);
-
-test("each expression gets a supported turn before the next, with no false memory credit", async ({
-  page,
-}) => {
-  await page.clock.install({ time: new Date("2026-11-11T03:00:00Z") });
-  await page.reload();
-  await page.getByRole("link", { name: /Daily Three/ }).click();
-  await page.getByRole("button", { name: "Start this daily quest" }).click();
-  const dialog = page.getByRole("dialog");
-  for (const [index, item] of daily.entries()) {
-    await expect(dialog).toContainText(`Expression ${index + 1} of 3`);
-    await expect(
-      dialog.getByRole("heading", { name: item.expression, exact: true }),
-    ).toHaveCount(0);
-    await expect(
-      dialog.getByRole("img", { name: /two conversation buddies/ }),
-    ).toBeVisible();
-    await finishWarmup(page, item);
-    expect((await readLearning(page)).progress).toEqual({});
-  }
-  await expect(dialog).toContainText("Your turn");
-  await expect(dialog).toContainText(daily[0].scenarios[1].prompt);
-  await expect(page.getByLabel("What would you say?")).toBeVisible();
-  await expect(
-    dialog.getByRole("heading", { name: daily[0].expression, exact: true }),
-  ).toHaveCount(0);
-});
+import { phrase, readLearning, test } from "./pocket";
 
 test("wrong warm-up answers get help, stay on the same word and never create review failures", async ({
   page,

@@ -1,8 +1,10 @@
-import type { Phrase } from "../types/learning";
+import type { HintLevel, Phrase, Scenario } from "../types/learning";
 
 export type PracticeStep = {
   phrase: Phrase;
   phase: "learn" | "guided" | "recall" | "transfer";
+  scenario?: Scenario;
+  hintLevel?: HintLevel;
 };
 
 export function buildSession(
