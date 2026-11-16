@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 13,
-  "publishedAt": "2026-11-15T00:06:43.455Z",
+  "revision": 14,
+  "publishedAt": "2026-11-16T00:00:25.977Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4903,6 +4903,78 @@
           "sample": "You can drop it off whenever suits you. There's no rush."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-16-1",
+      "expression": "I don't think we've met.",
+      "meaning": "A polite, friendly way to introduce yourself when you think someone is new to you.",
+      "example": "I don't think we've met. I'm Jordan, and I work with Maya.",
+      "pronunciation": "Say it smoothly, with the main stress on “think” and “met”; “we've” is usually pronounced /wiv/.",
+      "register": "Polite and conversational; suitable for social or professional events.",
+      "note": "You can follow it with your name or a simple question. It sounds welcoming rather than formal.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-16",
+      "scenarios": [
+        {
+          "setting": "A neighbourhood barbecue",
+          "prompt": "You arrive and find yourself beside someone you haven't seen before. Start a friendly conversation.",
+          "sample": "I don't think we've met. I'm Jordan—how do you know the people hosting?"
+        },
+        {
+          "setting": "A work networking event",
+          "prompt": "You recognise a face but aren't sure you've spoken before. Open the conversation politely.",
+          "sample": "I don't think we've met. I'm Jordan from the design team."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-16-2",
+      "expression": "How do you know [name]?",
+      "meaning": "A natural way to ask how someone is connected to a person you both know.",
+      "example": "How do you know Maya? We used to work together.",
+      "pronunciation": "Link the words together: “How d'you know…?” The stress usually falls on the person's name.",
+      "register": "Casual and friendly; common at parties, gatherings and informal work events.",
+      "note": "Use the person's name, or say “the host” if you don't know their name. It can help the conversation move on to shared interests.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-16",
+      "scenarios": [
+        {
+          "setting": "A friend's birthday party",
+          "prompt": "You're chatting with another guest and want to find out how they are connected to the birthday person.",
+          "sample": "How do you know Maya? I met her through my running club."
+        },
+        {
+          "setting": "A community volunteer event",
+          "prompt": "Someone mentions a mutual acquaintance. Ask how they first met.",
+          "sample": "How do you know Sam? Did you meet through the local garden group?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-16-3",
+      "expression": "What do you make of ...?",
+      "meaning": "A conversational way to ask for someone's opinion or impression of something.",
+      "example": "What do you make of this new café? The coffee's great, but it's pretty noisy.",
+      "pronunciation": "Give “make” the strongest stress. In relaxed speech, “of” is usually unstressed and sounds like /əv/.",
+      "register": "Casual and neutral; natural in everyday conversation.",
+      "note": "Follow it with a person, place, idea or situation. It invites an opinion, so it's useful when you want to keep a conversation going.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-16",
+      "scenarios": [
+        {
+          "setting": "Trying a newly opened café",
+          "prompt": "You've both just ordered at a café. Ask the other person for their impression of the place.",
+          "sample": "What do you make of this café? I like the relaxed atmosphere."
+        },
+        {
+          "setting": "After visiting a local art exhibition",
+          "prompt": "You and a friend have just seen an exhibition. Ask what they thought of it.",
+          "sample": "What do you make of the exhibition? The landscape paintings really stood out to me."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5043,6 +5115,16 @@
         "daily-2026-11-15-1",
         "daily-2026-11-15-2",
         "daily-2026-11-15-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-16",
+      "theme": "small-talk",
+      "phraseIds": [
+        "daily-2026-11-16-1",
+        "daily-2026-11-16-2",
+        "daily-2026-11-16-3"
       ],
       "origin": "generated"
     }
