@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 14,
-  "publishedAt": "2026-11-16T00:00:25.977Z",
+  "revision": 15,
+  "publishedAt": "2026-11-17T02:58:19.552Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -4975,6 +4975,78 @@
           "sample": "What do you make of the exhibition? The landscape paintings really stood out to me."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-17-1",
+      "expression": "Hit it off",
+      "meaning": "To get along very well with someone from the first time you meet.",
+      "example": "We hit it off at the barbecue and ended up talking all afternoon.",
+      "pronunciation": "HIT it OFF; stress “hit” and “off.”",
+      "register": "Informal; common in everyday conversation.",
+      "note": "Often used when describing a promising first meeting, including a date or a new friendship.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-17",
+      "scenarios": [
+        {
+          "setting": "After meeting a friend’s new partner",
+          "prompt": "What did you think of your friend’s new partner?",
+          "sample": "We hit it off straight away. They were easy to talk to."
+        },
+        {
+          "setting": "Talking about a new colleague",
+          "prompt": "How was your first chat with the person who joined your team?",
+          "sample": "We hit it off over lunch and found out we have a lot in common."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-17-2",
+      "expression": "Grow apart",
+      "meaning": "To gradually become less close to someone, often because your lives or interests change.",
+      "example": "We grew apart after we moved to different cities, but there are no hard feelings.",
+      "pronunciation": "GROH uh-PART; link “grow” and “apart” smoothly.",
+      "register": "Neutral; suitable for everyday conversation.",
+      "note": "Usually describes a gradual change in a friendship or romantic relationship, rather than a sudden disagreement.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-17",
+      "scenarios": [
+        {
+          "setting": "Catching up with an old friend",
+          "prompt": "Why don’t you and your school friend see each other much now?",
+          "sample": "We grew apart over the years, especially after we moved to different suburbs."
+        },
+        {
+          "setting": "Explaining the end of a relationship",
+          "prompt": "What changed between you and your former partner?",
+          "sample": "We grew apart as our priorities changed, so we decided to end things."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-17-3",
+      "expression": "Take things slow",
+      "meaning": "To let a relationship develop gradually without rushing into decisions or commitments.",
+      "example": "We’re enjoying spending time together, but we’re taking things slow.",
+      "pronunciation": "TAYK things SLOH; give “slow” a clear final sound, without adding an extra syllable.",
+      "register": "Informal and considerate; common when discussing dating or a new relationship.",
+      "note": "Often used to express a preference or boundary. You can also say, “I’d like to take things slow.”",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-17",
+      "scenarios": [
+        {
+          "setting": "Discussing a new dating relationship",
+          "prompt": "How would you like your new relationship to develop?",
+          "sample": "I like spending time with you, and I’d like to take things slow."
+        },
+        {
+          "setting": "Replying to someone who wants to make plans quickly",
+          "prompt": "A person you’ve just started dating asks whether you want to move in together. What would you say?",
+          "sample": "That’s a big step. I’m happy to keep seeing you, but I’d prefer to take things slow."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5125,6 +5197,16 @@
         "daily-2026-11-16-1",
         "daily-2026-11-16-2",
         "daily-2026-11-16-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-17",
+      "theme": "relationships",
+      "phraseIds": [
+        "daily-2026-11-17-1",
+        "daily-2026-11-17-2",
+        "daily-2026-11-17-3"
       ],
       "origin": "generated"
     }
