@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 15,
-  "publishedAt": "2026-11-17T02:58:19.552Z",
+  "revision": 16,
+  "publishedAt": "2026-11-18T02:29:09.099Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5047,6 +5047,78 @@
           "sample": "That’s a big step. I’m happy to keep seeing you, but I’d prefer to take things slow."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-18-1",
+      "expression": "meet a deadline",
+      "meaning": "Finish and submit work by the agreed date or time.",
+      "example": "We’ll need to share the tasks if we’re going to meet the deadline.",
+      "pronunciation": "Stress MEET and DEADline; say “deadline” as DEAD-line.",
+      "register": "Neutral; common in everyday workplace conversation.",
+      "note": "Use “meet a deadline” for completing work on time. You can also say “miss a deadline” if the work is late.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-18",
+      "scenarios": [
+        {
+          "setting": "A team project",
+          "prompt": "Your group has more work than expected, and the due date is close. Suggest a practical solution.",
+          "sample": "Let’s divide up the remaining tasks so we can meet the deadline."
+        },
+        {
+          "setting": "A client update",
+          "prompt": "A client asks whether the report will be ready by Thursday. You’re confident it will be.",
+          "sample": "Yes, we’re on track to meet the deadline on Thursday."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-18-2",
+      "expression": "take ownership of something",
+      "meaning": "Accept responsibility for dealing with something and seeing it through.",
+      "example": "I’ll take ownership of the issue and keep you updated until it’s resolved.",
+      "pronunciation": "Stress OWN in “ownership”; keep “take ownership of” flowing together.",
+      "register": "Neutral to professional; common in workplaces.",
+      "note": "This often signals responsibility and initiative. It doesn’t necessarily mean you caused the problem.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-18",
+      "scenarios": [
+        {
+          "setting": "A customer complaint",
+          "prompt": "A customer says their order was sent to the wrong address. Offer to handle the situation.",
+          "sample": "I’ll take ownership of this and arrange for the order to be sent to the correct address."
+        },
+        {
+          "setting": "A shared task",
+          "prompt": "Your team has a task that no one has agreed to manage. Volunteer to see it through.",
+          "sample": "I can take ownership of the training schedule and make sure everyone gets the details."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-18-3",
+      "expression": "put something on hold",
+      "meaning": "Pause an activity or project temporarily, usually until a problem is resolved or circumstances change.",
+      "example": "We’ve put the office move on hold while we review the costs.",
+      "pronunciation": "Stress HOLD; link “put it” smoothly if using a pronoun: “put it on hold.”",
+      "register": "Neutral; suitable for both conversation and professional updates.",
+      "note": "Use this when a decision is temporary. It doesn’t mean the activity has been cancelled permanently.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-18",
+      "scenarios": [
+        {
+          "setting": "A project meeting",
+          "prompt": "Your team can’t continue with a project until a key supplier confirms availability. Explain the temporary pause.",
+          "sample": "Let’s put the project on hold until the supplier gets back to us."
+        },
+        {
+          "setting": "Planning a new service",
+          "prompt": "Your manager asks about a proposal, but your team needs to finish urgent work first. Explain why it must wait.",
+          "sample": "We may need to put the proposal on hold until we’ve finished the urgent client work."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5207,6 +5279,16 @@
         "daily-2026-11-17-1",
         "daily-2026-11-17-2",
         "daily-2026-11-17-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "work",
+      "phraseIds": [
+        "daily-2026-11-18-1",
+        "daily-2026-11-18-2",
+        "daily-2026-11-18-3"
       ],
       "origin": "generated"
     }
