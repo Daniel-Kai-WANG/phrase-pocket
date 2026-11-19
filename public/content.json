@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 16,
-  "publishedAt": "2026-11-18T02:29:09.099Z",
+  "revision": 17,
+  "publishedAt": "2026-11-19T01:54:53.769Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5119,6 +5119,78 @@
           "sample": "We may need to put the proposal on hold until we’ve finished the urgent client work."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-19-1",
+      "expression": "I’m glad you could make it.",
+      "meaning": "A warm way to tell someone you’re pleased they came to an event or gathering.",
+      "example": "I’m glad you could make it—we haven’t caught up properly in ages.",
+      "pronunciation": "Say it warmly, linking “glad you” together: “glad-yuh”.",
+      "register": "Friendly and polite; suitable for casual or semi-formal gatherings.",
+      "note": "A natural greeting when a guest arrives. It works especially well if you know they made an effort to attend.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-19",
+      "scenarios": [
+        {
+          "setting": "A friend arrives at your dinner party.",
+          "prompt": "Your friend has just come in. What could you say to welcome them?",
+          "sample": "I’m glad you could make it. Come in—everyone’s in the kitchen."
+        },
+        {
+          "setting": "A colleague arrives at a team celebration.",
+          "prompt": "A colleague arrives after a busy day. How could you greet them warmly?",
+          "sample": "I’m glad you could make it. We’ve saved you a seat."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-19-2",
+      "expression": "Good on you!",
+      "meaning": "A friendly way to praise someone for doing something positive, difficult or worthwhile.",
+      "example": "You’ve been volunteering every weekend? Good on you!",
+      "pronunciation": "In casual Australian speech, “on you” often runs together, like “on-yuh”.",
+      "register": "Informal, friendly and common in Australia.",
+      "note": "Use it to show approval or encouragement. Your tone matters: said sarcastically, it can sound insincere.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-19",
+      "scenarios": [
+        {
+          "setting": "A friend tells you they have started learning to swim.",
+          "prompt": "Your friend has taken up a challenging new activity. How could you encourage them?",
+          "sample": "Good on you! It takes confidence to start something new."
+        },
+        {
+          "setting": "Someone at a barbecue says they organised a fundraiser.",
+          "prompt": "A guest has put a lot of effort into helping a local cause. What could you say?",
+          "sample": "Good on you for organising it. It sounds like it made a real difference."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-19-3",
+      "expression": "That sounds right up my alley.",
+      "meaning": "That sounds like exactly the kind of thing I enjoy or am interested in.",
+      "example": "A small live-music night with local bands? That sounds right up my alley.",
+      "pronunciation": "Give “right up” a smooth link: “right-up my alley”.",
+      "register": "Casual and conversational.",
+      "note": "Use it to show genuine interest when someone suggests an activity or describes something you would enjoy. It is informal, so choose a more neutral phrase in formal settings.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-19",
+      "scenarios": [
+        {
+          "setting": "A friend describes a weekend food market.",
+          "prompt": "Your friend mentions an outing that matches your interests. How could you show enthusiasm?",
+          "sample": "That sounds right up my alley. I love trying food from local stalls."
+        },
+        {
+          "setting": "Someone invites you to a beginner-friendly board-game night.",
+          "prompt": "You enjoy games and would like to go. What could you say?",
+          "sample": "That sounds right up my alley. What time does it start?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5289,6 +5361,16 @@
         "daily-2026-11-18-1",
         "daily-2026-11-18-2",
         "daily-2026-11-18-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "social",
+      "phraseIds": [
+        "daily-2026-11-19-1",
+        "daily-2026-11-19-2",
+        "daily-2026-11-19-3"
       ],
       "origin": "generated"
     }
