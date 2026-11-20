@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 17,
-  "publishedAt": "2026-11-19T01:54:53.769Z",
+  "revision": 18,
+  "publishedAt": "2026-11-20T01:49:05.315Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5191,6 +5191,78 @@
           "sample": "That sounds right up my alley. What time does it start?"
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-20-1",
+      "expression": "I'm on edge",
+      "meaning": "I feel tense, nervous or easily startled, often because I’m waiting for something stressful to happen.",
+      "example": "I’m a bit on edge about the interview tomorrow.",
+      "pronunciation": "Say “on edge” smoothly, with the main stress on “edge”: on EDGE.",
+      "register": "Informal; natural in everyday conversation.",
+      "note": "Use this for nervous tension, not simply being busy. In Australia, “a bit” often softens the feeling.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-20",
+      "scenarios": [
+        {
+          "setting": "Before a job interview",
+          "prompt": "Tell a friend how you feel while waiting for an important interview.",
+          "sample": "I’m a bit on edge, but I’ve prepared as much as I can."
+        },
+        {
+          "setting": "Waiting for medical results",
+          "prompt": "Explain to a colleague why you’re finding it hard to concentrate today.",
+          "sample": "I’m on edge while I wait for the results, so I might be a little distracted."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-20-2",
+      "expression": "I'm second-guessing myself",
+      "meaning": "I’m doubting a choice or wondering whether I made the right decision.",
+      "example": "I keep second-guessing myself about whether to accept the offer.",
+      "pronunciation": "Stress “guess” and “self”: second-GUESS-ing my-SELF. The ending of “second” often blends into “guessing.”",
+      "register": "Neutral and conversational.",
+      "note": "Use it when you keep reconsidering a decision; it doesn’t necessarily mean you’ve changed your mind.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-20",
+      "scenarios": [
+        {
+          "setting": "Choosing a rental home",
+          "prompt": "Tell a friend what’s bothering you after you picked one of two places.",
+          "sample": "I’m second-guessing myself about choosing the smaller flat."
+        },
+        {
+          "setting": "After sending an important email",
+          "prompt": "Explain why you keep checking a message you’ve already sent.",
+          "sample": "I’m second-guessing myself and wondering if I made the email too blunt."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-20-3",
+      "expression": "I'm chuffed",
+      "meaning": "I’m very pleased or proud about something.",
+      "example": "I’m chuffed with how the garden turned out.",
+      "pronunciation": "One syllable: “chuffed,” rhyming with “stuffed.”",
+      "register": "Informal; especially familiar in Australian and British English.",
+      "note": "It’s a warm, modest way to share good news. You can say “chuffed with” something or “chuffed to” do something.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-20",
+      "scenarios": [
+        {
+          "setting": "Finishing a course",
+          "prompt": "Tell a friend how you feel after passing a course you worked hard on.",
+          "sample": "I’m chuffed I passed, especially after all those late nights studying."
+        },
+        {
+          "setting": "A weekend sports match",
+          "prompt": "Share your reaction after your local team wins a close game.",
+          "sample": "I’m absolutely chuffed with that win—we nearly gave it away at the end."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5371,6 +5443,16 @@
         "daily-2026-11-19-1",
         "daily-2026-11-19-2",
         "daily-2026-11-19-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "feelings",
+      "phraseIds": [
+        "daily-2026-11-20-1",
+        "daily-2026-11-20-2",
+        "daily-2026-11-20-3"
       ],
       "origin": "generated"
     }
