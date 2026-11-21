@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 18,
-  "publishedAt": "2026-11-20T01:49:05.315Z",
+  "revision": 19,
+  "publishedAt": "2026-11-21T01:35:15.412Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5263,6 +5263,78 @@
           "sample": "I’m absolutely chuffed with that win—we nearly gave it away at the end."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-21-1",
+      "expression": "travel light",
+      "meaning": "To take only a small amount of luggage when you travel.",
+      "example": "I’m travelling light this weekend, so I’ve only brought a backpack.",
+      "pronunciation": "TRAV-ul LIGHT; stress both words clearly.",
+      "register": "Everyday and informal; suitable in most travel conversations.",
+      "note": "Use this when you want to mention packing few things. It usually describes how someone packs, rather than how they travel.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-21",
+      "scenarios": [
+        {
+          "setting": "Planning a weekend trip",
+          "prompt": "What are you taking with you for two nights away?",
+          "sample": "I’m travelling light and just taking a small backpack."
+        },
+        {
+          "setting": "Talking at the airport",
+          "prompt": "Why are you carrying such a small bag?",
+          "sample": "I’m travelling light because I don’t want to wait for checked luggage."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-21-2",
+      "expression": "get your bearings",
+      "meaning": "To work out where you are or how to find your way around an unfamiliar place.",
+      "example": "We stopped outside the station to get our bearings before choosing a direction.",
+      "pronunciation": "get your BEAR-ings; the first syllable of “bearings” is stressed.",
+      "register": "Everyday and conversational.",
+      "note": "This is useful when you have just arrived somewhere unfamiliar. It can also mean getting used to a new situation.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-21",
+      "scenarios": [
+        {
+          "setting": "Arriving in a new city",
+          "prompt": "What do you want to do before setting off to explore?",
+          "sample": "Let’s look at the map for a minute and get our bearings."
+        },
+        {
+          "setting": "Finding your way around a large hotel",
+          "prompt": "Why are you checking the floor plan in the lobby?",
+          "sample": "I’m trying to get my bearings before I look for the pool."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-21-3",
+      "expression": "take the scenic route",
+      "meaning": "To choose a longer or slower way because it offers attractive views.",
+      "example": "We took the scenic route along the coast and stopped for photos.",
+      "pronunciation": "take the SEE-nik ROOT; stress “scenic” and “route.”",
+      "register": "Everyday and neutral.",
+      "note": "Use this when the journey itself is part of the enjoyment. It contrasts with taking the fastest or most direct way.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-21",
+      "scenarios": [
+        {
+          "setting": "Driving between two towns",
+          "prompt": "Would you rather get there quickly or enjoy the countryside on the way?",
+          "sample": "Let’s take the scenic route and enjoy the views."
+        },
+        {
+          "setting": "Planning a day trip",
+          "prompt": "Why have you chosen the road that follows the coastline?",
+          "sample": "We’re taking the scenic route because the coastal views are meant to be beautiful."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5453,6 +5525,16 @@
         "daily-2026-11-20-1",
         "daily-2026-11-20-2",
         "daily-2026-11-20-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-21",
+      "theme": "travel",
+      "phraseIds": [
+        "daily-2026-11-21-1",
+        "daily-2026-11-21-2",
+        "daily-2026-11-21-3"
       ],
       "origin": "generated"
     }
