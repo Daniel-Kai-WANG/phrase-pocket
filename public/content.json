@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 19,
-  "publishedAt": "2026-11-21T01:35:15.412Z",
+  "revision": 20,
+  "publishedAt": "2026-11-22T00:24:00.489Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5335,6 +5335,78 @@
           "sample": "We’re taking the scenic route because the coastal views are meant to be beautiful."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-22-1",
+      "expression": "chockers",
+      "meaning": "Completely full or crowded.",
+      "example": "The café was chockers, so we grabbed coffee somewhere else.",
+      "pronunciation": "CHOK-uhz; the first syllable is stressed.",
+      "register": "Very informal; common in Australian English.",
+      "note": "Use it for places or things with no room left, such as a car park, train or bag.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-22",
+      "scenarios": [
+        {
+          "setting": "On a crowded train",
+          "prompt": "Describe the train during the morning commute.",
+          "sample": "It was chockers, so I had to stand near the doors."
+        },
+        {
+          "setting": "Trying to park near a popular beach",
+          "prompt": "Explain why you are still looking for a space.",
+          "sample": "The car park is chockers. We might have to park further away."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-22-2",
+      "expression": "keen as",
+      "meaning": "Very enthusiastic or eager to do something.",
+      "example": "I’m keen as to try that new Thai place.",
+      "pronunciation": "KEEN az; say it casually, with the stress on “keen.”",
+      "register": "Informal Australian slang.",
+      "note": "Often used as a complete reply, such as “Keen as!” It’s casual, so use a more neutral phrase in formal situations.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-22",
+      "scenarios": [
+        {
+          "setting": "A friend invites you to a weekend walk",
+          "prompt": "Reply to show that you really want to go.",
+          "sample": "Keen as! What time should we meet?"
+        },
+        {
+          "setting": "Your colleague suggests trying a new hobby together",
+          "prompt": "Tell them you’re excited about the idea.",
+          "sample": "I’m keen as to give it a go."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-22-3",
+      "expression": "dodgy",
+      "meaning": "Suspicious, unreliable or of poor quality.",
+      "example": "The website looked dodgy, so I didn’t enter my card details.",
+      "pronunciation": "DOJ-ee; the first syllable is stressed.",
+      "register": "Informal; widely used in Australia and other varieties of English.",
+      "note": "It can describe a person, place, object or situation. It’s a casual judgement, so give a reason if you want to sound fair.",
+      "theme": "slang",
+      "source": "daily",
+      "sourceDate": "2026-11-22",
+      "scenarios": [
+        {
+          "setting": "Looking at a second-hand phone online",
+          "prompt": "Explain why you’re unsure about buying it.",
+          "sample": "The listing seems dodgy—the photos are blurry and there’s no return policy."
+        },
+        {
+          "setting": "Choosing a shortcut through an unfamiliar area at night",
+          "prompt": "Suggest taking a different route.",
+          "sample": "That alley looks a bit dodgy. Let’s stick to the main road."
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5535,6 +5607,16 @@
         "daily-2026-11-21-1",
         "daily-2026-11-21-2",
         "daily-2026-11-21-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-22",
+      "theme": "slang",
+      "phraseIds": [
+        "daily-2026-11-22-1",
+        "daily-2026-11-22-2",
+        "daily-2026-11-22-3"
       ],
       "origin": "generated"
     }
