@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 20,
-  "publishedAt": "2026-11-22T00:24:00.489Z",
+  "revision": 21,
+  "publishedAt": "2026-11-23T00:56:57.008Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5407,6 +5407,78 @@
           "sample": "That alley looks a bit dodgy. Let’s stick to the main road."
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-23-1",
+      "expression": "What got you interested in ...?",
+      "meaning": "A friendly way to ask what first sparked someone’s interest in a hobby, subject, or career.",
+      "example": "What got you interested in birdwatching?",
+      "pronunciation": "Stress “interested”; link “got you” so it sounds like “gotcha” in quick, casual speech.",
+      "register": "Casual and friendly.",
+      "note": "Use it to invite someone to tell a story. Replace the dots with a hobby, subject, or field.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-23",
+      "scenarios": [
+        {
+          "setting": "A community photography class",
+          "prompt": "A classmate says they have been taking photos for years. Ask what first sparked their interest.",
+          "sample": "What got you interested in photography?"
+        },
+        {
+          "setting": "A barbecue with neighbours",
+          "prompt": "Someone mentions they grow herbs at home. Ask how their interest began.",
+          "sample": "What got you interested in growing your own herbs?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-23-2",
+      "expression": "How are you finding ...?",
+      "meaning": "A natural way to ask someone what they think of a place, activity, or new experience so far.",
+      "example": "How are you finding Melbourne?",
+      "pronunciation": "Give “finding” the main stress and let your voice rise slightly at the end of the question.",
+      "register": "Casual to neutral; common in Australian English.",
+      "note": "This asks about someone’s experience, not whether they can locate something. Replace the dots with a place or activity.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-23",
+      "scenarios": [
+        {
+          "setting": "A work morning tea",
+          "prompt": "A new colleague has recently joined the team. Ask about their experience so far.",
+          "sample": "How are you finding the new role?"
+        },
+        {
+          "setting": "A local sports club",
+          "prompt": "Someone has just started playing a sport you enjoy. Ask how they are enjoying it.",
+          "sample": "How are you finding tennis?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-23-3",
+      "expression": "Have you been here before?",
+      "meaning": "A simple question to find out whether someone has visited a place previously.",
+      "example": "Have you been here before? The garden is lovely in spring.",
+      "pronunciation": "In relaxed speech, “have you” often runs together, sounding like “have-yuh”; keep the stress on “here” and “before.”",
+      "register": "Casual and neutral.",
+      "note": "It works well as an easy conversation starter at a café, event, or local attraction.",
+      "theme": "small-talk",
+      "source": "daily",
+      "sourceDate": "2026-11-23",
+      "scenarios": [
+        {
+          "setting": "Waiting at a busy café",
+          "prompt": "You are chatting with someone in the queue at a café you know. Ask whether they have visited it previously.",
+          "sample": "Have you been here before? Their coffee is really good."
+        },
+        {
+          "setting": "At an outdoor market",
+          "prompt": "You meet someone looking at the market stalls. Ask if they have visited this market in the past.",
+          "sample": "Have you been here before, or is this your first time at the market?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5617,6 +5689,16 @@
         "daily-2026-11-22-1",
         "daily-2026-11-22-2",
         "daily-2026-11-22-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "small-talk",
+      "phraseIds": [
+        "daily-2026-11-23-1",
+        "daily-2026-11-23-2",
+        "daily-2026-11-23-3"
       ],
       "origin": "generated"
     }
