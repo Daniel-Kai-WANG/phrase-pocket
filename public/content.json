@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 21,
-  "publishedAt": "2026-11-23T00:56:57.008Z",
+  "revision": 25,
+  "publishedAt": "2026-11-27T02:55:38.108Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5479,6 +5479,294 @@
           "sample": "Have you been here before, or is this your first time at the market?"
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-24-1",
+      "expression": "talk things through",
+      "meaning": "To discuss a problem calmly and fully so you can understand each other and decide what to do.",
+      "example": "We were both upset, but we sat down and talked things through.",
+      "pronunciation": "Stress “talk” and “through”: TALK things THROUGH. Link “things through” smoothly.",
+      "register": "Neutral; common in everyday conversation.",
+      "note": "Useful when you want to resolve a disagreement rather than avoid it. It suggests a two-way conversation.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-24",
+      "scenarios": [
+        {
+          "setting": "A couple has had a misunderstanding about weekend plans.",
+          "prompt": "Suggest a calm way to sort out the confusion.",
+          "sample": "Maybe we should talk things through tonight and work out what suits us both."
+        },
+        {
+          "setting": "Two friends disagree about how to organise a shared trip.",
+          "prompt": "Recommend a way for them to reach an agreement.",
+          "sample": "You could talk things through before booking anything, so everyone gets a say."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-24-2",
+      "expression": "make time for each other",
+      "meaning": "To deliberately set aside time to spend together, especially when life is busy.",
+      "example": "Even during busy weeks, we try to make time for each other.",
+      "pronunciation": "Stress “time” and “each”: make TIME for EACH other. “Each other” often runs together in speech.",
+      "register": "Neutral and warm; suitable for conversation and messages.",
+      "note": "Use this for partners, friends, or family. It emphasises making an effort, not just hoping to be free at the same time.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-24",
+      "scenarios": [
+        {
+          "setting": "A friend says work has kept them away from their partner lately.",
+          "prompt": "Offer a practical suggestion for staying connected.",
+          "sample": "It might help to make time for each other, even if it’s just a quiet dinner once a week."
+        },
+        {
+          "setting": "You and a close friend keep postponing your catch-ups.",
+          "prompt": "Suggest a way to make meeting more likely.",
+          "sample": "Let’s make time for each other and put a date in the calendar now."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-24-3",
+      "expression": "take someone for granted",
+      "meaning": "To fail to appreciate someone or the things they do because you assume they will always be there.",
+      "example": "I realised I’d been taking my sister for granted, so I thanked her for all her help.",
+      "pronunciation": "Stress “take” and “granted”: take someone for GRAN-ted. The “t” in “granted” is often light in casual speech.",
+      "register": "Neutral; can sound serious or critical.",
+      "note": "Often used when someone’s care, support, or effort has gone unnoticed. The passive form, “be taken for granted,” is also common.",
+      "theme": "relationships",
+      "source": "daily",
+      "sourceDate": "2026-11-24",
+      "scenarios": [
+        {
+          "setting": "A person notices their partner does most of the household tasks.",
+          "prompt": "Describe what the person may need to recognise.",
+          "sample": "They might be taking their partner for granted if they never acknowledge all that effort."
+        },
+        {
+          "setting": "A friend regularly helps you but you rarely thank them.",
+          "prompt": "Explain what you should avoid doing.",
+          "sample": "I don’t want to take you for granted, so I want to say how much I appreciate your help."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-25-1",
+      "expression": "pick up the slack",
+      "meaning": "To do extra work because a colleague or team is unable to do their share.",
+      "example": "When Priya was away, the rest of us picked up the slack and kept the project moving.",
+      "pronunciation": "PICK up the SLACK; stress the first word and “slack.”",
+      "register": "Informal to neutral; common in everyday workplace conversation.",
+      "note": "Use it when someone takes on extra tasks to cover a gap. It can suggest that the workload has become uneven.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-25",
+      "scenarios": [
+        {
+          "setting": "A colleague is unexpectedly off sick, and a deadline is approaching.",
+          "prompt": "How could you explain that the team will cover their tasks?",
+          "sample": "We can pick up the slack this week so the report is ready on time."
+        },
+        {
+          "setting": "Several people are busy preparing a presentation, but one task has been left undone.",
+          "prompt": "What could you offer to do?",
+          "sample": "I can pick up the slack and finish the slides this afternoon."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-25-2",
+      "expression": "get the hang of something",
+      "meaning": "To learn how to do something through practice and become more confident at it.",
+      "example": "It took me a few days to get the hang of the new booking system.",
+      "pronunciation": "get the HANG of something; “hang” carries the main stress.",
+      "register": "Informal and widely used in conversation.",
+      "note": "This is useful when describing a skill or process that feels unfamiliar at first but is becoming easier.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-25",
+      "scenarios": [
+        {
+          "setting": "You have just started using a new scheduling app at work.",
+          "prompt": "A teammate asks whether the app is still confusing. What could you say?",
+          "sample": "A little, but I’m starting to get the hang of it."
+        },
+        {
+          "setting": "A new employee is learning how to use the office printer.",
+          "prompt": "How could you encourage them after showing them the controls?",
+          "sample": "You’ll get the hang of it after a couple more tries."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-25-3",
+      "expression": "put in a good word for someone",
+      "meaning": "To say positive things about someone to help them get an opportunity or be treated favourably.",
+      "example": "My former manager put in a good word for me when I applied for the role.",
+      "pronunciation": "put in a good WORD for someone; say “put in a” smoothly, with stress on “word.”",
+      "register": "Informal to neutral; suitable for workplace conversation.",
+      "note": "Use this when recommending someone or speaking positively about them to a person who can make a decision. It does not guarantee an outcome.",
+      "theme": "work",
+      "source": "daily",
+      "sourceDate": "2026-11-25",
+      "scenarios": [
+        {
+          "setting": "A capable former colleague has applied for a job at your company.",
+          "prompt": "How could you offer to support their application?",
+          "sample": "I know the hiring manager, so I can put in a good word for you."
+        },
+        {
+          "setting": "Your supervisor asks whether you know anyone suitable for an upcoming project.",
+          "prompt": "How could you recommend a reliable freelancer you have worked with?",
+          "sample": "I worked with Sam last year and would be happy to put in a good word for them."
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-26-1",
+      "expression": "Small world!",
+      "meaning": "A friendly reaction when you discover an unexpected connection or coincidence between people or places.",
+      "example": "“You grew up in Perth too? Small world!”",
+      "pronunciation": "Stress “world”; say it with a light, surprised tone.",
+      "register": "Informal; natural in everyday conversation.",
+      "note": "Use it when a coincidence genuinely surprises you. It can sound forced if the connection is very ordinary.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-26",
+      "scenarios": [
+        {
+          "setting": "A barbecue with new acquaintances",
+          "prompt": "You discover that someone you have just met used to live in the same city as you. What could you say?",
+          "sample": "“You lived in Adelaide as well? Small world!”"
+        },
+        {
+          "setting": "A café while travelling",
+          "prompt": "A person you meet mentions that they know your friend from back home. How might you react?",
+          "sample": "“You know Priya from Brisbane? Small world!”"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-26-2",
+      "expression": "Help yourself.",
+      "meaning": "An invitation to take some food, drink, or another available item without waiting for the host to serve you.",
+      "example": "“There’s tea and cake on the bench, so help yourself.”",
+      "pronunciation": "Link the words smoothly: “help-yourself”; keep the tone warm and relaxed.",
+      "register": "Friendly and informal; common when hosting.",
+      "note": "Often used with food or drinks laid out for guests. You can add “to some” before naming the item, as in “Help yourself to some fruit.”",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-26",
+      "scenarios": [
+        {
+          "setting": "Having friends over for afternoon tea",
+          "prompt": "Your guests arrive and notice snacks laid out on the table. Invite them to take some.",
+          "sample": "“The biscuits are on the table—help yourself.”"
+        },
+        {
+          "setting": "A shared picnic in the park",
+          "prompt": "You have brought a container of strawberries for everyone. Offer some to the group.",
+          "sample": "“I brought strawberries for everyone. Help yourself.”"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-26-3",
+      "expression": "I’ll grab us a table.",
+      "meaning": "A casual way to say you will go and find a table for yourself and the people you are with.",
+      "example": "“You order the coffees; I’ll grab us a table.”",
+      "pronunciation": "Emphasise “grab” slightly; “I’ll” is usually unstressed and quick.",
+      "register": "Informal; especially natural in cafés, pubs, and casual restaurants.",
+      "note": "Use “us” when you are finding a place for your group. In a busy venue, you can add “if I can find one” to sound less certain.",
+      "theme": "social",
+      "source": "daily",
+      "sourceDate": "2026-11-26",
+      "scenarios": [
+        {
+          "setting": "Meeting a friend at a busy café",
+          "prompt": "Your friend is ready to order, and you notice some open seats. Tell them you will find a place for both of you.",
+          "sample": "“You go ahead and order. I’ll grab us a table.”"
+        },
+        {
+          "setting": "Arriving early at a pub with a group",
+          "prompt": "The rest of your friends are still deciding what to drink. Offer to find somewhere for everyone to sit.",
+          "sample": "“Take your time choosing. I’ll grab us a table near the window.”"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-27-1",
+      "expression": "I'm feeling a bit overwhelmed",
+      "meaning": "I feel there is too much to deal with at the moment.",
+      "example": "I'm feeling a bit overwhelmed with everything I need to organise before the move.",
+      "pronunciation": "Stress overwhelmed; say it smoothly as “I'm FEELing a bit overWHELMED.”",
+      "register": "Everyday and gentle; suitable with friends, family, or colleagues you know reasonably well.",
+      "note": "The phrase “a bit” softens the statement. You can follow it with what is causing the feeling or what support would help.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-27",
+      "scenarios": [
+        {
+          "setting": "At work, when several tasks have piled up",
+          "prompt": "Tell a colleague how the workload is affecting you, and ask to agree on what to prioritise.",
+          "sample": "I'm feeling a bit overwhelmed with these deadlines. Could we decide which task needs my attention first?"
+        },
+        {
+          "setting": "At home, while planning a family event",
+          "prompt": "Explain why you need someone to take one of the planning jobs.",
+          "sample": "I'm feeling a bit overwhelmed trying to organise everything. Could you handle the food?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-27-2",
+      "expression": "It's been playing on my mind",
+      "meaning": "Something has been worrying you or occupying your thoughts for some time.",
+      "example": "It's been playing on my mind that I haven't replied to my friend's message.",
+      "pronunciation": "Link “been playing” smoothly; put the main stress on “PLAYing” and “MIND.”",
+      "register": "Natural, conversational, and slightly reflective.",
+      "note": "Use this when a particular issue keeps coming back to your thoughts. It often introduces something you are ready to discuss.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-27",
+      "scenarios": [
+        {
+          "setting": "Talking with a friend after a disagreement",
+          "prompt": "Bring up something about the disagreement that you have kept thinking about.",
+          "sample": "It's been playing on my mind that I may have sounded dismissive the other night."
+        },
+        {
+          "setting": "Checking in with a colleague about a decision",
+          "prompt": "Explain that a recent decision has continued to concern you, then suggest discussing it.",
+          "sample": "It's been playing on my mind that we haven't told the customers about the delay. Could we talk about how to handle it?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-27-3",
+      "expression": "I could use a pick-me-up",
+      "meaning": "I would appreciate something that makes me feel happier or more energetic.",
+      "example": "It's been a long day; I could use a pick-me-up.",
+      "pronunciation": "Say “pick-me-up” as three quick beats, with the stress on “PICK” and “UP.”",
+      "register": "Casual and friendly.",
+      "note": "This is a light way to say you want a small boost. It might mean a coffee, a snack, a chat, or a bit of encouragement; the context makes it clear.",
+      "theme": "feelings",
+      "source": "daily",
+      "sourceDate": "2026-11-27",
+      "scenarios": [
+        {
+          "setting": "At a café with a friend after a tiring morning",
+          "prompt": "Tell your friend you'd enjoy something to lift your mood, then suggest a drink.",
+          "sample": "I could use a pick-me-up. Shall we grab a coffee?"
+        },
+        {
+          "setting": "Messaging a friend after a stressful week",
+          "prompt": "Let your friend know that a little company would help you feel better.",
+          "sample": "I could use a pick-me-up after this week. Are you free for a walk?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -5699,6 +5987,46 @@
         "daily-2026-11-23-1",
         "daily-2026-11-23-2",
         "daily-2026-11-23-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "relationships",
+      "phraseIds": [
+        "daily-2026-11-24-1",
+        "daily-2026-11-24-2",
+        "daily-2026-11-24-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "work",
+      "phraseIds": [
+        "daily-2026-11-25-1",
+        "daily-2026-11-25-2",
+        "daily-2026-11-25-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "social",
+      "phraseIds": [
+        "daily-2026-11-26-1",
+        "daily-2026-11-26-2",
+        "daily-2026-11-26-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "feelings",
+      "phraseIds": [
+        "daily-2026-11-27-1",
+        "daily-2026-11-27-2",
+        "daily-2026-11-27-3"
       ],
       "origin": "generated"
     }
