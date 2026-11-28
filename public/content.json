@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 25,
-  "publishedAt": "2026-11-27T02:55:38.108Z",
+  "revision": 26,
+  "publishedAt": "2026-11-28T02:44:57.153Z",
   "personalCheckedAt": "2026-11-10T09:01:58.948Z",
   "dailyCheckedAt": "2026-11-10T05:53:23.534Z",
   "sourceSyncMode": "scheduled",
@@ -5767,6 +5767,78 @@
           "sample": "I could use a pick-me-up after this week. Are you free for a walk?"
         }
       ]
+    },
+    {
+      "id": "daily-2026-11-28-1",
+      "expression": "Is this the right platform for ...?",
+      "meaning": "A polite way to check whether you are waiting in the correct place for a particular train.",
+      "example": "Is this the right platform for the train to Geelong?",
+      "pronunciation": "Link “this” and “the” smoothly; let your voice rise slightly at the end because it is a question.",
+      "register": "Neutral and polite.",
+      "note": "Replace the dots with a destination or train service. Check the station screens as well, since platforms can change.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-28",
+      "scenarios": [
+        {
+          "setting": "At a busy train station",
+          "prompt": "You are unsure whether you are waiting in the correct place for your train to Newcastle. Ask a station employee.",
+          "sample": "Is this the right platform for the train to Newcastle?"
+        },
+        {
+          "setting": "On a station platform",
+          "prompt": "You want to make sure you are waiting in the right place for the airport train. Ask another passenger.",
+          "sample": "Is this the right platform for the airport train?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-28-2",
+      "expression": "Does this bus stop at ...?",
+      "meaning": "A way to ask whether a particular bus goes to and stops at a place you want to visit.",
+      "example": "Does this bus stop at the museum?",
+      "pronunciation": "Stress “bus” and the destination. Keep “does this” connected and smooth.",
+      "register": "Neutral and polite.",
+      "note": "You can ask the driver before boarding or ask another passenger. Name a specific stop or landmark if possible.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-28",
+      "scenarios": [
+        {
+          "setting": "Getting on a bus",
+          "prompt": "You are about to board and want to check whether the bus goes to the botanical gardens. Ask the driver.",
+          "sample": "Does this bus stop at the botanical gardens?"
+        },
+        {
+          "setting": "Waiting at a bus stop",
+          "prompt": "You want to find out whether the bus you are waiting for goes to the ferry terminal. Ask someone nearby.",
+          "sample": "Does this bus stop at the ferry terminal?"
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-28-3",
+      "expression": "Can I leave my bags here until ...?",
+      "meaning": "A polite request to store your luggage somewhere temporarily, until a particular time or event.",
+      "example": "Can I leave my bags here until check-in?",
+      "pronunciation": "Give “leave” and “until” a little emphasis. The question usually has a gentle rise at the end.",
+      "register": "Neutral and polite.",
+      "note": "This is useful at hotels or accommodation when you arrive early or have checked out but still have time before travelling.",
+      "theme": "travel",
+      "source": "daily",
+      "sourceDate": "2026-11-28",
+      "scenarios": [
+        {
+          "setting": "Arriving early at a hotel",
+          "prompt": "Your room is not ready, but you would like to explore the area without carrying your luggage. Ask at reception.",
+          "sample": "Can I leave my bags here until check-in?"
+        },
+        {
+          "setting": "After checking out",
+          "prompt": "You have checked out and want to collect your luggage later, before heading to the airport. Ask the hotel staff.",
+          "sample": "Can I leave my bags here until this afternoon?"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -6027,6 +6099,16 @@
         "daily-2026-11-27-1",
         "daily-2026-11-27-2",
         "daily-2026-11-27-3"
+      ],
+      "origin": "generated"
+    },
+    {
+      "date": "2026-11-28",
+      "theme": "travel",
+      "phraseIds": [
+        "daily-2026-11-28-1",
+        "daily-2026-11-28-2",
+        "daily-2026-11-28-3"
       ],
       "origin": "generated"
     }
